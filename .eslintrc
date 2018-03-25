@@ -1,0 +1,12 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "array-callback-return": "off"
+  },
+  "globals": {
+    "graphql": true,
+    "document": true,
+    "window": true,
+  }
+}
