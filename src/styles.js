@@ -2,16 +2,11 @@ export const colors = {
   white: '255, 255, 255',
   black: '0, 0, 0',
   dark: '12, 12, 13',
-  darkGrey: '113, 119, 138',
   grey: '169, 169, 188',
-  lightGrey: '245, 246, 250',
-  blue: '89, 131, 255',
-  lightBlue: '197, 242, 255',
-  fadedBlue: '103, 129, 230',
-  gold: '250, 188, 45',
+  blue: '88, 112, 135',
+  lightBlue: '88, 120, 188',
   orange: '246, 133, 27',
   green: '79, 180, 128',
-  lightGreen: '84, 209, 146',
   red: '222, 75, 57',
 }
 
@@ -39,8 +34,6 @@ export const fonts = {
     SFProText:
       '-apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text", Roboto, Helvetica, Arial, sans-serif',
     SFMono: '"SFMono", "Roboto Mono", Courier New, Courier, monospace',
-    FFMarkPro:
-      '"FF Mark Pro", "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif',
   },
 }
 
@@ -80,45 +73,6 @@ export const responsive = {
 }
 
 export const globalStyles = `
-  @font-face {
-    font-family: 'FF Mark Pro';
-    src: url('/fonts/MarkPro-Book.eot');
-    src: url('/fonts/MarkPro-Book.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/MarkPro-Book.woff2') format('woff2'),
-      url('/fonts/MarkPro-Book.woff') format('woff'),
-      url('/fonts/MarkPro-Book.svg#MarkPro-Book') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-  }
-
-  @font-face {
-    font-family: 'FF Mark Pro';
-    src: url('/fonts/MarkPro-Medium.eot');
-    src: url('/fonts/MarkPro-Medium.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/MarkPro-Medium.woff2') format('woff2'),
-      url('/fonts/MarkPro-Medium.woff') format('woff'),
-      url('/fonts/MarkPro-Medium.svg#MarkPro-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-  }
-
-  @font-face {
-    font-family: 'FF Mark Pro';
-    src: url('/fonts/MarkPro-Bold.eot');
-    src: url('/fonts/MarkPro-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/MarkPro-Bold.woff2') format('woff2'),
-      url('/fonts/MarkPro-Bold.woff') format('woff'),
-      url('/fonts/MarkPro-Bold.svg#MarkPro-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-  }
-
   @font-face {
     font-family: 'SFMono';
     src: url('/fonts/SFMono-Regular.eot');
@@ -228,6 +182,7 @@ export const globalStyles = `
     font-stretch: normal;
     font-weight: ${fonts.weight.normal};
     font-size: ${fonts.size.medium};
+    color: rgb(${colors.blue});
     overflow-y:auto;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

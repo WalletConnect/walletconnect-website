@@ -3,7 +3,7 @@ module.exports = {
     name: `WalletBridge`,
     title: `WalletBridge`,
     baseUrl: `https://walletbridge.org`,
-    description: `An open-source protocol for securely communicate with mobile wallets`,
+    description: ``,
     keywords: `ethereum, cryptocurrency, wallet, mobile, bridge, relay, proxy, protocol, crypto, tokens, dapp`,
     twitterUsername: '@walletbridge',
   },
