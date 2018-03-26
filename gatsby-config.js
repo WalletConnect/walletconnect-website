@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    name: `WalletBridge`,
-    title: `WalletBridge`,
-    baseUrl: `https://walletbridge.org`,
+    name: `WalletConnect`,
+    title: `WalletConnect`,
+    baseUrl: `https://walletconnect.org`,
     description: ``,
-    keywords: `ethereum, cryptocurrency, wallet, mobile, bridge, relay, proxy, protocol, crypto, tokens, dapp`,
-    twitterUsername: '@walletbridge',
+    keywords: `ethereum, cryptocurrency, wallet, mobile, connect, relay, proxy, protocol, crypto, tokens, dapp`,
+    twitterUsername: '@walletconnect',
   },
   plugins: [
     {

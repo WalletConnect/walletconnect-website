@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "description": "WalletBridge Website",
+  "description": "WalletConnect Website",
   "version": "1.0.0",
   "author": "Pedro Gomes <pedro@balance.io>",
   "dependencies": {
@@ -20,7 +20,8 @@
     "cryptocurrency",
     "wallet",
     "mobile",
-    "bridge",
+    "connect",
+    "brdige",
     "relay",
     "proxy",
     "protocol",

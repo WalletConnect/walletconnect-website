@@ -60,7 +60,7 @@ const SDescriptionWrapper = styled.div``
 const IndexPage = () => (
   <SIndexPage>
     <SBrandingWrapper>
-      <SBranding>WalletBridge</SBranding>
+      <SBranding>WalletConnect</SBranding>
       <STagline>
         An open protocol to connect web-based distributed applications to mobile
         crypto-asset wallets

@@ -1,1 +1,1 @@
-# WalletBridge Website
+# WalletConnect Website

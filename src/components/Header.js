@@ -43,7 +43,7 @@ const Header = ({ pathname, ...props }) => {
       </SNavLink>
       <Link to="/">
         <SLogo>
-          <img src={logo} alt="WalletBridge" />
+          <img src={logo} alt="WalletConnect" />
         </SLogo>
       </Link>
       <SNavLink activeLink={_pathname === `/github`} to={`/github`}>
