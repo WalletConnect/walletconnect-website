@@ -2,13 +2,16 @@ export const colors = {
   white: '255, 255, 255',
   black: '0, 0, 0',
   dark: '12, 12, 13',
+  darkGrey: '46, 67, 88',
   grey: '169, 169, 188',
   blue: '88, 112, 135',
   lightBlue: '88, 120, 188',
+  brightBlue: '31, 110, 194',
+  fadedBlue: '102, 114, 229',
   orange: '246, 133, 27',
   green: '79, 180, 128',
-  red: '222, 75, 57',
-}
+  red: '222, 75, 57'
+};
 
 export const fonts = {
   size: {
@@ -22,55 +25,55 @@ export const fonts = {
     h3: '24px',
     h4: '20px',
     h5: '17px',
-    h6: '14px',
+    h6: '14px'
   },
   weight: {
     normal: 400,
     medium: 500,
     semibold: 600,
-    bold: 700,
+    bold: 700
   },
   family: {
     SFProText:
       '-apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text", Roboto, Helvetica, Arial, sans-serif',
-    SFMono: '"SFMono", "Roboto Mono", Courier New, Courier, monospace',
-  },
-}
+    SFMono: '"SFMono", "Roboto Mono", Courier New, Courier, monospace'
+  }
+};
 
 export const shadows = {
   soft: '0 2px 6px 0 rgba(2, 2, 3, 0.04), 0 1px 3px 0 rgba(2, 2, 3, 0.06)',
   medium:
-    '0 3px 6px 0 rgba(0, 0, 0, 0.06), 0 0 1px 0 rgba(50, 50, 93, 0.02), 0 5px 10px 0 rgba(59, 59, 92, 0.08)',
-}
+    '0 3px 6px 0 rgba(0, 0, 0, 0.06), 0 0 1px 0 rgba(50, 50, 93, 0.02), 0 5px 10px 0 rgba(59, 59, 92, 0.08)'
+};
 
 export const transitions = {
   short: 'all 0.1s ease-in-out',
   base: 'all 0.2s ease-in-out',
-  long: 'all 0.3s ease-in-out',
-}
+  long: 'all 0.3s ease-in-out'
+};
 
 export const responsive = {
   short: {
     min: 'min-height: 479px',
-    max: 'max-height: 480px',
+    max: 'max-height: 480px'
   },
   xs: {
     min: 'min-width: 479px',
-    max: 'max-width: 480px',
+    max: 'max-width: 480px'
   },
   sm: {
     min: 'min-width: 639px',
-    max: 'max-width: 640px',
+    max: 'max-width: 640px'
   },
   md: {
     min: 'min-width: 959px',
-    max: 'max-width: 960px',
+    max: 'max-width: 960px'
   },
   lg: {
     min: 'min-width: 1023px',
-    max: 'max-width: 1024px',
-  },
-}
+    max: 'max-width: 1024px'
+  }
+};
 
 export const globalStyles = `
   @font-face {
@@ -288,4 +291,4 @@ export const globalStyles = `
     display: inline-block;
     margin-top: 56px !important;
   }
-`
+`;
