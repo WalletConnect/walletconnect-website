@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import preview from '../assets/preview.png';
-import { colors } from '../styles';
+import { colors, responsive } from '../styles';
 
 const SIndexPage = styled.div`
   height: 100%;
@@ -67,17 +67,13 @@ const SPreviewWrapper = styled.div`
   }
 `;
 const SDescriptionWrapper = styled.div`
-  width: 100%;
-  max-width: 1000px;
-  margin: 30px auto;
+  flex: 1;
+  margin: 30px -32px;
   display: flex;
   text-align: left;
   justify-content: space-between;
-  & > div {
-    width: 45%;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.35;
+  @media screen and (${responsive.sm.max}) {
+    flex-direction: column;
   }
   & h2 {
     font-size: 32px;
@@ -86,6 +82,13 @@ const SDescriptionWrapper = styled.div`
     margin-bottom: 20px;
   }
 `;
+const SColumn = styled.div`
+  flex: 1;
+  padding: 32px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.35;
+`
 
 const IndexPage = () => (
   <SIndexPage>
@@ -101,7 +104,7 @@ const IndexPage = () => (
         <img src={preview} alt="WalletConnect" />
       </SPreviewWrapper>
       <SDescriptionWrapper>
-        <div>
+        <SColumn>
           <h2>What is WalletConnect?</h2>
           <p>
             WalletConnect is an open source standard for establishing an encrypted link between
@@ -116,8 +119,8 @@ const IndexPage = () => (
           >
             See the code
           </a> */}
-        </div>
-        <div>
+        </SColumn>
+        <SColumn>
           <h2>How does it work?</h2>
           <p>
             WalletConnect.js is a pop-up modal window which provides a range of options for your
@@ -128,7 +131,7 @@ const IndexPage = () => (
           {/* <a href="#" target="_blank" rel="noreferrer noopener">
             Try the demo
           </a> */}
-        </div>
+        </SColumn>
       </SDescriptionWrapper>
       {/* <SSectionBackground /> */}
     </SSection>

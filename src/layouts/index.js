@@ -24,6 +24,9 @@ const SContent = styled.div`
 
 const SContainer = styled.div`
   height: 100%;
+  max-width: 1064px;
+  margin: 0 auto;
+  padding: 0 32px;
 `;
 
 const SFlex = styled.div`
