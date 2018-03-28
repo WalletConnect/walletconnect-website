@@ -31,9 +31,13 @@ const ExternalLink = styled.a`
 `;
 
 const SLogo = styled.div`
-  width: 155px;
+  flex: 1;
+  padding: 0 16px;
+  text-align: center;
   & img {
     width: 100%;
+    max-width: 155px;
+    min-width: 64px;
   }
 `;
 
@@ -53,11 +57,13 @@ const Header = ({ pathname, ...props }) => {
         target="blank"
         rel="noreferrer noopener"
       >{`Github`}</ExternalLink>
-      <Link to="/">
-        <SLogo>
+      
+      <SLogo>
+        <Link to="/">
           <img src={logo} alt="WalletConnect" />
-        </SLogo>
-      </Link>
+        </Link>
+      </SLogo>
+      
       {/* <ExternalLink
         href="https://gitter.im/WalletConnect/Lobby"
         target="blank"
