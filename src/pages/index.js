@@ -23,7 +23,7 @@ const SBrandingWrapper = styled.div`
   margin: 0 auto;
 `;
 const SBranding = styled.h1`
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 500;
   text-align: center;
 `;
@@ -109,13 +109,13 @@ const IndexPage = () => (
             which the phone can use to create a secure link. Then, when a customer initiates a
             transaction or enters a state channel, they are asked to confirm it on their wallet.
           </p>
-          <a
+          {/* <a
             href="https://github.com/WalletConnect/WalletConnect"
             target="_blank"
             rel="noreferrer noopener"
           >
             See the code
-          </a>
+          </a> */}
         </div>
         <div>
           <h2>How does it work?</h2>
@@ -125,12 +125,12 @@ const IndexPage = () => (
             through a QR code. This is a common pattern used by WhatsApp and countless other apps to
             link the phone to the desktop. We provide libraries for the web, Android & iOS.
           </p>
-          <a href="#" target="_blank" rel="noreferrer noopener">
+          {/* <a href="#" target="_blank" rel="noreferrer noopener">
             Try the demo
-          </a>
+          </a> */}
         </div>
       </SDescriptionWrapper>
-      <SSectionBackground />
+      {/* <SSectionBackground /> */}
     </SSection>
   </SIndexPage>
 );

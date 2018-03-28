@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-import logo from '../assets/logo.png'
-import { colors, fonts } from '../styles'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import logo from '../assets/wallet-connect-logo-v-1.svg';
+import { colors, fonts } from '../styles';
 
 const SHeader = styled.header`
   width: 100%;
@@ -12,7 +12,7 @@ const SHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-`
+`;
 
 const SNavLink = styled(Link)`
   width: 80px;
@@ -20,40 +20,56 @@ const SNavLink = styled(Link)`
   font-size: ${fonts.size.h4};
   color: rgb(${colors.lightBlue});
   font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};
-`
+`;
+
+const ExternalLink = styled.a`
+  width: 80px;
+  text-align: center;
+  font-size: ${fonts.size.h4};
+  color: rgb(${colors.lightBlue});
+  font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};
+`;
 
 const SLogo = styled.div`
   width: 155px;
   & img {
     width: 100%;
   }
-`
+`;
 
 const Header = ({ pathname, ...props }) => {
-  const windowPathname =
-    typeof window !== 'undefined' ? window.location.pathname : ''
-  const _pathname = pathname || windowPathname
+  const windowPathname = typeof window !== 'undefined' ? window.location.pathname : '';
+  const _pathname = pathname || windowPathname;
   return (
     <SHeader {...props}>
-      <SNavLink activeLink={_pathname === `/docs`} to={`/docs`}>
+      {/* <SNavLink activeLink={_pathname === `/docs`} to={`/docs`}>
         {`Docs`}
       </SNavLink>
       <SNavLink activeLink={_pathname === `/examples`} to={`/examples`}>
         {`Examples`}
-      </SNavLink>
+      </SNavLink> */}
+      <ExternalLink
+        href="https://github.com/WalletConnect/WalletConnect"
+        target="blank"
+        rel="noreferrer noopener"
+      >{`Github`}</ExternalLink>
       <Link to="/">
         <SLogo>
           <img src={logo} alt="WalletConnect" />
         </SLogo>
       </Link>
-      <SNavLink activeLink={_pathname === `/github`} to={`/github`}>
-        {`Github`}
-      </SNavLink>
-      <SNavLink activeLink={_pathname === `/gitter`} to={`/gitter`}>
-        {`Gitter`}
-      </SNavLink>
+      {/* <ExternalLink
+        href="https://gitter.im/WalletConnect/Lobby"
+        target="blank"
+        rel="noreferrer noopener"
+      >{`Gitter`}</ExternalLink> */}
+      <ExternalLink
+        href="https://twitter.com/ricburton/status/978509303500984320"
+        target="blank"
+        rel="noreferrer noopener"
+      >{`Demo`}</ExternalLink>
     </SHeader>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

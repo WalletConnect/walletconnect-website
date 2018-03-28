@@ -1,29 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Header from '../components/Header'
-import styled, { injectGlobal } from 'styled-components'
-import { globalStyles, colors, responsive } from '../styles'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import styled, { injectGlobal } from 'styled-components';
+import { globalStyles, colors, responsive } from '../styles';
 
-injectGlobal`${globalStyles}`
+injectGlobal`${globalStyles}`;
 
 const SWrapper = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
   background-color: rgb(${colors.white});
-`
+`;
 
 const SContent = styled.div`
   width: 100%;
   height: 100%;
   margin: 0 auto;
   position: relative;
-`
+`;
 
 const SContainer = styled.div`
   height: 100%;
-`
+`;
 
 const SFlex = styled.div`
   display: flex;
@@ -31,15 +32,15 @@ const SFlex = styled.div`
   @media screen and (${responsive.sm.max}) {
     flex-direction: column;
   }
-`
+`;
 
 const TemplateWrapper = ({ children, location }) => {
-  const name = `WalletConnect`
-  const title = `WalletConnect`
-  const url = `https://walletconnect.org`
-  const description = `An open-source protocol for securely communicate with mobile wallets`
-  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, protocol, crypto, tokens, dapp`
-  const twitterUsername = `@walletconnect`
+  const name = `WalletConnect`;
+  const title = `WalletConnect`;
+  const url = `https://walletconnect.org`;
+  const description = `An open-source protocol for securely communicate with mobile wallets`;
+  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, protocol, crypto, tokens, dapp`;
+  const twitterUsername = `@walletconnect`;
   return (
     <SWrapper>
       <Helmet>
@@ -65,14 +66,15 @@ const TemplateWrapper = ({ children, location }) => {
         <SContent>
           <Header pathname={location.pathname} />
           <SContainer>{children()}</SContainer>
+          <Footer pathname={location.pathname} />
         </SContent>
       </SFlex>
     </SWrapper>
-  )
-}
+  );
+};
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.func
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
