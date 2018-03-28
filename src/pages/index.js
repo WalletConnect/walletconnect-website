@@ -67,7 +67,6 @@ const SPreviewWrapper = styled.div`
   }
 `;
 const SDescriptionWrapper = styled.div`
-  /* width: 100%; */
   flex: 1;
   margin: 30px -32px;
   display: flex;
