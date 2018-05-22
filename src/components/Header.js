@@ -70,11 +70,12 @@ const Header = ({ pathname, ...props }) => {
         </Link>
       </SLogo>
       
-      {/* <ExternalLink
+      <ExternalLink
         href="https://gitter.im/WalletConnect/Lobby"
         target="blank"
         rel="noreferrer noopener"
-      >{`Gitter`}</ExternalLink> */}
+      >{`Gitter`}</ExternalLink>
+
       <ExternalLink
         href="https://twitter.com/ricburton/status/978509303500984320"
         target="blank"
