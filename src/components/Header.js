@@ -53,7 +53,7 @@ const Header = ({ pathname, ...props }) => {
         {`Examples`}
       </SNavLink> */}
       <ExternalLink
-        href="https://github.com/WalletConnect/WalletConnect"
+        href="https://github.com/WalletConnect/walletconnect"
         target="blank"
         rel="noreferrer noopener"
       >{`Github`}</ExternalLink>
