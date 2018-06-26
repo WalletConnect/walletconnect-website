@@ -41,8 +41,8 @@ const TemplateWrapper = ({ children, location }) => {
   const name = `WalletConnect`;
   const title = `WalletConnect`;
   const url = `https://walletconnect.org`;
-  const description = `An open-source protocol for securely communicate with mobile wallets`;
-  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, protocol, crypto, tokens, dapp`;
+  const description = `An open-source standard for securely communicate with mobile wallets`;
+  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, crypto, tokens, dapp`;
   const twitterUsername = `@walletconnect`;
   return (
     <SWrapper>

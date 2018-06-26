@@ -4,7 +4,7 @@ module.exports = {
     title: `WalletConnect`,
     baseUrl: `https://walletconnect.org`,
     description: ``,
-    keywords: `ethereum, cryptocurrency, wallet, mobile, connect, relay, proxy, protocol, crypto, tokens, dapp`,
+    keywords: `ethereum, cryptocurrency, wallet, mobile, connect, relay, proxy, standard, crypto, tokens, dapp`,
     twitterUsername: '@walletconnect',
   },
   plugins: [

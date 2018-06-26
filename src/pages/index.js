@@ -88,15 +88,15 @@ const SColumn = styled.div`
   font-size: 18px;
   font-weight: 300;
   line-height: 1.35;
-`
+`;
 
 const IndexPage = () => (
   <SIndexPage>
     <SBrandingWrapper>
       <SBranding>WalletConnect</SBranding>
       <STagline>
-        An open protocol to connect web-based distributed applications to mobile crypto-asset
-        wallets
+        An open standard to connect web-based distributed applications to mobile
+        crypto-asset wallets
       </STagline>
     </SBrandingWrapper>
     <SSection>
@@ -107,10 +107,12 @@ const IndexPage = () => (
         <SColumn>
           <h2>What is WalletConnect?</h2>
           <p>
-            WalletConnect is an open source standard for establishing an encrypted link between
-            distributed applications on the web and wallets on the phone. It generates a QR code
-            which the phone can use to create a secure link. Then, when a customer initiates a
-            transaction or enters a state channel, they are asked to confirm it on their wallet.
+            WalletConnect is an open source standard for establishing an
+            encrypted link between distributed applications on the web and
+            wallets on the phone. It generates a QR code which the phone can use
+            to create a secure link. Then, when a customer initiates a
+            transaction or enters a state channel, they are asked to confirm it
+            on their wallet.
           </p>
           {/* <a
             href="https://github.com/WalletConnect/WalletConnect"
@@ -123,10 +125,11 @@ const IndexPage = () => (
         <SColumn>
           <h2>How does it work?</h2>
           <p>
-            WalletConnect.js is a pop-up modal window which provides a range of options for your
-            customers to connect to your dapp. It includes the options for wallets to connect
-            through a QR code. This is a common pattern used by WhatsApp and countless other apps to
-            link the phone to the desktop. We provide libraries for the web, Android & iOS.
+            WalletConnect.js is a pop-up modal window which provides a range of
+            options for your customers to connect to your dapp. It includes the
+            options for wallets to connect through a QR code. This is a common
+            pattern used by WhatsApp and countless other apps to link the phone
+            to the desktop. We provide libraries for the web, Android & iOS.
           </p>
           {/* <a href="#" target="_blank" rel="noreferrer noopener">
             Try the demo
