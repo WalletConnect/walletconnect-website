@@ -42,22 +42,6 @@ const SSection = styled.section`
   z-index: 0;
 `;
 
-const SSectionBackground = styled.div`
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  height: 562px;
-  opacity: 0.1;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(175, 204, 251, 0.05),
-    rgb(170, 199, 251) 13%,
-    rgb(143, 175, 243) 88%,
-    rgba(140, 173, 242, 0)
-  );
-`;
-
 const SPreviewWrapper = styled.div`
   width: 100%;
   max-width: 1000px;
@@ -114,13 +98,6 @@ const IndexPage = () => (
             transaction or enters a state channel, they are asked to confirm it
             on their wallet.
           </p>
-          {/* <a
-            href="https://github.com/WalletConnect/WalletConnect"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            See the code
-          </a> */}
         </SColumn>
         <SColumn>
           <h2>How does it work?</h2>
@@ -131,12 +108,8 @@ const IndexPage = () => (
             pattern used by WhatsApp and countless other apps to link the phone
             to the desktop. We provide libraries for the web, Android & iOS.
           </p>
-          {/* <a href="#" target="_blank" rel="noreferrer noopener">
-            Try the demo
-          </a> */}
         </SColumn>
       </SDescriptionWrapper>
-      {/* <SSectionBackground /> */}
     </SSection>
   </SIndexPage>
 );

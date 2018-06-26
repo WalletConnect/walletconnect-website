@@ -14,14 +14,6 @@ const SHeader = styled.header`
   justify-content: space-around;
 `;
 
-const SNavLink = styled(Link)`
-  width: 80px;
-  text-align: center;
-  font-size: ${fonts.size.h4};
-  color: rgb(${colors.lightBlue});
-  font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};
-`;
-
 const ExternalLink = styled.a`
   width: 80px;
   text-align: center;
@@ -42,24 +34,16 @@ const SLogo = styled.div`
 `;
 
 const Header = ({ pathname, ...props }) => {
-  const windowPathname = typeof window !== 'undefined' ? window.location.pathname : '';
-  const _pathname = pathname || windowPathname;
   return (
     <SHeader {...props}>
-      {/* <SNavLink activeLink={_pathname === `/docs`} to={`/docs`}>
-        {`Docs`}
-      </SNavLink>
-      <SNavLink activeLink={_pathname === `/examples`} to={`/examples`}>
-        {`Examples`}
-      </SNavLink> */}
       <ExternalLink
-        href="https://github.com/WalletConnect/walletconnect"
+        href="https://github.com/WalletConnect"
         target="blank"
         rel="noreferrer noopener"
       >{`Github`}</ExternalLink>
-      
+
       <ExternalLink
-        href="https://github.com/WalletConnect/walletconnect-docs"
+        href="hhttps://walletconnect.readthedocs.io"
         target="blank"
         rel="noreferrer noopener"
       >{`Docs`}</ExternalLink>
@@ -69,7 +53,7 @@ const Header = ({ pathname, ...props }) => {
           <img src={logo} alt="WalletConnect" />
         </Link>
       </SLogo>
-      
+
       <ExternalLink
         href="https://t.me/walletconnect"
         target="blank"
