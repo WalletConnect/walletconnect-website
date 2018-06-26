@@ -79,7 +79,7 @@ const IndexPage = () => (
     <SBrandingWrapper>
       <SBranding>WalletConnect</SBranding>
       <STagline>
-        An open source standard to connect desktop distrubted applications to
+        An open source standard to connect desktop distributed applications to
         mobile cryptocurrency wallets
       </STagline>
     </SBrandingWrapper>
@@ -106,7 +106,8 @@ const IndexPage = () => (
             developer. Using a Bridge server to relay the messages without
             having access to any of its contents. The contents are encrypted
             using the session data shared by the QR code between the desktop and
-            mobile. There are libraries for Web, iOS and Android.
+            mobile. There are libraries for Web, iOS and Android. Read more
+            about it in our documentation introduction.
           </p>
         </SColumn>
       </SDescriptionWrapper>
