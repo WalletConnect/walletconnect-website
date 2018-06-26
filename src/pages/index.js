@@ -79,8 +79,8 @@ const IndexPage = () => (
     <SBrandingWrapper>
       <SBranding>WalletConnect</SBranding>
       <STagline>
-        An open standard to connect web-based distributed applications to mobile
-        crypto-asset wallets
+        An open source standard to connect desktop distrubted applications to
+        mobile cryptocurrency wallets
       </STagline>
     </SBrandingWrapper>
     <SSection>
@@ -91,22 +91,22 @@ const IndexPage = () => (
         <SColumn>
           <h2>What is WalletConnect?</h2>
           <p>
-            WalletConnect is an open source standard for establishing an
-            encrypted link between distributed applications on the web and
-            wallets on the phone. It generates a QR code which the phone can use
-            to create a secure link. Then, when a customer initiates a
-            transaction or enters a state channel, they are asked to confirm it
-            on their wallet.
+            WalletConnect is an open source standard for connecting desktop
+            Dapps to mobile Wallets using end-to-end encryption by scanning a QR
+            code. Opening up a whole world of Dapps that were once only
+            available to Metamask. The user can interact with any Dapp without
+            comprising their private keys and will be notified to sign any
+            transaction requests on their mobile.
           </p>
         </SColumn>
         <SColumn>
           <h2>How does it work?</h2>
           <p>
-            WalletConnect.js is a pop-up modal window which provides a range of
-            options for your customers to connect to your dapp. It includes the
-            options for wallets to connect through a QR code. This is a common
-            pattern used by WhatsApp and countless other apps to link the phone
-            to the desktop. We provide libraries for the web, Android & iOS.
+            WalletConnect is a simple infrastructure that can be setup by any
+            developer. Using a Bridge server to relay the messages without
+            having access to any of its contents. The contents are encrypted
+            using the session data shared by the QR code between the desktop and
+            mobile. There are libraries for Web, iOS and Android.
           </p>
         </SColumn>
       </SDescriptionWrapper>

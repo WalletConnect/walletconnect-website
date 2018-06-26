@@ -33,40 +33,38 @@ const SLogo = styled.div`
   }
 `;
 
-const Header = ({ pathname, ...props }) => {
-  return (
-    <SHeader {...props}>
-      <ExternalLink
-        href="https://github.com/WalletConnect"
-        target="blank"
-        rel="noreferrer noopener"
-      >{`Github`}</ExternalLink>
+const Header = ({ pathname, ...props }) => (
+  <SHeader {...props}>
+    <ExternalLink
+      href="https://github.com/WalletConnect"
+      target="blank"
+      rel="noreferrer noopener"
+    >{`Github`}</ExternalLink>
 
-      <ExternalLink
-        href="https://walletconnect.readthedocs.io"
-        target="blank"
-        rel="noreferrer noopener"
-      >{`Docs`}</ExternalLink>
+    <ExternalLink
+      href="https://walletconnect.readthedocs.io"
+      target="blank"
+      rel="noreferrer noopener"
+    >{`Docs`}</ExternalLink>
 
-      <SLogo>
-        <Link to="/">
-          <img src={logo} alt="WalletConnect" />
-        </Link>
-      </SLogo>
+    <SLogo>
+      <Link to="/">
+        <img src={logo} alt="WalletConnect" />
+      </Link>
+    </SLogo>
 
-      <ExternalLink
-        href="https://t.me/walletconnect"
-        target="blank"
-        rel="noreferrer noopener"
-      >{`Telegram`}</ExternalLink>
+    <ExternalLink
+      href="https://t.me/walletconnect"
+      target="blank"
+      rel="noreferrer noopener"
+    >{`Telegram`}</ExternalLink>
 
-      <ExternalLink
-        href="https://twitter.com/ricburton/status/978509303500984320"
-        target="blank"
-        rel="noreferrer noopener"
-      >{`Demo`}</ExternalLink>
-    </SHeader>
-  );
-};
+    <ExternalLink
+      href="https://twitter.com/ricburton/status/978509303500984320"
+      target="blank"
+      rel="noreferrer noopener"
+    >{`Demo`}</ExternalLink>
+  </SHeader>
+);
 
 export default Header;
