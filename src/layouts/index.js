@@ -64,6 +64,7 @@ const TemplateWrapper = ({ children, location }) => {
         <meta name="og:image" content={`${url}/social-card.png`} />
         <meta name="og:description" content={description} />
         <meta name="og:site_name" content={name} />
+        <script type="text/javascript" src="/unregisterServiceWorker.js" />
       </Helmet>
       <SFlex>
         <SContent>

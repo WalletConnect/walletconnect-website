@@ -5,19 +5,18 @@ module.exports = {
     baseUrl: `https://walletconnect.org`,
     description: ``,
     keywords: `ethereum, cryptocurrency, wallet, mobile, connect, relay, proxy, standard, crypto, tokens, dapp`,
-    twitterUsername: '@walletconnect',
+    twitterUsername: '@walletconnect'
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-77954108-4',
-      },
+        trackingId: 'UA-77954108-4'
+      }
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-next`,
-  ],
-}
+    `gatsby-plugin-react-next`
+  ]
+};

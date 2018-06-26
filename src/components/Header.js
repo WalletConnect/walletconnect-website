@@ -43,7 +43,7 @@ const Header = ({ pathname, ...props }) => {
       >{`Github`}</ExternalLink>
 
       <ExternalLink
-        href="hhttps://walletconnect.readthedocs.io"
+        href="https://walletconnect.readthedocs.io"
         target="blank"
         rel="noreferrer noopener"
       >{`Docs`}</ExternalLink>
