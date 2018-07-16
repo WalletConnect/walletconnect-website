@@ -54,10 +54,10 @@ const Header = ({ pathname, ...props }) => (
     </SLogo>
 
     <ExternalLink
-      href="https://t.me/walletconnect"
+      href="https://discuss.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
-    >{`Telegram`}</ExternalLink>
+    >{`Forum`}</ExternalLink>
 
     <ExternalLink
       href="https://twitter.com/ricburton/status/978509303500984320"

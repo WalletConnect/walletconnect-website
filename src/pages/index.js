@@ -79,8 +79,7 @@ const IndexPage = () => (
     <SBrandingWrapper>
       <SBranding>WalletConnect</SBranding>
       <STagline>
-        An open source standard to connect desktop distributed applications to
-        mobile cryptocurrency wallets
+        An open source standard to connect desktop Dapps to mobile Wallets
       </STagline>
     </SBrandingWrapper>
     <SSection>
