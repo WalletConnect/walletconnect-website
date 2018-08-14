@@ -17,8 +17,8 @@ const SFooter = styled.footer`
 
 const ExternalLink = styled.a`
   width: 200px;
-  margin: 40px 0 0 0;
-  ${'' /* background: green; */} text-align: center;
+  margin: 40px 0;
+  text-align: center;
   font-size: ${fonts.size.h6};
   color: rgb(${colors.lightBlue});
   font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};

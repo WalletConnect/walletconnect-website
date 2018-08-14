@@ -14,6 +14,14 @@ const SHeader = styled.header`
   justify-content: space-around;
 `;
 
+const InternalLink = styled(Link)`
+  width: 80px;
+  text-align: center;
+  font-size: ${fonts.size.h4};
+  color: rgb(${colors.lightBlue});
+  font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};
+`;
+
 const ExternalLink = styled.a`
   width: 80px;
   text-align: center;
@@ -28,7 +36,7 @@ const SLogo = styled.div`
   text-align: center;
   & img {
     width: 100%;
-    max-width: 155px;
+    max-width: 135px;
     min-width: 64px;
   }
 `;
@@ -59,11 +67,7 @@ const Header = ({ pathname, ...props }) => (
       rel="noreferrer noopener"
     >{`Forum`}</ExternalLink>
 
-    <ExternalLink
-      href="https://twitter.com/ricburton/status/978509303500984320"
-      target="blank"
-      rel="noreferrer noopener"
-    >{`Demo`}</ExternalLink>
+    <InternalLink to="/demo">{`Demo`}</InternalLink>
   </SHeader>
 );
 

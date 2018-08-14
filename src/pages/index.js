@@ -10,6 +10,7 @@ const SIndexPage = styled.div`
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  padding: 0 32px;
   padding-top: 30px;
 `;
 
