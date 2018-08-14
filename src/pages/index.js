@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import preview from '../assets/preview.png';
+import preview from '../assets/preview-2.png';
 import { colors, responsive } from '../styles';
 
 const SIndexPage = styled.div`
