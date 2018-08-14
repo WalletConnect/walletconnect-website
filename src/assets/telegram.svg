@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="248px" viewBox="0 0 248 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.9%" y="-2.1%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="61.2346759%" y1="43.69%" x2="74.7064382%" y2="80.24%" id="linearGradient-2">
+            <stop stop-color="#EFF7FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telegram" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" fill-rule="nonzero">
+            <circle id="Oval" fill="#587087" cx="120" cy="120" r="120"></circle>
+            <path d="M98,175 C94.1124,175 94.773,173.5321 93.4322,169.8305 L82,132.2059 L170,80" id="Shape" fill="#D9D9D9"></path>
+            <path d="M98,175 C101,175 102.3255,173.628 104,172 L120,156.442 L100.042,144.407" id="Shape" fill="#EDEDED"></path>
+            <path d="M100.04,144.41 L148.4,180.139 C153.9185,183.1839 157.9014,181.6074 159.276,175.0155 L178.961,82.2525 C180.9764,74.1723 175.8809,70.5075 170.6016,72.9043 L55.0116,117.4753 C47.1215,120.64 47.1675,125.0419 53.5734,127.0033 L83.2364,136.2616 L151.9094,92.9366 C155.1513,90.9707 158.1267,92.02761 155.6846,94.195" id="Shape" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

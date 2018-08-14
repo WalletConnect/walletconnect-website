@@ -2,25 +2,32 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import logo from '../assets/wallet-connect-logo-v-1.svg';
-import { colors, fonts } from '../styles';
+import { colors, fonts, responsive } from '../styles';
 
 const SHeader = styled.header`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   height: 145px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 `;
 
-const ExternalLink = styled.a`
+const InternalLink = styled(Link)`
   width: 80px;
   text-align: center;
   font-size: ${fonts.size.h4};
   color: rgb(${colors.lightBlue});
   font-weight: ${({ activeLink }) => (activeLink ? `700` : `500`)};
+  @media screen and (${responsive.sm.max}) {
+    width: 60px;
+    font-size: ${fonts.size.medium};
+  }
 `;
+
+const ExternalLink = InternalLink.withComponent('a');
 
 const SLogo = styled.div`
   flex: 1;
@@ -28,7 +35,7 @@ const SLogo = styled.div`
   text-align: center;
   & img {
     width: 100%;
-    max-width: 155px;
+    max-width: 135px;
     min-width: 64px;
   }
 `;
@@ -42,7 +49,7 @@ const Header = ({ pathname, ...props }) => (
     >{`Github`}</ExternalLink>
 
     <ExternalLink
-      href="https://walletconnect.readthedocs.io"
+      href="https://walletconnect.gitbook.io/docs/"
       target="blank"
       rel="noreferrer noopener"
     >{`Docs`}</ExternalLink>
@@ -59,11 +66,7 @@ const Header = ({ pathname, ...props }) => (
       rel="noreferrer noopener"
     >{`Forum`}</ExternalLink>
 
-    <ExternalLink
-      href="https://twitter.com/ricburton/status/978509303500984320"
-      target="blank"
-      rel="noreferrer noopener"
-    >{`Demo`}</ExternalLink>
+    <InternalLink to="/demo">{`Demo`}</InternalLink>
   </SHeader>
 );
 
