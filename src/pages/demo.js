@@ -42,7 +42,7 @@ const DemoPage = () => (
     <StyledTitle>Demo</StyledTitle>
     <StyledVideoWrapper>
       <video width="100%" height="56.25%" autoPlay loop>
-        <source src="demo.mp4" type="video/mp4" />
+        <source src="/demo.mp4" type="video/mp4" />
       </video>
     </StyledVideoWrapper>
   </StyledDemoPage>
