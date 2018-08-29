@@ -43,13 +43,13 @@ const SLogo = styled.div`
 const Header = ({ pathname, ...props }) => (
   <SHeader {...props}>
     <ExternalLink
-      href="https://github.com/WalletConnect"
+      href="https://github.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
     >{`Github`}</ExternalLink>
 
     <ExternalLink
-      href="https://walletconnect.gitbook.io/docs/"
+      href="https://docs.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
     >{`Docs`}</ExternalLink>

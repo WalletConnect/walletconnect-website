@@ -41,7 +41,7 @@ const ExternalLink = styled.a`
 const Footer = ({ pathname, ...props }) => (
   <SFooter {...props}>
     <ExternalLink
-      href="https://t.me/walletconnect"
+      href="https://telegram.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
     >
@@ -51,7 +51,7 @@ const Footer = ({ pathname, ...props }) => (
       <p>{`/walletconnect`}</p>
     </ExternalLink>
     <ExternalLink
-      href="https://www.twitter.com/walletconnect"
+      href="https://twitter.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
     >
