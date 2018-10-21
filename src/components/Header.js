@@ -46,7 +46,7 @@ const Header = ({ pathname, ...props }) => (
       href="https://github.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
-    >{`Github`}</ExternalLink>
+    >{`GitHub`}</ExternalLink>
 
     <ExternalLink
       href="https://docs.walletconnect.org/"
