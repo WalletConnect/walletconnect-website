@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Pedro Gomes <pedro@balance.io>",
   "dependencies": {
-    "gatsby": "^1.9.241",
+    "gatsby": "^2.0.0",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-analytics": "^1.0.24",
     "gatsby-plugin-react-helmet": "^2.0.8",
@@ -12,7 +12,8 @@
     "gatsby-plugin-styled-components": "^2.0.10",
     "gatsby-transformer-remark": "^1.7.37",
     "react-helmet": "^5.2.0",
-    "styled-components": "^3.2.3"
+    "styled-components": "^3.2.3",
+    "snyk": "^1.112.0"
   },
   "keywords": [
     "ethereum",
@@ -33,7 +34,9 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
@@ -44,5 +47,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.11.1"
-  }
+  },
+  "snyk": true
 }
