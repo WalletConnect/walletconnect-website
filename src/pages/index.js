@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import preview from "../assets/banner.png";
+
+import Layout from "../components/layout";
+import banner from "../assets/banner.png";
 import { colors, responsive } from "../styles";
 
 const SIndexPage = styled.div`
@@ -43,7 +45,7 @@ const SSection = styled.section`
   z-index: 0;
 `;
 
-const SPreviewWrapper = styled.div`
+const SBannerWrapper = styled.div`
   width: 100%;
   max-width: 1000px;
   margin: 30px auto;
@@ -75,42 +77,44 @@ const SColumn = styled.div`
   line-height: 1.35;
 `;
 
-const IndexPage = () => (
-  <SIndexPage>
-    <SBrandingWrapper>
-      <SBranding>WalletConnect</SBranding>
-      <STagline>Open protocol for connecting Wallets to Dapps</STagline>
-    </SBrandingWrapper>
-    <SSection>
-      <SPreviewWrapper>
-        <img src={preview} alt="WalletConnect" />
-      </SPreviewWrapper>
-      <SDescriptionWrapper>
-        <SColumn>
-          <h2>What is WalletConnect?</h2>
-          <p>
-            WalletConnect is an open protocol for connecting desktop Dapps to
-            mobile Wallets using end-to-end encryption by scanning a QR code.
-            Opening up a whole world of Dapps that were once only available to
-            Metamask. The user can interact with any Dapp without comprising
-            their private keys and will be notified to sign any transaction
-            requests on their mobile.
-          </p>
-        </SColumn>
-        <SColumn>
-          <h2>How does it work?</h2>
-          <p>
-            WalletConnect is a simple infrastructure that can be setup by any
-            developer. Using a Bridge server to relay the messages without
-            having access to any of its contents. The contents are encrypted
-            using the session data shared by the QR code between the desktop and
-            mobile. There are libraries for Web, iOS and Android. Read more
-            about it in our documentation introduction.
-          </p>
-        </SColumn>
-      </SDescriptionWrapper>
-    </SSection>
-  </SIndexPage>
+const IndexPage = props => (
+  <Layout location={props.location}>
+    <SIndexPage>
+      <SBrandingWrapper>
+        <SBranding>WalletConnect</SBranding>
+        <STagline>Open protocol for connecting Wallets to Dapps</STagline>
+      </SBrandingWrapper>
+      <SSection>
+        <SBannerWrapper>
+          <img src={banner} alt="WalletConnect" />
+        </SBannerWrapper>
+        <SDescriptionWrapper>
+          <SColumn>
+            <h2>What is WalletConnect?</h2>
+            <p>
+              WalletConnect is an open protocol for connecting desktop Dapps to
+              mobile Wallets using end-to-end encryption by scanning a QR code.
+              Opening up a whole world of Dapps that were once only available to
+              Metamask. The user can interact with any Dapp without comprising
+              their private keys and will be notified to sign any transaction
+              requests on their mobile.
+            </p>
+          </SColumn>
+          <SColumn>
+            <h2>How does it work?</h2>
+            <p>
+              WalletConnect is a simple infrastructure that can be setup by any
+              developer. Using a Bridge server to relay the messages without
+              having access to any of its contents. The contents are encrypted
+              using the session data shared by the QR code between the desktop
+              and mobile. There are libraries for Web, iOS and Android. Read
+              more about it in our documentation introduction.
+            </p>
+          </SColumn>
+        </SDescriptionWrapper>
+      </SSection>
+    </SIndexPage>
+  </Layout>
 );
 
 export default IndexPage;

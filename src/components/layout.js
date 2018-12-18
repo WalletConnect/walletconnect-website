@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import styled, { injectGlobal } from "styled-components";
+import Header from "./Header";
+import Footer from "./Footer";
+import styled, { createGlobalStyle } from "styled-components";
 import { globalStyles, colors, responsive } from "../styles";
 
-injectGlobal`${globalStyles}`;
+const GlobalStyle = createGlobalStyle`
+  ${globalStyles}
+`;
 
 const SWrapper = styled.div`
   position: relative;
@@ -37,7 +39,7 @@ const SFlex = styled.div`
   }
 `;
 
-const TemplateWrapper = ({ children, location }) => {
+const Layout = ({ children, location }) => {
   const name = `WalletConnect`;
   const title = `WalletConnect`;
   const url = `https://walletconnect.org`;
@@ -68,10 +70,11 @@ const TemplateWrapper = ({ children, location }) => {
         <meta name="fb:admins" content={facebookId} />
         <script type="text/javascript" src="/unregisterServiceWorker.js" />
       </Helmet>
+      <GlobalStyle />
       <SFlex>
         <SContent>
           <Header pathname={location.pathname} />
-          <SContainer>{children()}</SContainer>
+          <SContainer>{children}</SContainer>
           <Footer pathname={location.pathname} />
         </SContent>
       </SFlex>
@@ -79,8 +82,8 @@ const TemplateWrapper = ({ children, location }) => {
   );
 };
 
-TemplateWrapper.propTypes = {
+Layout.propTypes = {
   children: PropTypes.func
 };
 
-export default TemplateWrapper;
+export default Layout;

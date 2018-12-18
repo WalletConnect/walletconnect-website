@@ -1,5 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+
+import Layout from "../components/layout";
 
 const StyledDemoPage = styled.div`
   width: 100%;
@@ -37,15 +39,17 @@ const StyledVideoWrapper = styled.div`
     height: 100%;
   }
 `;
-const DemoPage = () => (
-  <StyledDemoPage>
-    <StyledTitle>Demo</StyledTitle>
-    <StyledVideoWrapper>
-      <video width="100%" height="56.25%" autoPlay loop>
-        <source src="/demo.mp4" type="video/mp4" />
-      </video>
-    </StyledVideoWrapper>
-  </StyledDemoPage>
+const DemoPage = props => (
+  <Layout location={props.location}>
+    <StyledDemoPage>
+      <StyledTitle>Demo</StyledTitle>
+      <StyledVideoWrapper>
+        <video width="100%" height="56.25%" autoPlay loop>
+          <source src="/demo.mp4" type="video/mp4" />
+        </video>
+      </StyledVideoWrapper>
+    </StyledDemoPage>
+  </Layout>
 );
 
 export default DemoPage;
