@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import styled from 'styled-components';
-import logo from '../assets/wallet-connect-logo-v-1.svg';
-import { colors, fonts, responsive } from '../styles';
+import React from "react";
+import Link from "gatsby-link";
+import styled from "styled-components";
+import logo from "../assets/logo.svg";
+import { colors, fonts, responsive } from "../styles";
 
 const SHeader = styled.header`
   width: 100%;
@@ -27,16 +27,16 @@ const InternalLink = styled(Link)`
   }
 `;
 
-const ExternalLink = InternalLink.withComponent('a');
+const ExternalLink = InternalLink.withComponent("a");
 
 const SLogo = styled.div`
   flex: 1;
-  padding: 0 16px;
+  padding: 0 20px;
   text-align: center;
   & img {
     width: 100%;
-    max-width: 135px;
-    min-width: 64px;
+    max-width: 120px;
+    min-width: 60px;
   }
 `;
 

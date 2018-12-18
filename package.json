@@ -1,8 +1,8 @@
 {
-  "name": "homepage",
-  "description": "WalletConnect homepage",
+  "name": "walletconnect-website",
+  "description": "WalletConnect website",
   "version": "1.0.0",
-  "author": "Pedro Gomes <pedro@balance.io>",
+  "author": "Pedro Gomes <pedro@walletconnect.org>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
