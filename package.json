@@ -24,6 +24,7 @@
     "relay",
     "proxy",
     "standard",
+    "protocol",
     "crypto",
     "tokens",
     "dapp"

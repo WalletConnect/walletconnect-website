@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import styled, { injectGlobal } from 'styled-components';
-import { globalStyles, colors, responsive } from '../styles';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styled, { injectGlobal } from "styled-components";
+import { globalStyles, colors, responsive } from "../styles";
 
 injectGlobal`${globalStyles}`;
 
@@ -41,9 +41,10 @@ const TemplateWrapper = ({ children, location }) => {
   const name = `WalletConnect`;
   const title = `WalletConnect`;
   const url = `https://walletconnect.org`;
-  const description = `An open-source standard for securely communicate with mobile wallets`;
-  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, crypto, tokens, dapp`;
+  const description = `Open protocol for connecting Wallets to Dapps`;
+  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp`;
   const twitterUsername = `@walletconnect`;
+  const facebookId = "365412154213405";
   return (
     <SWrapper>
       <Helmet>
@@ -64,6 +65,7 @@ const TemplateWrapper = ({ children, location }) => {
         <meta name="og:image" content={`${url}/social-card.png`} />
         <meta name="og:description" content={description} />
         <meta name="og:site_name" content={name} />
+        <meta name="fb:admins" content={facebookId} />
         <script type="text/javascript" src="/unregisterServiceWorker.js" />
       </Helmet>
       <SFlex>
