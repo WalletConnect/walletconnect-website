@@ -15,8 +15,9 @@ module.exports = {
         trackingId: "UA-77954108-4"
       }
     },
+    `gatsby-plugin-typescript`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
   ]
 };
