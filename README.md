@@ -1,3 +1,3 @@
-# WalletConnect Website
+# Linkdrop Protocol Website
 
 
