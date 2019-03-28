@@ -27,8 +27,7 @@ interface IExternalLinkStyleProps {
   activeLink?: boolean;
 }
 
-const SExternalLinkStyleTypes = styled.a<IExternalLinkStyleProps>``;
-const SExternalLink = styled(SExternalLinkStyleTypes)`
+const SExternalLink = styled.a<IExternalLinkStyleProps>`
   width: 150px;
   display: flex;
   align-items: center;

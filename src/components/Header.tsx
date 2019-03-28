@@ -19,8 +19,7 @@ interface IInternalLinkStyleProps {
   activeLink?: boolean;
 }
 
-const SInternalLinkStyleTypes = styled(Link)<IInternalLinkStyleProps>``;
-const SInternalLink = styled(SInternalLinkStyleTypes)`
+const SInternalLink = styled(Link)<IInternalLinkStyleProps>`
   width: 80px;
   text-align: center;
   font-size: ${fonts.size.h4};
