@@ -64,11 +64,7 @@ const Header = (props: any) => (
       </Link>
     </SLogo>
 
-    <SExternalLink
-      href="https://discuss.walletconnect.org/"
-      target="blank"
-      rel="noreferrer noopener"
-    >{`Forum`}</SExternalLink>
+    <SInternalLink to="/wallets">{`Wallets`}</SInternalLink>
 
     <SInternalLink to="/demo">{`Demo`}</SInternalLink>
   </SHeader>
