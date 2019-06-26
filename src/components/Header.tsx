@@ -19,9 +19,8 @@ interface IInternalLinkStyleProps {
   activeLink?: boolean;
 }
 
-const SInternalLinkStyleTypes = styled(Link)<IInternalLinkStyleProps>``;
-const SInternalLink = styled(SInternalLinkStyleTypes)`
-  width: 80px;
+const SInternalLink = styled(Link)<IInternalLinkStyleProps>`
+  width: 100px;
   text-align: center;
   font-size: ${fonts.size.h4};
   color: rgb(${colors.lightBlue});
@@ -65,11 +64,7 @@ const Header = (props: any) => (
       </Link>
     </SLogo>
 
-    <SExternalLink
-      href="https://discuss.walletconnect.org/"
-      target="blank"
-      rel="noreferrer noopener"
-    >{`Forum`}</SExternalLink>
+    <SInternalLink to="/wallets">{`Wallets`}</SInternalLink>
 
     <SInternalLink to="/demo">{`Demo`}</SInternalLink>
   </SHeader>
