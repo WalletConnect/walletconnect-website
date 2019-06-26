@@ -20,7 +20,7 @@ interface IInternalLinkStyleProps {
 }
 
 const SInternalLink = styled(Link)<IInternalLinkStyleProps>`
-  width: 80px;
+  width: 100px;
   text-align: center;
   font-size: ${fonts.size.h4};
   color: rgb(${colors.lightBlue});
