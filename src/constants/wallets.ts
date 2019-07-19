@@ -1,4 +1,4 @@
-import { IWallet } from "../helpers/types";
+import { IApp } from "../helpers/types";
 
 import walleth from "../assets/wallets/walleth.png";
 import trust from "../assets/wallets/trust-wallet.png";
@@ -9,7 +9,7 @@ import metamask from "../assets/wallets/metamask.png";
 import argent from "../assets/wallets/argent.jpg";
 import gnosisSafe from "../assets/wallets/gnosis-safe.png";
 
-const WALLETS: IWallet[] = [
+const WALLETS: IApp[] = [
   {
     name: "Walleth",
     icon: walleth,

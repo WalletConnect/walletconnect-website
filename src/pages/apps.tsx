@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import Grid from "../components/Grid";
 import WALLETS from "../constants/wallets";
-import { colors, responsive } from "../styles";
+import DAPPS from "../constants/dapps";
 
 const SIndexPage = styled.div`
   height: 100%;
@@ -37,6 +37,7 @@ const SSection = styled.section`
   width: 100%;
   min-height: 600px;
   z-index: 0;
+  margin-bottom: 40px;
 `;
 
 const SWallet = styled.div`
@@ -48,7 +49,7 @@ const SWalletIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding: 25px;
   & img {
     width: 100%;
     height: 100%;
@@ -63,22 +64,44 @@ const IndexPage = (props: any) => (
   <Layout location={props.location}>
     <SIndexPage>
       <SBrandingWrapper>
-        <SBranding>{`Supporting Wallets`}</SBranding>
+        <SBranding>{`Wallets`}</SBranding>
       </SBrandingWrapper>
       <SSection>
         <Grid itemMaxWidth={200} gap={30}>
-          {WALLETS.map(wallet => (
+          {WALLETS.map(app => (
             <a
-              key={wallet.name}
-              href={wallet.url}
+              key={app.name}
+              href={app.url}
               target="blank"
               rel="noreferrer noopener"
             >
               <SWallet>
                 <SWalletIcon>
-                  <img src={wallet.icon} alt={wallet.name} />
+                  <img src={app.icon} alt={app.name} />
                 </SWalletIcon>
-                <SWalletName>{wallet.name}</SWalletName>
+                <SWalletName>{app.name}</SWalletName>
+              </SWallet>
+            </a>
+          ))}
+        </Grid>
+      </SSection>
+      <SBrandingWrapper>
+        <SBranding>{`Dapps`}</SBranding>
+      </SBrandingWrapper>
+      <SSection>
+        <Grid itemMaxWidth={200} gap={30}>
+          {DAPPS.map(app => (
+            <a
+              key={app.name}
+              href={app.url}
+              target="blank"
+              rel="noreferrer noopener"
+            >
+              <SWallet>
+                <SWalletIcon>
+                  <img src={app.icon} alt={app.name} />
+                </SWalletIcon>
+                <SWalletName>{app.name}</SWalletName>
               </SWallet>
             </a>
           ))}
