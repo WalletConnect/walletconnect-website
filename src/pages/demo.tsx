@@ -39,7 +39,7 @@ const StyledVideoWrapper = styled.div`
     height: 100%;
   }
 `;
-const DemoPage = props => (
+const DemoPage = (props: any) => (
   <Layout location={props.location}>
     <StyledDemoPage>
       <StyledTitle>Demo</StyledTitle>
