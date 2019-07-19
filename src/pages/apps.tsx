@@ -35,7 +35,6 @@ const SBranding = styled.h1`
 const SSection = styled.section`
   position: relative;
   width: 100%;
-  min-height: 600px;
   z-index: 0;
   margin-bottom: 40px;
 `;
