@@ -6,6 +6,7 @@ import localethereum from "../assets/dapps/localethereum.png";
 import ddex from "../assets/dapps/ddex.png";
 import bamboorelay from "../assets/dapps/bamboorelay.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
+import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 
 const DAPPS: IApp[] = [
   {
@@ -37,6 +38,11 @@ const DAPPS: IApp[] = [
     name: "Heroes of Ether",
     icon: heroesofether,
     url: "https://heroesofether.io/"
+  },
+  {
+    name: "1inch Exchange",
+    icon: oneinchexchange,
+    url: "https://1inch.exchange/"
   }
 ];
 
