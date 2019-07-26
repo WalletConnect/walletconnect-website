@@ -8,6 +8,8 @@ import pillar from "../assets/wallets/pillar-wallet.jpg";
 import metamask from "../assets/wallets/metamask.png";
 import argent from "../assets/wallets/argent.jpg";
 import gnosisSafe from "../assets/wallets/gnosis-safe.png";
+import safepal from "../assets/wallets/safepal.png";
+import equal from "../assets/wallets/equal.jpg";
 
 const WALLETS: IApp[] = [
   {
@@ -49,6 +51,16 @@ const WALLETS: IApp[] = [
     name: "Gnosis Safe",
     icon: gnosisSafe,
     url: "https://safe.gnosis.io/"
+  },
+  {
+    name: "SafePal",
+    icon: safepal,
+    url: "https://safepal.io/"
+  },
+  {
+    name: "Equal",
+    icon: equal,
+    url: "https://equal.tech/"
   }
 ];
 
