@@ -3,10 +3,12 @@ import { IApp } from "../helpers/types";
 import balance from "../assets/dapps/balance.jpg";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
+import binancedex from "../assets/dapps/binancedex.png";
 import ddex from "../assets/dapps/ddex.png";
 import bamboorelay from "../assets/dapps/bamboorelay.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
+import heliowallet from "../assets/dapps/heliowallet.png";
 
 const DAPPS: IApp[] = [
   {
@@ -23,6 +25,11 @@ const DAPPS: IApp[] = [
     name: "LocalEthereum",
     icon: localethereum,
     url: "https://localethereum.com/"
+  },
+  {
+    name: "Binance DEX",
+    icon: binancedex,
+    url: "https://binance.org/"
   },
   {
     name: "DDEX",
@@ -43,6 +50,11 @@ const DAPPS: IApp[] = [
     name: "1inch Exchange",
     icon: oneinchexchange,
     url: "https://1inch.exchange/"
+  },
+  {
+    name: "HelioWallet",
+    icon: heliowallet,
+    url: "https://heliowallet.com/"
   }
 ];
 

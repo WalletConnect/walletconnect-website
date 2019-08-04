@@ -10,6 +10,7 @@ import argent from "../assets/wallets/argent.jpg";
 import gnosisSafe from "../assets/wallets/gnosis-safe.png";
 import safepal from "../assets/wallets/safepal.png";
 import equal from "../assets/wallets/equal.jpg";
+import coinomi from "../assets/wallets/coinomi.svg";
 
 const WALLETS: IApp[] = [
   {
@@ -61,6 +62,11 @@ const WALLETS: IApp[] = [
     name: "Equal",
     icon: equal,
     url: "https://equal.tech/"
+  },
+  {
+    name: "Coinomi",
+    icon: coinomi,
+    url: "https://coinomi.com/"
   }
 ];
 
