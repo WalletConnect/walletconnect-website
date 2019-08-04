@@ -41,7 +41,7 @@ const SFlex = styled.div`
 
 interface ILayoutProps {
   children: React.ReactNode;
-  location: any
+  location: any;
 }
 
 const Layout = (props: ILayoutProps) => {
@@ -89,7 +89,7 @@ const Layout = (props: ILayoutProps) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.object
 };
 
 export default Layout;
