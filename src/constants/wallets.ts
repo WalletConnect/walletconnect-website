@@ -11,6 +11,7 @@ import gnosisSafe from "../assets/wallets/gnosis-safe.png";
 import safepal from "../assets/wallets/safepal.png";
 import equal from "../assets/wallets/equal.jpg";
 import coinomi from "../assets/wallets/coinomi.svg";
+import gridplus from "../assets/wallets/gridplus.png";
 
 const WALLETS: IApp[] = [
   {
@@ -67,6 +68,11 @@ const WALLETS: IApp[] = [
     name: "Coinomi",
     icon: coinomi,
     url: "https://coinomi.com/"
+  },
+  {
+    name: "GridPlus",
+    icon: gridplus,
+    url: "https://gridplus.io/"
   }
 ];
 

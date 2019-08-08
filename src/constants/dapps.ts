@@ -9,6 +9,7 @@ import bamboorelay from "../assets/dapps/bamboorelay.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
+import box from "../assets/dapps/box.png";
 
 const DAPPS: IApp[] = [
   {
@@ -35,6 +36,11 @@ const DAPPS: IApp[] = [
     name: "DDEX",
     icon: ddex,
     url: "https://ddex.io/"
+  },
+  {
+    name: "3Box",
+    icon: box,
+    url: "https://3box.io/"
   },
   {
     name: "Bamboo Relay",
