@@ -6,10 +6,11 @@ import localethereum from "../assets/dapps/localethereum.png";
 import binancedex from "../assets/dapps/binancedex.png";
 import ddex from "../assets/dapps/ddex.png";
 import bamboorelay from "../assets/dapps/bamboorelay.png";
+import box from "../assets/dapps/box.png";
+import clovers from "../assets/dapps/clovers.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
-import box from "../assets/dapps/box.png";
 
 const DAPPS: IApp[] = [
   {
@@ -46,6 +47,11 @@ const DAPPS: IApp[] = [
     name: "Bamboo Relay",
     icon: bamboorelay,
     url: "https://bamboorelay.com/"
+  },
+  {
+    name: "Clovers",
+    icon: clovers,
+    url: "https://clovers.network/"
   },
   {
     name: "Heroes of Ether",
