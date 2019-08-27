@@ -11,6 +11,7 @@ import clovers from "../assets/dapps/clovers.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
+import escaroo from "../assets/dapps/escaroo.png";
 
 const DAPPS: IApp[] = [
   {
@@ -67,6 +68,11 @@ const DAPPS: IApp[] = [
     name: "HelioWallet",
     icon: heliowallet,
     url: "https://heliowallet.com/"
+  },
+  {
+    name: "Escaroo",
+    icon: escaroo,
+    url: "https://escaroo.com/"
   }
 ];
 
