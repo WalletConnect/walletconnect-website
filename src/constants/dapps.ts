@@ -12,6 +12,7 @@ import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
 import escaroo from "../assets/dapps/escaroo.png";
+import tokenmarket from "../assets/dapps/tokenmarket.png";
 
 const DAPPS: IApp[] = [
   {
@@ -73,6 +74,11 @@ const DAPPS: IApp[] = [
     name: "Escaroo",
     icon: escaroo,
     url: "https://escaroo.com/"
+  },
+  {
+    name: "TokenMarket",
+    icon: tokenmarket,
+    url: "https://tokenmarket.net/"
   }
 ];
 
