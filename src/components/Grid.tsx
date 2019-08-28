@@ -15,7 +15,7 @@ export const SGrid = styled.div<IGridStyleProps>`
   height: 100%;
   padding: 24px;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
   background: rgb(${colors.white});
 
   display: grid;
