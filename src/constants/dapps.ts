@@ -87,9 +87,9 @@ const DAPPS: IApp[] = [
     url: "https://tokenmarket.net/"
   },
   {
-    name: “LuckyStrike”,
+    name: "LuckyStrike",
     icon: luckystrike,
-    url: "https://lucky-strike.io/game/“
+    url: "https://lucky-strike.io/game/"
   }
 ];
 
