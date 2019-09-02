@@ -13,6 +13,7 @@ import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
+import luckystrike from "../assets/dapps/luckystrike.png";
 
 const DAPPS: IApp[] = [
   {
@@ -79,6 +80,16 @@ const DAPPS: IApp[] = [
     name: "TokenMarket",
     icon: tokenmarket,
     url: "https://tokenmarket.net/"
+  },
+  {
+    name: "TokenMarket",
+    icon: tokenmarket,
+    url: "https://tokenmarket.net/"
+  },
+  {
+    name: “LuckyStrike”,
+    icon: luckystrike,
+    url: "https://lucky-strike.io/game/“
   }
 ];
 
