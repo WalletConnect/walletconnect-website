@@ -66,7 +66,11 @@ const Header = (props: any) => (
 
     <SInternalLink to="/apps">{`Apps`}</SInternalLink>
 
-    <SInternalLink to="/demo">{`Demo`}</SInternalLink>
+    <SExternalLink
+      href="https://example.walletconnect.org/"
+      target="blank"
+      rel="noreferrer noopener"
+    >{`Demo`}</SExternalLink>
   </SHeader>
 );
 
