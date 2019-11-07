@@ -14,6 +14,8 @@ import heliowallet from "../assets/dapps/heliowallet.png";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
 import luckystrike from "../assets/dapps/luckystrike.png";
+import defiportfolio from "../assets/dapps/defiportfolio.png";
+
 
 const DAPPS: IApp[] = [
   {
@@ -85,6 +87,11 @@ const DAPPS: IApp[] = [
     name: "LuckyStrike",
     icon: luckystrike,
     url: "https://lucky-strike.io/game/"
+  },
+  {
+    name: "DeFi Portfolio Tracker",
+    icon: defiportfolio,
+    url: "https://portfolio.defiprime.com/"
   }
 ];
 
