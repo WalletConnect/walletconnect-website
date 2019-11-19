@@ -1,6 +1,7 @@
 import { IApp } from "../helpers/types";
 
 import balance from "../assets/dapps/balance.jpg";
+import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
 import binancedex from "../assets/dapps/binancedex.png";
@@ -15,13 +16,13 @@ import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
 import luckystrike from "../assets/dapps/luckystrike.png";
 import defiportfolio from "../assets/dapps/defiportfolio.png";
-
+import totle from "../assets/dapps/totle.jpg";
 
 const DAPPS: IApp[] = [
   {
-    name: "Balance",
-    icon: balance,
-    url: "https://manager.balance.io/"
+    name: "MakerDAO",
+    icon: maker,
+    url: "https://oasis.app/borrow"
   },
   {
     name: "Zerion",
@@ -39,24 +40,39 @@ const DAPPS: IApp[] = [
     url: "https://binance.org/"
   },
   {
-    name: "DDEX",
-    icon: ddex,
-    url: "https://ddex.io/"
-  },
-  {
     name: "3Box",
     icon: box,
     url: "https://3box.io/"
   },
   {
-    name: "Bamboo Relay",
-    icon: bamboorelay,
-    url: "https://bamboorelay.com/"
+    name: "Balance",
+    icon: balance,
+    url: "https://manager.balance.io/"
+  },
+  {
+    name: "DDEX",
+    icon: ddex,
+    url: "https://ddex.io/"
+  },
+  {
+    name: "Totle",
+    icon: totle,
+    url: "https://swap.totle.com/"
+  },
+  {
+    name: "DeFi Portfolio Tracker",
+    icon: defiportfolio,
+    url: "https://portfolio.defiprime.com/"
   },
   {
     name: "Clovers",
     icon: clovers,
     url: "https://clovers.network/"
+  },
+  {
+    name: "Bamboo Relay",
+    icon: bamboorelay,
+    url: "https://bamboorelay.com/"
   },
   {
     name: "Heroes of Ether",
@@ -87,11 +103,6 @@ const DAPPS: IApp[] = [
     name: "LuckyStrike",
     icon: luckystrike,
     url: "https://lucky-strike.io/game/"
-  },
-  {
-    name: "DeFi Portfolio Tracker",
-    icon: defiportfolio,
-    url: "https://portfolio.defiprime.com/"
   }
 ];
 
