@@ -12,6 +12,7 @@ import clovers from "../assets/dapps/clovers.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
+import kyberswap from "../assets/dapps/kyberswap.jpg";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
 import luckystrike from "../assets/dapps/luckystrike.png";
@@ -45,11 +46,6 @@ const DAPPS: IApp[] = [
     url: "https://3box.io/"
   },
   {
-    name: "Balance",
-    icon: balance,
-    url: "https://manager.balance.io/"
-  },
-  {
     name: "DDEX",
     icon: ddex,
     url: "https://ddex.io/"
@@ -59,6 +55,17 @@ const DAPPS: IApp[] = [
     icon: totle,
     url: "https://swap.totle.com/"
   },
+  {
+    name: "KyberSwap",
+    icon: kyberswap,
+    url: "https://kyberswap.com/"
+  },
+  {
+    name: "1inch Exchange",
+    icon: oneinchexchange,
+    url: "https://1inch.exchange/"
+  },
+
   {
     name: "DeFi Portfolio Tracker",
     icon: defiportfolio,
@@ -75,15 +82,16 @@ const DAPPS: IApp[] = [
     url: "https://bamboorelay.com/"
   },
   {
+    name: "Balance",
+    icon: balance,
+    url: "https://manager.balance.io/"
+  },
+  {
     name: "Heroes of Ether",
     icon: heroesofether,
     url: "https://heroesofether.io/"
   },
-  {
-    name: "1inch Exchange",
-    icon: oneinchexchange,
-    url: "https://1inch.exchange/"
-  },
+
   {
     name: "HelioWallet",
     icon: heliowallet,
