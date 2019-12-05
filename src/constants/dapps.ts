@@ -3,6 +3,7 @@ import { IApp } from "../helpers/types";
 import balance from "../assets/dapps/balance.jpg";
 import uniswap from "../assets/dapps/uniswap.jpg";
 import rarible from "../assets/dapps/rarible.png";
+import pooltogether from "../assets/dapps/pooltogether.png";
 import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
@@ -99,11 +100,15 @@ const DAPPS: IApp[] = [
     url: "https://manager.balance.io/"
   },
   {
+    name: "PoolTogether",
+    icon: pooltogether,
+    url: "https://app.pooltogether.com/"
+  },
+  {
     name: "Heroes of Ether",
     icon: heroesofether,
-    url: "https://heroesofether.io/"
+    url: "https://app.pooltogether.com/"
   },
-
   {
     name: "HelioWallet",
     icon: heliowallet,
