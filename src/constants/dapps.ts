@@ -3,6 +3,7 @@ import { IApp } from "../helpers/types";
 import balance from "../assets/dapps/balance.jpg";
 import uniswap from "../assets/dapps/uniswap.jpg";
 import rarible from "../assets/dapps/rarible.png";
+import dydx from "../assets/dapps/dydx.jpg";
 import pooltogether from "../assets/dapps/pooltogether.png";
 import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
@@ -90,9 +91,9 @@ const DAPPS: IApp[] = [
     url: "https://app.rarible.com/#/connect"
   },
   {
-    name: "Clovers",
-    icon: clovers,
-    url: "https://clovers.network/"
+    name: "dYdX",
+    icon: dydx,
+    url: "https://dydx.exchange/"
   },
   {
     name: "Balance",
@@ -108,6 +109,11 @@ const DAPPS: IApp[] = [
     name: "Heroes of Ether",
     icon: heroesofether,
     url: "https://app.pooltogether.com/"
+  },
+  {
+    name: "Clovers",
+    icon: clovers,
+    url: "https://clovers.network/"
   },
   {
     name: "HelioWallet",
