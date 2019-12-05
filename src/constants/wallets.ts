@@ -13,6 +13,7 @@ import equal from "../assets/wallets/equal.jpg";
 import coinomi from "../assets/wallets/coinomi.svg";
 import gridplus from "../assets/wallets/gridplus.png";
 import coolwallets from "../assets/wallets/coolwallet-s.png";
+import atomic from "../assets/wallets/atomic.png";
 
 const WALLETS: IApp[] = [
   {
@@ -79,6 +80,11 @@ const WALLETS: IApp[] = [
     name: "CoolWallet S",
     icon: coolwallets,
     url: "https://www.coolwallet.io/"
+  },
+  {
+    name: "Atomic",
+    icon: atomic,
+    url: "https://atomicwallet.io/"
   }
 ];
 
