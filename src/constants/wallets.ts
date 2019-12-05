@@ -16,29 +16,9 @@ import coolwallets from "../assets/wallets/coolwallet-s.png";
 
 const WALLETS: IApp[] = [
   {
-    name: "Walleth",
-    icon: walleth,
-    url: "https://walleth.org/"
-  },
-  {
     name: "Trust",
     icon: trust,
     url: "https://trustwallet.com/"
-  },
-  {
-    name: "Tokenary",
-    icon: tokenary,
-    url: "https://tokenary.io/"
-  },
-  {
-    name: "Rainbow",
-    icon: rainbow,
-    url: "https://rainbow.me/"
-  },
-  {
-    name: "Pillar",
-    icon: pillar,
-    url: "https://pillarproject.io/"
   },
   {
     name: "Metamask",
@@ -46,14 +26,34 @@ const WALLETS: IApp[] = [
     url: "https://mobile.metamask.io/"
   },
   {
-    name: "Argent",
-    icon: argent,
-    url: "https://www.argent.xyz/"
+    name: "Pillar",
+    icon: pillar,
+    url: "https://pillarproject.io/"
   },
   {
     name: "Gnosis Safe",
     icon: gnosisSafe,
     url: "https://safe.gnosis.io/"
+  },
+  {
+    name: "Walleth",
+    icon: walleth,
+    url: "https://walleth.org/"
+  },
+  {
+    name: "Tokenary",
+    icon: tokenary,
+    url: "https://tokenary.io/"
+  },
+  {
+    name: "Argent",
+    icon: argent,
+    url: "https://www.argent.xyz/"
+  },
+  {
+    name: "Rainbow",
+    icon: rainbow,
+    url: "https://rainbow.me/"
   },
   {
     name: "SafePal",

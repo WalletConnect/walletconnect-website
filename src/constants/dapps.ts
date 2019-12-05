@@ -2,6 +2,7 @@ import { IApp } from "../helpers/types";
 
 import balance from "../assets/dapps/balance.jpg";
 import uniswap from "../assets/dapps/uniswap.jpg";
+import rarible from "../assets/dapps/rarible.png";
 import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
@@ -81,6 +82,11 @@ const DAPPS: IApp[] = [
     name: "Bamboo Relay",
     icon: bamboorelay,
     url: "https://bamboorelay.com/"
+  },
+  {
+    name: "Rarible",
+    icon: rarible,
+    url: "https://app.rarible.com/#/connect"
   },
   {
     name: "Clovers",
