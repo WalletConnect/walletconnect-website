@@ -1,6 +1,7 @@
 import { IApp } from "../helpers/types";
 
 import balance from "../assets/dapps/balance.jpg";
+import uniswap from "../assets/dapps/uniswap.jpg";
 import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
@@ -24,6 +25,11 @@ const DAPPS: IApp[] = [
     name: "MakerDAO",
     icon: maker,
     url: "https://oasis.app/borrow"
+  },
+  {
+    name: "Uniswap",
+    icon: uniswap,
+    url: "https://uniswap.exchange/"
   },
   {
     name: "Zerion",
@@ -72,14 +78,14 @@ const DAPPS: IApp[] = [
     url: "https://portfolio.defiprime.com/"
   },
   {
-    name: "Clovers",
-    icon: clovers,
-    url: "https://clovers.network/"
-  },
-  {
     name: "Bamboo Relay",
     icon: bamboorelay,
     url: "https://bamboorelay.com/"
+  },
+  {
+    name: "Clovers",
+    icon: clovers,
+    url: "https://clovers.network/"
   },
   {
     name: "Balance",
