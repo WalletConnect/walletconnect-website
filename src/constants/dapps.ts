@@ -17,6 +17,7 @@ import heroesofether from "../assets/dapps/heroesofether.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
 import kyberswap from "../assets/dapps/kyberswap.jpg";
+import sablier from "../assets/dapps/sablier.jpg";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
 import luckystrike from "../assets/dapps/luckystrike.png";
@@ -104,6 +105,11 @@ const DAPPS: IApp[] = [
     name: "PoolTogether",
     icon: pooltogether,
     url: "https://app.pooltogether.com/"
+  },
+  {
+    name: "Sablier",
+    icon: sablier,
+    url: "https://www.sablier.finance/"
   },
   {
     name: "Heroes of Ether",
