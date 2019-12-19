@@ -114,7 +114,7 @@ const DAPPS: IApp[] = [
   {
     name: "Heroes of Ether",
     icon: heroesofether,
-    url: "https://app.pooltogether.com/"
+    url: "https://heroesofether.io/"
   },
   {
     name: "Clovers",
