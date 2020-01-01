@@ -5,6 +5,7 @@ import uniswap from "../assets/dapps/uniswap.jpg";
 import rarible from "../assets/dapps/rarible.png";
 import dydx from "../assets/dapps/dydx.jpg";
 import pooltogether from "../assets/dapps/pooltogether.png";
+import linkdrop from "../assets/dapps/linkdrop.png";
 import maker from "../assets/dapps/maker.png";
 import zerion from "../assets/dapps/zerion.png";
 import localethereum from "../assets/dapps/localethereum.png";
@@ -23,6 +24,7 @@ import tokenmarket from "../assets/dapps/tokenmarket.png";
 import luckystrike from "../assets/dapps/luckystrike.png";
 import defiportfolio from "../assets/dapps/defiportfolio.png";
 import totle from "../assets/dapps/totle.jpg";
+import defisaver from "../assets/dapps/defisaver.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -120,6 +122,16 @@ const DAPPS: IApp[] = [
     name: "Clovers",
     icon: clovers,
     url: "https://clovers.network/"
+  },
+  {
+    name: "Linkdrop",
+    icon: linkdrop,
+    url: "https://linkdrop.io/"
+  },
+  {
+    name: "DeFi Saver",
+    icon: defisaver,
+    url: "https://defisaver.com/"
   },
   {
     name: "HelioWallet",
