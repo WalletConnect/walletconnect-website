@@ -14,6 +14,7 @@ import coinomi from "../assets/wallets/coinomi.svg";
 import gridplus from "../assets/wallets/gridplus.png";
 import coolwallets from "../assets/wallets/coolwallet-s.png";
 import atomic from "../assets/wallets/atomic.png";
+import authereum from "../assets/wallets/authereum.png";
 
 const WALLETS: IApp[] = [
   {
@@ -85,6 +86,11 @@ const WALLETS: IApp[] = [
     name: "Atomic",
     icon: atomic,
     url: "https://atomicwallet.io/"
+  },
+  {
+    name: "Authereum",
+    icon: authereum,
+    url: "https://authereum.org"
   }
 ];
 
