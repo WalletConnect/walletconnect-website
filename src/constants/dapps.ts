@@ -21,7 +21,7 @@ import kyberswap from "../assets/dapps/kyberswap.jpg";
 import sablier from "../assets/dapps/sablier.jpg";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
-import luckystrike from "../assets/dapps/luckystrike.png";
+import mintbase from "../assets/dapps/mintbase.jpg";
 import defiportfolio from "../assets/dapps/defiportfolio.png";
 import totle from "../assets/dapps/totle.jpg";
 import defisaver from "../assets/dapps/defisaver.jpg";
@@ -134,6 +134,11 @@ const DAPPS: IApp[] = [
     url: "https://defisaver.com/"
   },
   {
+    name: "Mintbase",
+    icon: mintbase,
+    url: "https://mintbase.io/"
+  },
+  {
     name: "HelioWallet",
     icon: heliowallet,
     url: "https://heliowallet.com/"
@@ -148,11 +153,6 @@ const DAPPS: IApp[] = [
     icon: tokenmarket,
     url: "https://tokenmarket.net/"
   },
-  {
-    name: "LuckyStrike",
-    icon: luckystrike,
-    url: "https://lucky-strike.io/game/"
-  }
 ];
 
 export default DAPPS;
