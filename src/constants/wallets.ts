@@ -15,6 +15,8 @@ import gridplus from "../assets/wallets/gridplus.png";
 import coolwallets from "../assets/wallets/coolwallet-s.png";
 import atomic from "../assets/wallets/atomic.png";
 import authereum from "../assets/wallets/authereum.png";
+import alice from "../assets/wallets/alice.jpg";
+import infinito from "../assets/wallets/infinito-wallet.png";
 
 const WALLETS: IApp[] = [
   {
@@ -91,6 +93,16 @@ const WALLETS: IApp[] = [
     name: "Authereum",
     icon: authereum,
     url: "https://authereum.org"
+  },
+  {
+    name: "Alice",
+    icon: alice,
+    url: "https://www.alicedapp.com/"
+  },
+  {
+    name: "Infinito",
+    icon: infinito,
+    url: "https://www.infinitowallet.io/"
   }
 ];
 

@@ -25,6 +25,10 @@ import mintbase from "../assets/dapps/mintbase.jpg";
 import defiportfolio from "../assets/dapps/defiportfolio.png";
 import totle from "../assets/dapps/totle.jpg";
 import defisaver from "../assets/dapps/defisaver.jpg";
+import gelato from "../assets/dapps/gelato.jpg";
+import kickback from "../assets/dapps/kickback.jpg";
+import idlefinance from "../assets/dapps/idlefinance.png";
+import iearnfinance from "../assets/dapps/iearnfinance.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -114,9 +118,30 @@ const DAPPS: IApp[] = [
     url: "https://www.sablier.finance/"
   },
   {
-    name: "Heroes of Ether",
-    icon: heroesofether,
-    url: "https://heroesofether.io/"
+    name: "DeFi Saver",
+    icon: defisaver,
+    url: "https://defisaver.com/"
+  },
+
+  {
+    name: "Gelato",
+    icon: gelato,
+    url: "https://play.gelato.finance/"
+  },
+  {
+    name: "Kickback",
+    icon: kickback,
+    url: "https://kickback.events/"
+  },
+  {
+    name: "Idle Finance",
+    icon: idlefinance,
+    url: "https://idle.finance/"
+  },
+  {
+    name: "iearn.finance",
+    icon: iearnfinance,
+    url: "https://iearn.finance/"
   },
   {
     name: "Clovers",
@@ -124,19 +149,19 @@ const DAPPS: IApp[] = [
     url: "https://clovers.network/"
   },
   {
-    name: "Linkdrop",
-    icon: linkdrop,
-    url: "https://linkdrop.io/"
-  },
-  {
-    name: "DeFi Saver",
-    icon: defisaver,
-    url: "https://defisaver.com/"
-  },
-  {
     name: "Mintbase",
     icon: mintbase,
     url: "https://mintbase.io/"
+  },
+  {
+    name: "Heroes of Ether",
+    icon: heroesofether,
+    url: "https://heroesofether.io/"
+  },
+  {
+    name: "Linkdrop",
+    icon: linkdrop,
+    url: "https://linkdrop.io/"
   },
   {
     name: "HelioWallet",
@@ -152,7 +177,7 @@ const DAPPS: IApp[] = [
     name: "TokenMarket",
     icon: tokenmarket,
     url: "https://tokenmarket.net/"
-  },
+  }
 ];
 
 export default DAPPS;
