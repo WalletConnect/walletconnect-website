@@ -29,6 +29,15 @@ import gelato from "../assets/dapps/gelato.jpg";
 import kickback from "../assets/dapps/kickback.jpg";
 import idlefinance from "../assets/dapps/idlefinance.png";
 import iearnfinance from "../assets/dapps/iearnfinance.jpg";
+import daostack from "../assets/dapps/daostack.jpg";
+import knownorigin from "../assets/dapps/knownorigin.jpg";
+import affogato from "../assets/dapps/affogato.png";
+import synthetix from "../assets/dapps/synthetix.jpg";
+import stablepay from "../assets/dapps/stablepay.jpg";
+import betoken from "../assets/dapps/betoken.png";
+import loomnetwork from "../assets/dapps/loomnetwork.png";
+import maticnetwork from "../assets/dapps/maticnetwork.jpg";
+import thorchain from "../assets/dapps/thorchain.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -81,7 +90,6 @@ const DAPPS: IApp[] = [
     icon: oneinchexchange,
     url: "https://1inch.exchange/"
   },
-
   {
     name: "DeFi Portfolio Tracker",
     icon: defiportfolio,
@@ -103,6 +111,11 @@ const DAPPS: IApp[] = [
     url: "https://dydx.exchange/"
   },
   {
+    name: "Synthetix",
+    icon: synthetix,
+    url: "https://synthetix.exchange/"
+  },
+  {
     name: "Balance",
     icon: balance,
     url: "https://manager.balance.io/"
@@ -122,7 +135,6 @@ const DAPPS: IApp[] = [
     icon: defisaver,
     url: "https://defisaver.com/"
   },
-
   {
     name: "Gelato",
     icon: gelato,
@@ -152,6 +164,46 @@ const DAPPS: IApp[] = [
     name: "Mintbase",
     icon: mintbase,
     url: "https://mintbase.io/"
+  },
+  {
+    name: "DAOstack",
+    icon: daostack,
+    url: "https://alchemy.daostack.io/"
+  },
+  {
+    name: "KnownOrigin",
+    icon: knownorigin,
+    url: "https://knownorigin.io/"
+  },
+  {
+    name: "Affogato",
+    icon: affogato,
+    url: "https://affogato.co/"
+  },
+  {
+    name: "StablePay",
+    icon: stablepay,
+    url: "https://stablepay.io/dashboard"
+  },
+  {
+    name: "Betoken",
+    icon: betoken,
+    url: "https://betoken.fund/"
+  },
+  {
+    name: "Loom Network",
+    icon: loomnetwork,
+    url: "https://dashboard.dappchains.com/login"
+  },
+  {
+    name: "Matic Network",
+    icon: maticnetwork,
+    url: "https://matic.network/"
+  },
+  {
+    name: "ThorChain",
+    icon: thorchain,
+    url: "https://thorchain.org/"
   },
   {
     name: "Heroes of Ether",
