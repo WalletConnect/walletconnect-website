@@ -1,6 +1,6 @@
 import { IApp } from "../helpers/types";
 
-import balance from "../assets/dapps/balance.jpg";
+import instadapp from "../assets/dapps/instadapp.jpg";
 import uniswap from "../assets/dapps/uniswap.jpg";
 import rarible from "../assets/dapps/rarible.png";
 import dydx from "../assets/dapps/dydx.jpg";
@@ -116,9 +116,9 @@ const DAPPS: IApp[] = [
     url: "https://synthetix.exchange/"
   },
   {
-    name: "Balance",
-    icon: balance,
-    url: "https://manager.balance.io/"
+    name: "InstaDapp",
+    icon: instadapp,
+    url: "https://instadapp.io/dashboard/"
   },
   {
     name: "PoolTogether",
