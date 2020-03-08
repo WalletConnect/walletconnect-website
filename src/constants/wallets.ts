@@ -3,7 +3,7 @@ import { IApp } from "../helpers/types";
 import walleth from "../assets/wallets/walleth.png";
 import trust from "../assets/wallets/trust-wallet.png";
 import tokenary from "../assets/wallets/tokenary.png";
-import rainbow from "../assets/wallets/rainbow.jpg";
+import rainbow from "../assets/wallets/rainbow.png";
 import pillar from "../assets/wallets/pillar-wallet.jpg";
 import metamask from "../assets/wallets/metamask.png";
 import argent from "../assets/wallets/argent.jpg";
