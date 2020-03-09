@@ -39,11 +39,16 @@ const SSection = styled.section`
   margin-bottom: 40px;
 `;
 
-const SWallet = styled.div`
+const SApp = styled.div`
   width: 100%;
 `;
 
-const SWalletIcon = styled.div`
+interface IAppIconStyleProps {
+  cropCircle?: boolean;
+}
+
+// eslint-disable-next-line no-mixed-operators
+const SAppIcon = styled.div<IAppIconStyleProps>`
   width: 100%;
   display: flex;
   align-items: center;
@@ -52,10 +57,11 @@ const SWalletIcon = styled.div`
   & img {
     width: 100%;
     height: 100%;
+    border-radius: ${({ cropCircle }) => (cropCircle ? "50%" : "initial")};
   }
 `;
 
-const SWalletName = styled.div`
+const SAppName = styled.div`
   font-weight: bold;
 `;
 
@@ -74,12 +80,12 @@ const IndexPage = (props: any) => (
               target="blank"
               rel="noreferrer noopener"
             >
-              <SWallet>
-                <SWalletIcon>
+              <SApp>
+                <SAppIcon cropCircle={app.style.cropCircle}>
                   <img src={app.icon} alt={app.name} />
-                </SWalletIcon>
-                <SWalletName>{app.name}</SWalletName>
-              </SWallet>
+                </SAppIcon>
+                <SAppName>{app.name}</SAppName>
+              </SApp>
             </a>
           ))}
         </Grid>
@@ -96,12 +102,12 @@ const IndexPage = (props: any) => (
               target="blank"
               rel="noreferrer noopener"
             >
-              <SWallet>
-                <SWalletIcon>
+              <SApp>
+                <SAppIcon cropCircle={app.style.cropCircle}>
                   <img src={app.icon} alt={app.name} />
-                </SWalletIcon>
-                <SWalletName>{app.name}</SWalletName>
-              </SWallet>
+                </SAppIcon>
+                <SAppName>{app.name}</SAppName>
+              </SApp>
             </a>
           ))}
         </Grid>

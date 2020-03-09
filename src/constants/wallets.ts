@@ -22,87 +22,138 @@ const WALLETS: IApp[] = [
   {
     name: "Trust",
     icon: trust,
-    url: "https://trustwallet.com/"
+    url: "https://trustwallet.com/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Metamask",
     icon: metamask,
-    url: "https://mobile.metamask.io/"
+    url: "https://mobile.metamask.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Pillar",
     icon: pillar,
-    url: "https://pillarproject.io/"
+    url: "https://pillarproject.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Gnosis Safe",
     icon: gnosisSafe,
-    url: "https://safe.gnosis.io/"
+    url: "https://safe.gnosis.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Walleth",
     icon: walleth,
-    url: "https://walleth.org/"
+    url: "https://walleth.org/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Tokenary",
     icon: tokenary,
-    url: "https://tokenary.io/"
+    url: "https://tokenary.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Argent",
     icon: argent,
-    url: "https://www.argent.xyz/"
+    url: "https://www.argent.xyz/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Rainbow",
     icon: rainbow,
-    url: "https://rainbow.me/"
+    url: "https://rainbow.me/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "SafePal",
     icon: safepal,
-    url: "https://safepal.io/"
+    url: "https://safepal.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Equal",
     icon: equal,
-    url: "https://equal.tech/"
+    url: "https://equal.tech/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Coinomi",
     icon: coinomi,
-    url: "https://coinomi.com/"
+    url: "https://coinomi.com/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "GridPlus",
     icon: gridplus,
-    url: "https://gridplus.io/"
+    url: "https://gridplus.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "CoolWallet S",
     icon: coolwallets,
-    url: "https://www.coolwallet.io/"
+    url: "https://www.coolwallet.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Atomic",
     icon: atomic,
-    url: "https://atomicwallet.io/"
+    url: "https://atomicwallet.io/",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Authereum",
     icon: authereum,
-    url: "https://authereum.org"
+    url: "https://authereum.org",
+    style: {
+      cropCircle: false
+    }
   },
   {
     name: "Alice",
     icon: alice,
-    url: "https://www.alicedapp.com/"
+    url: "https://www.alicedapp.com/",
+    style: {
+      cropCircle: true
+    }
   },
   {
     name: "Infinito",
     icon: infinito,
-    url: "https://www.infinitowallet.io/"
+    url: "https://www.infinitowallet.io/",
+    style: {
+      cropCircle: false
+    }
   }
 ];
 
