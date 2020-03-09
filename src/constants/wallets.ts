@@ -10,7 +10,7 @@ import argent from "../assets/wallets/argent.jpg";
 import gnosisSafe from "../assets/wallets/gnosis-safe.png";
 import safepal from "../assets/wallets/safepal.png";
 import equal from "../assets/wallets/equal.jpg";
-import coinomi from "../assets/wallets/coinomi.svg";
+import coinomi from "../assets/wallets/coinomi.jpg";
 import gridplus from "../assets/wallets/gridplus.png";
 import coolwallets from "../assets/wallets/coolwallet-s.png";
 import atomic from "../assets/wallets/atomic.png";
