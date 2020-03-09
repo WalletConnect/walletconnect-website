@@ -15,6 +15,7 @@ import bamboorelay from "../assets/dapps/bamboorelay.png";
 import box from "../assets/dapps/box.png";
 import clovers from "../assets/dapps/clovers.png";
 import heroesofether from "../assets/dapps/heroesofether.png";
+import dexag from "../assets/dapps/dexag.png";
 import oneinchexchange from "../assets/dapps/oneinchexchange.png";
 import heliowallet from "../assets/dapps/heliowallet.png";
 import kyberswap from "../assets/dapps/kyberswap.jpg";
@@ -186,11 +187,11 @@ const DAPPS: IApp[] = [
     }
   },
   {
-    name: "DeFi Saver",
-    icon: defisaver,
-    url: "https://defisaver.com/",
+    name: "DEX.AG",
+    icon: dexag,
+    url: "https://dex.ag/",
     style: {
-      cropCircle: false
+      cropCircle: true
     }
   },
   {
@@ -282,13 +283,14 @@ const DAPPS: IApp[] = [
     }
   },
   {
-    name: "Betoken",
-    icon: betoken,
-    url: "https://betoken.fund/",
+    name: "DeFi Saver",
+    icon: defisaver,
+    url: "https://defisaver.com/",
     style: {
       cropCircle: false
     }
   },
+
   {
     name: "Loom Network",
     icon: loomnetwork,
@@ -317,6 +319,14 @@ const DAPPS: IApp[] = [
     name: "Heroes of Ether",
     icon: heroesofether,
     url: "https://heroesofether.io/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "Betoken",
+    icon: betoken,
+    url: "https://betoken.fund/",
     style: {
       cropCircle: false
     }

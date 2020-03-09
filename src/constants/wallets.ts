@@ -104,7 +104,7 @@ const WALLETS: IApp[] = [
     icon: coinomi,
     url: "https://coinomi.com/",
     style: {
-      cropCircle: false
+      cropCircle: true
     }
   },
   {
