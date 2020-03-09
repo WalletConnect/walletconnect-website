@@ -34,6 +34,7 @@ import knownorigin from "../assets/dapps/knownorigin.jpg";
 import affogato from "../assets/dapps/affogato.png";
 import synthetix from "../assets/dapps/synthetix.jpg";
 import stablepay from "../assets/dapps/stablepay.jpg";
+import hegic from "../assets/dapps/hegic.jpg";
 import betoken from "../assets/dapps/betoken.png";
 import loomnetwork from "../assets/dapps/loomnetwork.png";
 import maticnetwork from "../assets/dapps/maticnetwork.jpg";
@@ -154,6 +155,11 @@ const DAPPS: IApp[] = [
     name: "iearn.finance",
     icon: iearnfinance,
     url: "https://iearn.finance/"
+  },
+  {
+    name: "Hegic",
+    icon: hegic,
+    url: "https://www.hegic.co/"
   },
   {
     name: "Clovers",
