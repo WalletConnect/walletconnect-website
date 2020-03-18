@@ -17,6 +17,7 @@ import atomic from "../assets/wallets/atomic.png";
 import authereum from "../assets/wallets/authereum.png";
 import alice from "../assets/wallets/alice.jpg";
 import infinito from "../assets/wallets/infinito-wallet.png";
+import mathwallet from "../assets/wallets/math-wallet.png";
 
 const WALLETS: IApp[] = [
   {
@@ -151,6 +152,14 @@ const WALLETS: IApp[] = [
     name: "Infinito",
     icon: infinito,
     url: "https://www.infinitowallet.io/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "MathWallet",
+    icon: mathwallet,
+    url: "https://mathwallet.org/en/",
     style: {
       cropCircle: false
     }
