@@ -22,6 +22,7 @@ import kyberswap from "../assets/dapps/kyberswap.jpg";
 import sablier from "../assets/dapps/sablier.jpg";
 import escaroo from "../assets/dapps/escaroo.png";
 import tokenmarket from "../assets/dapps/tokenmarket.png";
+import mycrypto from "../assets/dapps/mycrypto.png";
 import mintbase from "../assets/dapps/mintbase.jpg";
 import defiportfolio from "../assets/dapps/defiportfolio.png";
 import totle from "../assets/dapps/totle.jpg";
@@ -39,6 +40,7 @@ import hegic from "../assets/dapps/hegic.jpg";
 import betoken from "../assets/dapps/betoken.png";
 import loomnetwork from "../assets/dapps/loomnetwork.png";
 import maticnetwork from "../assets/dapps/maticnetwork.jpg";
+import rcnfinance from "../assets/dapps/rcnfinance.jpg";
 import thorchain from "../assets/dapps/thorchain.jpg";
 
 const DAPPS: IApp[] = [
@@ -203,9 +205,9 @@ const DAPPS: IApp[] = [
     }
   },
   {
-    name: "Kickback",
-    icon: kickback,
-    url: "https://kickback.events/",
+    name: "MyCrypto",
+    icon: mycrypto,
+    url: "https://beta.mycrypto.com/",
     style: {
       cropCircle: false
     }
@@ -227,11 +229,27 @@ const DAPPS: IApp[] = [
     }
   },
   {
+    name: "RCN Finance",
+    icon: rcnfinance,
+    url: "https://rcn.market/",
+    style: {
+      cropCircle: true
+    }
+  },
+  {
     name: "Hegic",
     icon: hegic,
     url: "https://www.hegic.co/",
     style: {
       cropCircle: true
+    }
+  },
+  {
+    name: "Kickback",
+    icon: kickback,
+    url: "https://kickback.events/",
+    style: {
+      cropCircle: false
     }
   },
   {
