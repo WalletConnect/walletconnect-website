@@ -18,6 +18,7 @@ import authereum from "../assets/wallets/authereum.png";
 import alice from "../assets/wallets/alice.jpg";
 import infinito from "../assets/wallets/infinito-wallet.png";
 import mathwallet from "../assets/wallets/math-wallet.png";
+import mykey from "../assets/wallets/mykey.png";
 
 const WALLETS: IApp[] = [
   {
@@ -160,6 +161,14 @@ const WALLETS: IApp[] = [
     name: "MathWallet",
     icon: mathwallet,
     url: "https://mathwallet.org/en/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "MYKEY",
+    icon: mykey,
+    url: "https://mykey.org",
     style: {
       cropCircle: false
     }
