@@ -42,6 +42,8 @@ import loomnetwork from "../assets/dapps/loomnetwork.png";
 import maticnetwork from "../assets/dapps/maticnetwork.jpg";
 import rcnfinance from "../assets/dapps/rcnfinance.jpg";
 import thorchain from "../assets/dapps/thorchain.jpg";
+import mooni from "../assets/dapps/mooni.jpg";
+import myetherwallet from "../assets/dapps/myetherwallet.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -253,6 +255,14 @@ const DAPPS: IApp[] = [
     }
   },
   {
+    name: "Mooni",
+    icon: mooni,
+    url: "https://app.mooni.tech/exchange",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
     name: "Clovers",
     icon: clovers,
     url: "https://clovers.network/",
@@ -308,7 +318,14 @@ const DAPPS: IApp[] = [
       cropCircle: false
     }
   },
-
+  {
+    name: "MyEtherWallet",
+    icon: myetherwallet,
+    url: "https://www.myetherwallet.com/",
+    style: {
+      cropCircle: false
+    }
+  },
   {
     name: "Loom Network",
     icon: loomnetwork,
