@@ -49,6 +49,7 @@ import bulksender from "../assets/dapps/bulksender.png";
 import defizap from "../assets/dapps/defizap.png";
 import loopring from "../assets/dapps/loopring.jpg";
 import _88mph from "../assets/dapps/88mph.jpg";
+import opensea from "../assets/dapps/opensea.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -97,6 +98,14 @@ const DAPPS: IApp[] = [
     url: "https://3box.io/",
     style: {
       cropCircle: false
+    }
+  },
+  {
+    name: "OpenSea",
+    icon: opensea,
+    url: "https://opensea.io/",
+    style: {
+      cropCircle: true
     }
   },
   {
