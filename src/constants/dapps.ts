@@ -44,6 +44,7 @@ import rcnfinance from "../assets/dapps/rcnfinance.jpg";
 import thorchain from "../assets/dapps/thorchain.jpg";
 import mooni from "../assets/dapps/mooni.jpg";
 import myetherwallet from "../assets/dapps/myetherwallet.jpg";
+import aave from "../assets/dapps/aave.png";
 
 const DAPPS: IApp[] = [
   {
@@ -250,6 +251,14 @@ const DAPPS: IApp[] = [
     name: "Kickback",
     icon: kickback,
     url: "https://kickback.events/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "Aave",
+    icon: aave,
+    url: "https://app.aave.com/",
     style: {
       cropCircle: false
     }
