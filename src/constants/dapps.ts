@@ -47,6 +47,7 @@ import myetherwallet from "../assets/dapps/myetherwallet.jpg";
 import aave from "../assets/dapps/aave.png";
 import bulksender from "../assets/dapps/bulksender.png";
 import defizap from "../assets/dapps/defizap.png";
+import loopring from "../assets/dapps/loopring.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -141,6 +142,14 @@ const DAPPS: IApp[] = [
     name: "Bamboo Relay",
     icon: bamboorelay,
     url: "https://bamboorelay.com/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "Loopring",
+    icon: loopring,
+    url: "https://loopring.io/trade/",
     style: {
       cropCircle: false
     }
