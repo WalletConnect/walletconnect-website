@@ -48,6 +48,7 @@ import aave from "../assets/dapps/aave.png";
 import bulksender from "../assets/dapps/bulksender.png";
 import defizap from "../assets/dapps/defizap.png";
 import loopring from "../assets/dapps/loopring.jpg";
+import _88mph from "../assets/dapps/88mph.jpg";
 
 const DAPPS: IApp[] = [
   {
@@ -280,6 +281,14 @@ const DAPPS: IApp[] = [
     url: "https://defizap.com/",
     style: {
       cropCircle: false
+    }
+  },
+  {
+    name: "88mph",
+    icon: _88mph,
+    url: "https://88mph.app/",
+    style: {
+      cropCircle: true
     }
   },
   {
