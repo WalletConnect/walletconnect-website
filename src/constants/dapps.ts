@@ -46,6 +46,7 @@ import mooni from "../assets/dapps/mooni.jpg";
 import myetherwallet from "../assets/dapps/myetherwallet.jpg";
 import aave from "../assets/dapps/aave.png";
 import bulksender from "../assets/dapps/bulksender.png";
+import defizap from "../assets/dapps/defizap.png";
 
 const DAPPS: IApp[] = [
   {
@@ -260,6 +261,14 @@ const DAPPS: IApp[] = [
     name: "Aave",
     icon: aave,
     url: "https://app.aave.com/",
+    style: {
+      cropCircle: false
+    }
+  },
+  {
+    name: "DeFiZap",
+    icon: defizap,
+    url: "https://defizap.com/",
     style: {
       cropCircle: false
     }
