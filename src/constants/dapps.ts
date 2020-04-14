@@ -45,6 +45,7 @@ import thorchain from "../assets/dapps/thorchain.jpg";
 import mooni from "../assets/dapps/mooni.jpg";
 import myetherwallet from "../assets/dapps/myetherwallet.jpg";
 import aave from "../assets/dapps/aave.png";
+import bulksender from "../assets/dapps/bulksender.png";
 
 const DAPPS: IApp[] = [
   {
@@ -357,6 +358,14 @@ const DAPPS: IApp[] = [
     url: "https://thorchain.org/",
     style: {
       cropCircle: true
+    }
+  },
+  {
+    name: "BulkSender",
+    icon: bulksender,
+    url: "https://bulksender.app/",
+    style: {
+      cropCircle: false
     }
   },
   {
