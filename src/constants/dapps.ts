@@ -37,6 +37,7 @@ import affogato from "../assets/dapps/affogato.png";
 import synthetix from "../assets/dapps/synthetix.jpg";
 import stablepay from "../assets/dapps/stablepay.jpg";
 import hegic from "../assets/dapps/hegic.jpg";
+import dexblue from "../assets/dapps/dexblue.jpg";
 import betoken from "../assets/dapps/betoken.png";
 import loomnetwork from "../assets/dapps/loomnetwork.png";
 import maticnetwork from "../assets/dapps/maticnetwork.jpg";
@@ -57,401 +58,409 @@ const DAPPS: IApp[] = [
     icon: maker,
     url: "https://oasis.app/borrow",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Uniswap",
     icon: uniswap,
     url: "https://uniswap.exchange/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Zerion",
     icon: zerion,
     url: "https://beta.zerion.io/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "LocalEthereum",
     icon: localethereum,
     url: "https://localethereum.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Binance DEX",
     icon: binancedex,
     url: "https://binance.org/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "3Box",
     icon: box,
     url: "https://3box.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "OpenSea",
     icon: opensea,
     url: "https://opensea.io/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "DDEX",
     icon: ddex,
     url: "https://ddex.io/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Totle",
     icon: totle,
     url: "https://swap.totle.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "KyberSwap",
     icon: kyberswap,
     url: "https://kyberswap.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "1inch Exchange",
     icon: oneinchexchange,
     url: "https://1inch.exchange/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "DeFi Portfolio Tracker",
     icon: defiportfolio,
     url: "https://portfolio.defiprime.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Bamboo Relay",
     icon: bamboorelay,
     url: "https://bamboorelay.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
+  },
+  {
+    name: "dex.blue",
+    icon: dexblue,
+    url: "https://dex.blue/trading/",
+    style: {
+      cropCircle: false,
+    },
   },
   {
     name: "Loopring",
     icon: loopring,
     url: "https://loopring.io/trade/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Rarible",
     icon: rarible,
     url: "https://app.rarible.com/#/connect",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "dYdX",
     icon: dydx,
     url: "https://dydx.exchange/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Synthetix",
     icon: synthetix,
     url: "https://synthetix.exchange/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "InstaDapp",
     icon: instadapp,
     url: "https://instadapp.io/dashboard/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "PoolTogether",
     icon: pooltogether,
     url: "https://app.pooltogether.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Sablier",
     icon: sablier,
     url: "https://www.sablier.finance/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "DEX.AG",
     icon: dexag,
     url: "https://dex.ag/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Gelato",
     icon: gelato,
     url: "https://play.gelato.finance/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "MyCrypto",
     icon: mycrypto,
     url: "https://beta.mycrypto.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Idle Finance",
     icon: idlefinance,
     url: "https://idle.finance/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "iearn.finance",
     icon: iearnfinance,
     url: "https://iearn.finance/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "RCN Finance",
     icon: rcnfinance,
     url: "https://rcn.market/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Hegic",
     icon: hegic,
     url: "https://www.hegic.co/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Kickback",
     icon: kickback,
     url: "https://kickback.events/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Aave",
     icon: aave,
     url: "https://app.aave.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "DeFiZap",
     icon: defizap,
     url: "https://defizap.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "88mph",
     icon: _88mph,
     url: "https://88mph.app/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Mooni",
     icon: mooni,
     url: "https://app.mooni.tech/exchange",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Clovers",
     icon: clovers,
     url: "https://clovers.network/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Mintbase",
     icon: mintbase,
     url: "https://mintbase.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "DAOstack",
     icon: daostack,
     url: "https://alchemy.daostack.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "KnownOrigin",
     icon: knownorigin,
     url: "https://knownorigin.io/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Affogato",
     icon: affogato,
     url: "https://affogato.co/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "StablePay",
     icon: stablepay,
     url: "https://stablepay.io/dashboard",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "DeFi Saver",
     icon: defisaver,
     url: "https://defisaver.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "MyEtherWallet",
     icon: myetherwallet,
     url: "https://www.myetherwallet.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Loom Network",
     icon: loomnetwork,
     url: "https://dashboard.dappchains.com/login",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Matic Network",
     icon: maticnetwork,
     url: "https://matic.network/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "ThorChain",
     icon: thorchain,
     url: "https://thorchain.org/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "BulkSender",
     icon: bulksender,
     url: "https://bulksender.app/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Heroes of Ether",
     icon: heroesofether,
     url: "https://heroesofether.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Betoken",
     icon: betoken,
     url: "https://betoken.fund/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Linkdrop",
     icon: linkdrop,
     url: "https://linkdrop.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "HelioWallet",
     icon: heliowallet,
     url: "https://heliowallet.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Escaroo",
     icon: escaroo,
     url: "https://escaroo.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "TokenMarket",
     icon: tokenmarket,
     url: "https://tokenmarket.net/",
     style: {
-      cropCircle: true
-    }
-  }
+      cropCircle: true,
+    },
+  },
 ];
 
 export default DAPPS;
