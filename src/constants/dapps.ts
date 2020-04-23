@@ -393,7 +393,7 @@ const DAPPS: IApp[] = [
   {
     name: "Curve",
     icon: curvefinance,
-    url: "https://curve.fi",
+    url: "https://www.curve.fi",
     style: {
       cropCircle: false,
     },
