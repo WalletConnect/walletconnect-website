@@ -391,6 +391,14 @@ const DAPPS: IApp[] = [
     },
   },
   {
+    name: "Curve",
+    icon: curvefinance,
+    url: "https://curve.fi",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
     name: "Matic Network",
     icon: maticnetwork,
     url: "https://matic.network/",
@@ -462,14 +470,6 @@ const DAPPS: IApp[] = [
       cropCircle: true,
     },
   },
-  {
-    name: "Curve",
-    icon: curvefinance,
-    url: "https://curve.fi",
-    style: {
-      cropCircle: false,
-    },
-  }
 ];
 
 export default DAPPS;
