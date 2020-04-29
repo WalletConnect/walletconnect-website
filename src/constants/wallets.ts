@@ -15,7 +15,7 @@ import gridplus from "../assets/wallets/gridplus.png";
 import coolwallets from "../assets/wallets/coolwallet-s.png";
 import atomic from "../assets/wallets/atomic.png";
 import authereum from "../assets/wallets/authereum.png";
-import alice from "../assets/wallets/alice.jpg";
+import alice from "../assets/wallets/alice.png";
 import infinito from "../assets/wallets/infinito-wallet.png";
 import mathwallet from "../assets/wallets/math-wallet.png";
 import mykey from "../assets/wallets/mykey.png";
@@ -26,153 +26,153 @@ const WALLETS: IApp[] = [
     icon: trust,
     url: "https://trustwallet.com/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Metamask",
     icon: metamask,
     url: "https://mobile.metamask.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Pillar",
     icon: pillar,
     url: "https://pillarproject.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Gnosis Safe",
     icon: gnosisSafe,
     url: "https://safe.gnosis.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Walleth",
     icon: walleth,
     url: "https://walleth.org/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Tokenary",
     icon: tokenary,
     url: "https://tokenary.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Argent",
     icon: argent,
     url: "https://www.argent.xyz/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Rainbow",
     icon: rainbow,
     url: "https://rainbow.me/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "SafePal",
     icon: safepal,
     url: "https://safepal.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Equal",
     icon: equal,
     url: "https://equal.tech/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Coinomi",
     icon: coinomi,
     url: "https://coinomi.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "GridPlus",
     icon: gridplus,
     url: "https://gridplus.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "CoolWallet S",
     icon: coolwallets,
     url: "https://www.coolwallet.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Atomic",
     icon: atomic,
     url: "https://atomicwallet.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Authereum",
     icon: authereum,
     url: "https://authereum.org",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "Alice",
     icon: alice,
     url: "https://www.alicedapp.com/",
     style: {
-      cropCircle: true
-    }
+      cropCircle: true,
+    },
   },
   {
     name: "Infinito",
     icon: infinito,
     url: "https://www.infinitowallet.io/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "MathWallet",
     icon: mathwallet,
     url: "https://mathwallet.org/en/",
     style: {
-      cropCircle: false
-    }
+      cropCircle: false,
+    },
   },
   {
     name: "MYKEY",
     icon: mykey,
     url: "https://mykey.org",
     style: {
-      cropCircle: false
-    }
-  }
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
