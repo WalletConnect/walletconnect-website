@@ -47,11 +47,11 @@ import mooni from "../assets/dapps/mooni.jpg";
 import myetherwallet from "../assets/dapps/myetherwallet.jpg";
 import aave from "../assets/dapps/aave.png";
 import bulksender from "../assets/dapps/bulksender.png";
-import defizap from "../assets/dapps/defizap.png";
 import loopring from "../assets/dapps/loopring.jpg";
 import _88mph from "../assets/dapps/88mph.jpg";
 import opensea from "../assets/dapps/opensea.jpg";
 import curvefinance from "../assets/dapps/curvefinance.png";
+import zapper from "../assets/dapps/zapper.png";
 
 const DAPPS: IApp[] = [
   {
@@ -295,11 +295,11 @@ const DAPPS: IApp[] = [
     },
   },
   {
-    name: "DeFiZap",
-    icon: defizap,
-    url: "https://defizap.com/",
+    name: "Zapper",
+    icon: zapper,
+    url: "https://www.zapper.fi/",
     style: {
-      cropCircle: false,
+      cropCircle: true,
     },
   },
   {
