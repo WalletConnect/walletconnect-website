@@ -52,6 +52,7 @@ import _88mph from "../assets/dapps/88mph.jpg";
 import opensea from "../assets/dapps/opensea.jpg";
 import curvefinance from "../assets/dapps/curvefinance.png";
 import zapper from "../assets/dapps/zapper.png";
+import mesa from '../assets/dapps/Mesa.png';
 
 const DAPPS: IApp[] = [
   {
@@ -469,6 +470,14 @@ const DAPPS: IApp[] = [
     style: {
       cropCircle: true,
     },
+  },
+  {
+    name: "Mesa",
+    icon: mesa,
+    url: "https://mesa.eth.link/",
+    style: {
+        cropCircle: true,
+    }
   },
 ];
 
