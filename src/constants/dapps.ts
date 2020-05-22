@@ -52,7 +52,8 @@ import _88mph from "../assets/dapps/88mph.jpg";
 import opensea from "../assets/dapps/opensea.jpg";
 import curvefinance from "../assets/dapps/curvefinance.png";
 import zapper from "../assets/dapps/zapper.png";
-import mesa from '../assets/dapps/Mesa.png';
+import mesa from "../assets/dapps/mesa.png";
+import unstoppable from "../assets/dapps/unstoppable.png";
 
 const DAPPS: IApp[] = [
   {
@@ -476,8 +477,16 @@ const DAPPS: IApp[] = [
     icon: mesa,
     url: "https://mesa.eth.link/",
     style: {
-        cropCircle: true,
-    }
+      cropCircle: true,
+    },
+  },
+  {
+    name: "Unstoppable Domains",
+    icon: unstoppable,
+    url: "https://unstoppabledomains.com/manager",
+    style: {
+      cropCircle: true,
+    },
   },
 ];
 

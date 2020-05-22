@@ -19,6 +19,7 @@ import alice from "../assets/wallets/alice.png";
 import infinito from "../assets/wallets/infinito-wallet.png";
 import mathwallet from "../assets/wallets/math-wallet.png";
 import mykey from "../assets/wallets/mykey.png";
+import spatium from "../assets/wallets/spatium.jpg";
 
 const WALLETS: IApp[] = [
   {
@@ -171,6 +172,14 @@ const WALLETS: IApp[] = [
     url: "https://mykey.org",
     style: {
       cropCircle: false,
+    },
+  },
+  {
+    name: "Spatium",
+    icon: spatium,
+    url: "https://spatium.net/",
+    style: {
+      cropCircle: true,
     },
   },
 ];
