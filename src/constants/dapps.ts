@@ -52,7 +52,7 @@ import _88mph from "../assets/dapps/88mph.jpg";
 import opensea from "../assets/dapps/opensea.jpg";
 import curvefinance from "../assets/dapps/curvefinance.png";
 import zapper from "../assets/dapps/zapper.png";
-import mesa from "../assets/dapps/mesa.png";
+import mesa from "../assets/dapps/mesa-dapp.png";
 import unstoppable from "../assets/dapps/unstoppable.png";
 
 const DAPPS: IApp[] = [
