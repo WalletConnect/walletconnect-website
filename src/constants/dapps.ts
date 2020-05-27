@@ -54,6 +54,7 @@ import curvefinance from "../assets/dapps/curvefinance.png";
 import zapper from "../assets/dapps/zapper.png";
 import mesa from "../assets/dapps/mesa.png";
 import unstoppable from "../assets/dapps/unstoppable.png";
+import mcdex from "../assets/dapps/mcdex.png";
 
 const DAPPS: IApp[] = [
   {
@@ -484,6 +485,14 @@ const DAPPS: IApp[] = [
     name: "Unstoppable Domains",
     icon: unstoppable,
     url: "https://unstoppabledomains.com/manager",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
+    name: "MCDEX",
+    icon: mcdex,
+    url: "https://mcdex.io",
     style: {
       cropCircle: true,
     },
