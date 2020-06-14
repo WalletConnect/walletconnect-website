@@ -64,6 +64,8 @@ const Header = (props: any) => (
       </Link>
     </SLogo>
 
+    <SInternalLink to="/wallets">{`Wallets`}</SInternalLink>
+
     <SInternalLink to="/apps">{`Apps`}</SInternalLink>
 
     <SExternalLink
