@@ -13,7 +13,7 @@ const IndexPage = (props: any) => (
         <SPageDescription>
           Multiple iOS or Android wallets support WalletConnect protocol.
           Scan a QR code from your desktop computer screen to start using a dApp with your mobile wallet securely.
-          Interaction between mobile apps and mobile browse is also supported.
+          Interaction between mobile apps and mobile browse is supported with mobile deep linking.
         </SPageDescription>
       </SBrandingWrapper>
       <SSection>
