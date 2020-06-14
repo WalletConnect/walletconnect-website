@@ -37,6 +37,13 @@ const SLogo = styled.div`
   flex: 1;
   padding: 0 20px;
   text-align: center;
+
+  /* A quick fix to balance out the logo to the vertical center as right nav has more items than left nav */
+  margin-left: 80px;
+  @media screen and (${responsive.sm.max}) {
+    margin-left: 40px;
+  }
+
   & img {
     width: 100%;
     max-width: 120px;

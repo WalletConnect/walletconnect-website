@@ -1,10 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 
 import Layout from "../components/layout";
 import Grid from "../components/Grid";
 import WALLETS from "../constants/wallets";
-import DAPPS from "../constants/dapps";
 import { SIndexPage, SBrandingWrapper, SBranding, SPageDescription, SSection, SAppIcon, SApp, SAppName } from "../components/pageStyles";
 
 const IndexPage = (props: any) => (
@@ -14,8 +12,8 @@ const IndexPage = (props: any) => (
         <SBranding>{`Wallets`}</SBranding>
         <SPageDescription>
           Multiple iOS or Android wallets support WalletConnect protocol.
-          Scan a QR code from your desktop computer screen to connect one of these wallet.
-          Interaction between mobile apps, like a mobile web browser, and mobile wallet is also supported.
+          Scan a QR code from your desktop computer screen to start using a dApp with your mobile wallet securely.
+          Interaction between mobile apps and mobile browse is also supported.
         </SPageDescription>
       </SBrandingWrapper>
       <SSection>
@@ -38,7 +36,7 @@ const IndexPage = (props: any) => (
         </Grid>
       </SSection>
       <p>
-        Open a pull request on Github to add your wallet.
+        Open a pull request on Github to add your wallet here.
       </p>
     </SIndexPage>
   </Layout>
