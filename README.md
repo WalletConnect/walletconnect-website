@@ -22,7 +22,7 @@ Then you have the site at http://localhost:8000/
 
 # Publishing
 
-Merging to the master will automatically publish a new site.
+Merging to the production will automatically publish a new site.
 
 # Icons
 
