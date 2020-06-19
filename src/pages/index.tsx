@@ -2,47 +2,20 @@ import React from "react";
 import styled from "styled-components";
 
 import Layout from "../components/layout";
+import {
+  SIndexPage,
+  SBrandingWrapper,
+  SBranding,
+  SSection,
+} from "../components/pageStyles";
 import banner from "../assets/banner.png";
 import { colors, responsive } from "../styles";
-
-const SIndexPage = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  padding: 0 32px;
-  padding-top: 30px;
-`;
-
-const SBrandingWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-`;
-const SBranding = styled.h1`
-  font-size: 35px;
-  font-weight: 500;
-  text-align: center;
-`;
 
 const STagline = styled.h2`
   margin: 30px 0;
   font-size: 30px;
   font-weight: 300;
   text-align: center;
-`;
-
-const SSection = styled.section`
-  position: relative;
-  width: 100%;
-  min-height: 600px;
-  z-index: 0;
 `;
 
 const SBannerWrapper = styled.div`

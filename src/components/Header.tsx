@@ -13,6 +13,10 @@ const SHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media screen and (${responsive.sm.max}) {
+    height: 100px;
+    padding: 0 15px;
+  }
 `;
 
 interface IInternalLinkStyleProps {
@@ -37,12 +41,6 @@ const SLogo = styled.div`
   flex: 1;
   padding: 0 20px;
   text-align: center;
-
-  /* A quick fix to balance out the logo to the vertical center as right nav has more items than left nav */
-  margin-left: 80px;
-  @media screen and (${responsive.sm.max}) {
-    margin-left: 40px;
-  }
 
   & img {
     width: 100%;
@@ -75,11 +73,11 @@ const Header = (props: any) => (
 
     <SInternalLink to="/apps">{`Apps`}</SInternalLink>
 
-    <SExternalLink
+    {/* <SExternalLink
       href="https://example.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
-    >{`Demo`}</SExternalLink>
+    >{`Demo`}</SExternalLink> */}
   </SHeader>
 );
 

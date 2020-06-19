@@ -4,17 +4,25 @@ import telegram from "../assets/telegram.svg";
 import twitter from "../assets/twitter.svg";
 import discord from "../assets/discord.svg";
 import github from "../assets/github.svg";
-import { colors, fonts } from "../styles";
+import { colors, fonts, responsive } from "../styles";
 
 const SFooter = styled.footer`
   width: 100%;
-  //max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 80px;
   display: flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
+  @media screen and (${responsive.sm.max}) {
+    flex-direction: column;
+    height: auto;
+    margin: 30px 0;
+    & a {
+      margin: 10px 0;
+    }
+  }
 `;
 
 const SSocialIcon = styled.div`
@@ -88,7 +96,6 @@ const Footer = (props: any) => (
       </SSocialIcon>
       <p>Github</p>
     </SExternalLink>
-
   </SFooter>
 );
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-import { colors } from "../styles";
+import { colors, responsive } from "../styles";
 
 interface IGridStyleProps {
   itemMaxWidth?: number;
@@ -25,6 +25,17 @@ export const SGrid = styled.div<IGridStyleProps>`
     columnGap ? `${columnGap}px` : gap ? `${gap}px` : `inherit`};
   grid-row-gap: ${({ rowGap, gap }) =>
     rowGap ? `${rowGap}px` : gap ? `${gap}px` : `inherit`};
+
+  @media screen and (${responsive.sm.max}) {
+    grid-template-columns: ${({ itemMaxWidth }) =>
+      itemMaxWidth
+        ? `repeat(auto-fit, minmax(${itemMaxWidth / 2}px, 1fr))`
+        : `1fr`};
+    grid-column-gap: ${({ columnGap, gap }) =>
+      columnGap ? `${columnGap}px` : gap ? `${gap / 2}px` : `inherit`};
+    grid-row-gap: ${({ rowGap, gap }) =>
+      rowGap ? `${rowGap}px` : gap ? `${gap / 2}px` : `inherit`};
+  }
 `;
 
 const Grid = (props: any) => <SGrid {...props}>{props.children}</SGrid>;
