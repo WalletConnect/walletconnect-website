@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import telegram from "../assets/telegram.svg";
 import twitter from "../assets/twitter.svg";
+import discord from "../assets/discord.svg";
+import github from "../assets/github.svg";
 import { colors, fonts } from "../styles";
 
 const SFooter = styled.footer`
@@ -44,6 +46,17 @@ const SExternalLink = styled.a<IExternalLinkStyleProps>`
 const Footer = (props: any) => (
   <SFooter {...props}>
     <SExternalLink
+      href="https://discord.gg/W6RuZ2"
+      target="blank"
+      rel="noreferrer noopener"
+    >
+      <SSocialIcon>
+        <img src={discord} alt="Discord" />
+      </SSocialIcon>
+      <p>Discord</p>
+    </SExternalLink>
+
+    <SExternalLink
       href="https://telegram.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
@@ -51,8 +64,9 @@ const Footer = (props: any) => (
       <SSocialIcon>
         <img src={telegram} alt="Telegram" />
       </SSocialIcon>
-      <p>{`/walletconnect`}</p>
+      <p>Telegram</p>
     </SExternalLink>
+
     <SExternalLink
       href="https://twitter.walletconnect.org/"
       target="blank"
@@ -61,8 +75,20 @@ const Footer = (props: any) => (
       <SSocialIcon>
         <img src={twitter} alt="Twitter" />
       </SSocialIcon>
-      <p>{`@walletconnect`}</p>
+      <p>Twitter</p>
     </SExternalLink>
+
+    <SExternalLink
+      href="https://github.com/walletconnect"
+      target="blank"
+      rel="noreferrer noopener"
+    >
+      <SSocialIcon>
+        <img src={github} alt="Github" />
+      </SSocialIcon>
+      <p>Github</p>
+    </SExternalLink>
+
   </SFooter>
 );
 
