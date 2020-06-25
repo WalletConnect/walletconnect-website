@@ -503,7 +503,7 @@ const DAPPS: IApp[] = [
     icon: furucombo,
     url: "https://furucombo.app/",
     style: {
-      cropCircle: true,
+      cropCircle: false,
     },
   },
 ];
