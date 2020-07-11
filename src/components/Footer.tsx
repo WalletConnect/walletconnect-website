@@ -54,7 +54,7 @@ const SExternalLink = styled.a<IExternalLinkStyleProps>`
 const Footer = (props: any) => (
   <SFooter {...props}>
     <SExternalLink
-      href="https://discord.gg/W6RuZ2"
+      href="https://discord.gg/jhxMvxP"
       target="blank"
       rel="noreferrer noopener"
     >
