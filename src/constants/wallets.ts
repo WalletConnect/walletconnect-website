@@ -20,6 +20,7 @@ import infinito from "../assets/wallets/infinito-wallet.png";
 import mathwallet from "../assets/wallets/math-wallet.png";
 import mykey from "../assets/wallets/mykey.png";
 import spatium from "../assets/wallets/spatium.jpg";
+import imtoken from "../assets/wallets/imtoken.png";
 
 const WALLETS: IApp[] = [
   {
@@ -34,6 +35,14 @@ const WALLETS: IApp[] = [
     name: "Metamask",
     icon: metamask,
     url: "https://mobile.metamask.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "imToken",
+    icon: imtoken,
+    url: "https://token.im/",
     style: {
       cropCircle: false,
     },
