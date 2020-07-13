@@ -1,67 +1,9 @@
 import { IApp } from "../helpers/types";
 
-import instadapp from "../assets/dapps/instadapp.jpg";
-import uniswap from "../assets/dapps/uniswap.jpg";
-import rarible from "../assets/dapps/rarible.png";
-import dydx from "../assets/dapps/dydx.jpg";
-import pooltogether from "../assets/dapps/pooltogether.png";
-import linkdrop from "../assets/dapps/linkdrop.png";
-import maker from "../assets/dapps/maker.png";
-import zerion from "../assets/dapps/zerion.png";
-import localethereum from "../assets/dapps/localethereum.png";
-import binancedex from "../assets/dapps/binancedex.png";
-import ddex from "../assets/dapps/ddex.png";
-import bamboorelay from "../assets/dapps/bamboorelay.png";
-import box from "../assets/dapps/box.png";
-import clovers from "../assets/dapps/clovers.png";
-import heroesofether from "../assets/dapps/heroesofether.png";
-import dexag from "../assets/dapps/dexag.png";
-import oneinchexchange from "../assets/dapps/oneinchexchange.png";
-import heliowallet from "../assets/dapps/heliowallet.png";
-import kyberswap from "../assets/dapps/kyberswap.jpg";
-import sablier from "../assets/dapps/sablier.jpg";
-import escaroo from "../assets/dapps/escaroo.png";
-import tokenmarket from "../assets/dapps/tokenmarket.png";
-import mycrypto from "../assets/dapps/mycrypto.png";
-import mintbase from "../assets/dapps/mintbase.jpg";
-import defiportfolio from "../assets/dapps/defiportfolio.png";
-import totle from "../assets/dapps/totle.jpg";
-import defisaver from "../assets/dapps/defisaver.jpg";
-import gelato from "../assets/dapps/gelato.jpg";
-import kickback from "../assets/dapps/kickback.jpg";
-import idlefinance from "../assets/dapps/idlefinance.png";
-import iearnfinance from "../assets/dapps/iearnfinance.jpg";
-import daostack from "../assets/dapps/daostack.jpg";
-import knownorigin from "../assets/dapps/knownorigin.jpg";
-import affogato from "../assets/dapps/affogato.png";
-import synthetix from "../assets/dapps/synthetix.jpg";
-import stablepay from "../assets/dapps/stablepay.jpg";
-import hegic from "../assets/dapps/hegic.jpg";
-import dexblue from "../assets/dapps/dexblue.jpg";
-import betoken from "../assets/dapps/betoken.png";
-import loomnetwork from "../assets/dapps/loomnetwork.png";
-import maticnetwork from "../assets/dapps/maticnetwork.jpg";
-import rcnfinance from "../assets/dapps/rcnfinance.jpg";
-import thorchain from "../assets/dapps/thorchain.jpg";
-import mooni from "../assets/dapps/mooni.jpg";
-import myetherwallet from "../assets/dapps/myetherwallet.jpg";
-import aave from "../assets/dapps/aave.png";
-import bulksender from "../assets/dapps/bulksender.png";
-import loopring from "../assets/dapps/loopring.jpg";
-import _88mph from "../assets/dapps/88mph.jpg";
-import opensea from "../assets/dapps/opensea.jpg";
-import curvefinance from "../assets/dapps/curvefinance.png";
-import zapper from "../assets/dapps/zapper.png";
-import mesa from "../assets/dapps/mesa.png";
-import unstoppable from "../assets/dapps/unstoppable.png";
-import mcdex from "../assets/dapps/mcdex.png";
-import furucombo from "../assets/dapps/furucombo.png";
-import melon from "../assets/dapps/melon.png";
-
 const DAPPS: IApp[] = [
   {
     name: "MakerDAO",
-    icon: maker,
+    icon: require("../assets/dapps/maker.png"),
     url: "https://oasis.app/borrow",
     style: {
       cropCircle: false,
@@ -69,7 +11,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Uniswap",
-    icon: uniswap,
+    icon: require("../assets/dapps/uniswap.jpg"),
     url: "https://uniswap.exchange/",
     style: {
       cropCircle: false,
@@ -77,7 +19,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Zerion",
-    icon: zerion,
+    icon: require("../assets/dapps/zerion.png"),
     url: "https://beta.zerion.io/",
     style: {
       cropCircle: true,
@@ -85,7 +27,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "LocalEthereum",
-    icon: localethereum,
+    icon: require("../assets/dapps/localethereum.png"),
     url: "https://localethereum.com/",
     style: {
       cropCircle: true,
@@ -93,7 +35,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Binance DEX",
-    icon: binancedex,
+    icon: require("../assets/dapps/binancedex.png"),
     url: "https://binance.org/",
     style: {
       cropCircle: false,
@@ -101,7 +43,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "3Box",
-    icon: box,
+    icon: require("../assets/dapps/box.png"),
     url: "https://3box.io/",
     style: {
       cropCircle: false,
@@ -109,7 +51,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "OpenSea",
-    icon: opensea,
+    icon: require("../assets/dapps/opensea.jpg"),
     url: "https://opensea.io/",
     style: {
       cropCircle: true,
@@ -117,7 +59,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "DDEX",
-    icon: ddex,
+    icon: require("../assets/dapps/ddex.png"),
     url: "https://ddex.io/",
     style: {
       cropCircle: true,
@@ -125,7 +67,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Totle",
-    icon: totle,
+    icon: require("../assets/dapps/totle.jpg"),
     url: "https://swap.totle.com/",
     style: {
       cropCircle: true,
@@ -133,7 +75,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "KyberSwap",
-    icon: kyberswap,
+    icon: require("../assets/dapps/kyberswap.jpg"),
     url: "https://kyberswap.com/",
     style: {
       cropCircle: true,
@@ -141,7 +83,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "1inch Exchange",
-    icon: oneinchexchange,
+    icon: require("../assets/dapps/oneinchexchange.png"),
     url: "https://1inch.exchange/",
     style: {
       cropCircle: false,
@@ -149,7 +91,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "DeFi Portfolio Tracker",
-    icon: defiportfolio,
+    icon: require("../assets/dapps/defiportfolio.png"),
     url: "https://portfolio.defiprime.com/",
     style: {
       cropCircle: false,
@@ -157,7 +99,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Bamboo Relay",
-    icon: bamboorelay,
+    icon: require("../assets/dapps/bamboorelay.png"),
     url: "https://bamboorelay.com/",
     style: {
       cropCircle: false,
@@ -165,7 +107,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "dex.blue",
-    icon: dexblue,
+    icon: require("../assets/dapps/dexblue.jpg"),
     url: "https://dex.blue/trading/",
     style: {
       cropCircle: false,
@@ -173,7 +115,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Loopring",
-    icon: loopring,
+    icon: require("../assets/dapps/loopring.jpg"),
     url: "https://loopring.io/trade/",
     style: {
       cropCircle: false,
@@ -181,7 +123,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Rarible",
-    icon: rarible,
+    icon: require("../assets/dapps/rarible.png"),
     url: "https://app.rarible.com/#/connect",
     style: {
       cropCircle: true,
@@ -189,7 +131,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "dYdX",
-    icon: dydx,
+    icon: require("../assets/dapps/dydx.jpg"),
     url: "https://dydx.exchange/",
     style: {
       cropCircle: true,
@@ -197,7 +139,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Synthetix",
-    icon: synthetix,
+    icon: require("../assets/dapps/synthetix.jpg"),
     url: "https://synthetix.exchange/",
     style: {
       cropCircle: true,
@@ -205,7 +147,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "InstaDapp",
-    icon: instadapp,
+    icon: require("../assets/dapps/instadapp.jpg"),
     url: "https://instadapp.io/dashboard/",
     style: {
       cropCircle: false,
@@ -213,7 +155,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "PoolTogether",
-    icon: pooltogether,
+    icon: require("../assets/dapps/pooltogether.png"),
     url: "https://app.pooltogether.com/",
     style: {
       cropCircle: true,
@@ -221,7 +163,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Sablier",
-    icon: sablier,
+    icon: require("../assets/dapps/sablier.jpg"),
     url: "https://www.sablier.finance/",
     style: {
       cropCircle: true,
@@ -229,7 +171,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "DEX.AG",
-    icon: dexag,
+    icon: require("../assets/dapps/dexag.png"),
     url: "https://dex.ag/",
     style: {
       cropCircle: true,
@@ -237,7 +179,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Gelato",
-    icon: gelato,
+    icon: require("../assets/dapps/gelato.jpg"),
     url: "https://play.gelato.finance/",
     style: {
       cropCircle: true,
@@ -245,7 +187,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "MyCrypto",
-    icon: mycrypto,
+    icon: require("../assets/dapps/mycrypto.png"),
     url: "https://beta.mycrypto.com/",
     style: {
       cropCircle: false,
@@ -253,7 +195,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Idle Finance",
-    icon: idlefinance,
+    icon: require("../assets/dapps/idlefinance.png"),
     url: "https://idle.finance/",
     style: {
       cropCircle: true,
@@ -261,7 +203,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "iearn.finance",
-    icon: iearnfinance,
+    icon: require("../assets/dapps/iearnfinance.jpg"),
     url: "https://iearn.finance/",
     style: {
       cropCircle: false,
@@ -269,7 +211,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "RCN Finance",
-    icon: rcnfinance,
+    icon: require("../assets/dapps/rcnfinance.jpg"),
     url: "https://rcn.market/",
     style: {
       cropCircle: true,
@@ -277,7 +219,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Hegic",
-    icon: hegic,
+    icon: require("../assets/dapps/hegic.jpg"),
     url: "https://www.hegic.co/",
     style: {
       cropCircle: true,
@@ -285,7 +227,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Kickback",
-    icon: kickback,
+    icon: require("../assets/dapps/kickback.jpg"),
     url: "https://kickback.events/",
     style: {
       cropCircle: false,
@@ -293,7 +235,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Aave",
-    icon: aave,
+    icon: require("../assets/dapps/aave.png"),
     url: "https://app.aave.com/",
     style: {
       cropCircle: false,
@@ -301,7 +243,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Zapper",
-    icon: zapper,
+    icon: require("../assets/dapps/zapper.png"),
     url: "https://www.zapper.fi/",
     style: {
       cropCircle: true,
@@ -309,7 +251,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "88mph",
-    icon: _88mph,
+    icon: require("../assets/dapps/88mph.jpg"),
     url: "https://88mph.app/",
     style: {
       cropCircle: true,
@@ -317,7 +259,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Mooni",
-    icon: mooni,
+    icon: require("../assets/dapps/mooni.jpg"),
     url: "https://app.mooni.tech/exchange",
     style: {
       cropCircle: false,
@@ -325,7 +267,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Clovers",
-    icon: clovers,
+    icon: require("../assets/dapps/clovers.png"),
     url: "https://clovers.network/",
     style: {
       cropCircle: false,
@@ -333,7 +275,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Mintbase",
-    icon: mintbase,
+    icon: require("../assets/dapps/mintbase.jpg"),
     url: "https://mintbase.io/",
     style: {
       cropCircle: false,
@@ -341,7 +283,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "DAOstack",
-    icon: daostack,
+    icon: require("../assets/dapps/daostack.jpg"),
     url: "https://alchemy.daostack.io/",
     style: {
       cropCircle: false,
@@ -349,7 +291,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "KnownOrigin",
-    icon: knownorigin,
+    icon: require("../assets/dapps/knownorigin.jpg"),
     url: "https://knownorigin.io/",
     style: {
       cropCircle: true,
@@ -357,7 +299,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Affogato",
-    icon: affogato,
+    icon: require("../assets/dapps/affogato.png"),
     url: "https://affogato.co/",
     style: {
       cropCircle: false,
@@ -365,7 +307,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "StablePay",
-    icon: stablepay,
+    icon: require("../assets/dapps/stablepay.jpg"),
     url: "https://stablepay.io/dashboard",
     style: {
       cropCircle: false,
@@ -373,7 +315,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "DeFi Saver",
-    icon: defisaver,
+    icon: require("../assets/dapps/defisaver.jpg"),
     url: "https://defisaver.com/",
     style: {
       cropCircle: false,
@@ -381,7 +323,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "MyEtherWallet",
-    icon: myetherwallet,
+    icon: require("../assets/dapps/myetherwallet.jpg"),
     url: "https://www.myetherwallet.com/",
     style: {
       cropCircle: false,
@@ -389,7 +331,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Loom Network",
-    icon: loomnetwork,
+    icon: require("../assets/dapps/loomnetwork.png"),
     url: "https://dashboard.dappchains.com/login",
     style: {
       cropCircle: true,
@@ -397,7 +339,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Curve",
-    icon: curvefinance,
+    icon: require("../assets/dapps/curvefinance.png"),
     url: "https://www.curve.fi",
     style: {
       cropCircle: false,
@@ -405,7 +347,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Matic Network",
-    icon: maticnetwork,
+    icon: require("../assets/dapps/maticnetwork.jpg"),
     url: "https://matic.network/",
     style: {
       cropCircle: false,
@@ -413,7 +355,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "ThorChain",
-    icon: thorchain,
+    icon: require("../assets/dapps/thorchain.jpg"),
     url: "https://thorchain.org/",
     style: {
       cropCircle: true,
@@ -421,7 +363,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "BulkSender",
-    icon: bulksender,
+    icon: require("../assets/dapps/bulksender.png"),
     url: "https://bulksender.app/",
     style: {
       cropCircle: false,
@@ -429,7 +371,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Heroes of Ether",
-    icon: heroesofether,
+    icon: require("../assets/dapps/heroesofether.png"),
     url: "https://heroesofether.io/",
     style: {
       cropCircle: false,
@@ -437,7 +379,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Betoken",
-    icon: betoken,
+    icon: require("../assets/dapps/betoken.png"),
     url: "https://betoken.fund/",
     style: {
       cropCircle: false,
@@ -445,7 +387,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Linkdrop",
-    icon: linkdrop,
+    icon: require("../assets/dapps/linkdrop.png"),
     url: "https://linkdrop.io/",
     style: {
       cropCircle: false,
@@ -453,7 +395,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "HelioWallet",
-    icon: heliowallet,
+    icon: require("../assets/dapps/heliowallet.png"),
     url: "https://heliowallet.com/",
     style: {
       cropCircle: false,
@@ -461,7 +403,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Escaroo",
-    icon: escaroo,
+    icon: require("../assets/dapps/escaroo.png"),
     url: "https://escaroo.com/",
     style: {
       cropCircle: true,
@@ -469,7 +411,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "TokenMarket",
-    icon: tokenmarket,
+    icon: require("../assets/dapps/tokenmarket.png"),
     url: "https://tokenmarket.net/",
     style: {
       cropCircle: true,
@@ -477,7 +419,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Mesa",
-    icon: mesa,
+    icon: require("../assets/dapps/mesa.png"),
     url: "https://mesa.eth.link/",
     style: {
       cropCircle: true,
@@ -485,7 +427,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Unstoppable Domains",
-    icon: unstoppable,
+    icon: require("../assets/dapps/unstoppable.png"),
     url: "https://unstoppabledomains.com/manager",
     style: {
       cropCircle: true,
@@ -493,7 +435,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "MCDEX",
-    icon: mcdex,
+    icon: require("../assets/dapps/mcdex.png"),
     url: "https://mcdex.io",
     style: {
       cropCircle: true,
@@ -501,7 +443,7 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Furucombo",
-    icon: furucombo,
+    icon: require("../assets/dapps/furucombo.png"),
     url: "https://furucombo.app/",
     style: {
       cropCircle: false,
@@ -509,10 +451,18 @@ const DAPPS: IApp[] = [
   },
   {
     name: "Melon",
-    icon: melon,
+    icon: require("../assets/dapps/melon.png"),
     url: "https://melon.avantgarde.finance/",
     style: {
       cropCircle: false,
+    },
+  },
+  {
+    name: "Matcha",
+    icon: require("../assets/dapps/matcha.jpg"),
+    url: "https://matcha.xyz",
+    style: {
+      cropCircle: true,
     },
   },
 ];

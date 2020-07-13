@@ -1,31 +1,9 @@
 import { IApp } from "../helpers/types";
 
-import walleth from "../assets/wallets/walleth.png";
-import trust from "../assets/wallets/trust-wallet.png";
-import tokenary from "../assets/wallets/tokenary.png";
-import rainbow from "../assets/wallets/rainbow.png";
-import pillar from "../assets/wallets/pillar-wallet.jpg";
-import metamask from "../assets/wallets/metamask.png";
-import argent from "../assets/wallets/argent.jpg";
-import gnosisSafe from "../assets/wallets/gnosis-safe.png";
-import safepal from "../assets/wallets/safepal.png";
-import equal from "../assets/wallets/equal.jpg";
-import coinomi from "../assets/wallets/coinomi.jpg";
-import gridplus from "../assets/wallets/gridplus.png";
-import coolwallets from "../assets/wallets/coolwallet-s.png";
-import atomic from "../assets/wallets/atomic.png";
-import authereum from "../assets/wallets/authereum.png";
-import alice from "../assets/wallets/alice.png";
-import infinito from "../assets/wallets/infinito-wallet.png";
-import mathwallet from "../assets/wallets/math-wallet.png";
-import mykey from "../assets/wallets/mykey.png";
-import spatium from "../assets/wallets/spatium.jpg";
-import imtoken from "../assets/wallets/imtoken.png";
-
 const WALLETS: IApp[] = [
   {
     name: "Trust",
-    icon: trust,
+    icon: require("../assets/wallets/trust-wallet.png"),
     url: "https://trustwallet.com/",
     style: {
       cropCircle: false,
@@ -33,7 +11,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Metamask",
-    icon: metamask,
+    icon: require("../assets/wallets/metamask.png"),
     url: "https://mobile.metamask.io/",
     style: {
       cropCircle: false,
@@ -41,47 +19,15 @@ const WALLETS: IApp[] = [
   },
   {
     name: "imToken",
-    icon: imtoken,
+    icon: require("../assets/wallets/imtoken.png"),
     url: "https://token.im/",
     style: {
       cropCircle: false,
     },
   },
   {
-    name: "Pillar",
-    icon: pillar,
-    url: "https://pillarproject.io/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
-    name: "Gnosis Safe",
-    icon: gnosisSafe,
-    url: "https://safe.gnosis.io/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
-    name: "Walleth",
-    icon: walleth,
-    url: "https://walleth.org/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
-    name: "Tokenary",
-    icon: tokenary,
-    url: "https://tokenary.io/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
     name: "Argent",
-    icon: argent,
+    icon: require("../assets/wallets/argent.jpg"),
     url: "https://www.argent.xyz/",
     style: {
       cropCircle: false,
@@ -89,15 +35,47 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Rainbow",
-    icon: rainbow,
+    icon: require("../assets/wallets/rainbow.png"),
     url: "https://rainbow.me/",
     style: {
       cropCircle: false,
     },
   },
   {
+    name: "Pillar",
+    icon: require("../assets/wallets/pillar-wallet.jpg"),
+    url: "https://pillarproject.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "Gnosis Safe",
+    icon: require("../assets/wallets/gnosis-safe.png"),
+    url: "https://safe.gnosis.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "Walleth",
+    icon: require("../assets/wallets/walleth.png"),
+    url: "https://walleth.org/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "Tokenary",
+    icon: require("../assets/wallets/tokenary.png"),
+    url: "https://tokenary.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
     name: "SafePal",
-    icon: safepal,
+    icon: require("../assets/wallets/safepal.png"),
     url: "https://safepal.io/",
     style: {
       cropCircle: false,
@@ -105,7 +83,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Equal",
-    icon: equal,
+    icon: require("../assets/wallets/equal.jpg"),
     url: "https://equal.tech/",
     style: {
       cropCircle: false,
@@ -113,7 +91,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Coinomi",
-    icon: coinomi,
+    icon: require("../assets/wallets/coinomi.jpg"),
     url: "https://coinomi.com/",
     style: {
       cropCircle: true,
@@ -121,7 +99,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "GridPlus",
-    icon: gridplus,
+    icon: require("../assets/wallets/gridplus.png"),
     url: "https://gridplus.io/",
     style: {
       cropCircle: false,
@@ -129,7 +107,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "CoolWallet S",
-    icon: coolwallets,
+    icon: require("../assets/wallets/coolwallet-s.png"),
     url: "https://www.coolwallet.io/",
     style: {
       cropCircle: false,
@@ -137,7 +115,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Atomic",
-    icon: atomic,
+    icon: require("../assets/wallets/atomic.png"),
     url: "https://atomicwallet.io/",
     style: {
       cropCircle: false,
@@ -145,7 +123,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Authereum",
-    icon: authereum,
+    icon: require("../assets/wallets/authereum.png"),
     url: "https://authereum.org",
     style: {
       cropCircle: false,
@@ -153,7 +131,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Alice",
-    icon: alice,
+    icon: require("../assets/wallets/alice.png"),
     url: "https://www.alicedapp.com/",
     style: {
       cropCircle: true,
@@ -161,7 +139,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Infinito",
-    icon: infinito,
+    icon: require("../assets/wallets/infinito-wallet.png"),
     url: "https://www.infinitowallet.io/",
     style: {
       cropCircle: false,
@@ -169,7 +147,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "MathWallet",
-    icon: mathwallet,
+    icon: require("../assets/wallets/math-wallet.png"),
     url: "https://mathwallet.org/en/",
     style: {
       cropCircle: false,
@@ -177,7 +155,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "MYKEY",
-    icon: mykey,
+    icon: require("../assets/wallets/mykey.png"),
     url: "https://mykey.org",
     style: {
       cropCircle: false,
@@ -185,7 +163,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Spatium",
-    icon: spatium,
+    icon: require("../assets/wallets/spatium.jpg"),
     url: "https://spatium.net/",
     style: {
       cropCircle: true,
