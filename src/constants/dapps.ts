@@ -56,6 +56,7 @@ import mesa from "../assets/dapps/mesa.png";
 import unstoppable from "../assets/dapps/unstoppable.png";
 import mcdex from "../assets/dapps/mcdex.png";
 import furucombo from "../assets/dapps/furucombo.png";
+import melon from "../assets/dapps/melon.png";
 
 const DAPPS: IApp[] = [
   {
@@ -502,6 +503,14 @@ const DAPPS: IApp[] = [
     name: "Furucombo",
     icon: furucombo,
     url: "https://furucombo.app/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "Melon",
+    icon: melon,
+    url: "https://melon.avantgarde.finance/",
     style: {
       cropCircle: false,
     },
