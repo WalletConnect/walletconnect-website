@@ -70,6 +70,14 @@ export const SAppIcon = styled.div<IAppIconStyleProps>`
 
 export const SAppName = styled.div`
   font-weight: bold;
+  letter-spacing: 0.4px;
+`;
+
+export const SAppSupported = styled.div`
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 5px;
+  letter-spacing: 0.4px;
 `;
 
 export const SFootNote = styled.div`

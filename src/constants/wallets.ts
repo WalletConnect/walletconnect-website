@@ -2,15 +2,17 @@ import { IApp } from "../helpers/types";
 
 const WALLETS: IApp[] = [
   {
-    name: "Trust",
-    icon: require("../assets/wallets/trust-wallet.png"),
-    url: "https://trustwallet.com/",
+    name: "Infinity Wallet",
+    supported: "Desktop & Mobile",
+    icon: require("../assets/wallets/infinity-wallet.png"),
+    url: "https://infinitywallet.io/",
     style: {
       cropCircle: false,
     },
   },
   {
     name: "Metamask",
+    supported: "Browser & Mobile",
     icon: require("../assets/wallets/metamask.png"),
     url: "https://mobile.metamask.io/",
     style: {
@@ -18,7 +20,17 @@ const WALLETS: IApp[] = [
     },
   },
   {
+    name: "Trust",
+    supported: "Mobile",
+    icon: require("../assets/wallets/trust-wallet.png"),
+    url: "https://trustwallet.com/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
     name: "imToken",
+    supported: "Mobile",
     icon: require("../assets/wallets/imtoken.png"),
     url: "https://token.im/",
     style: {
@@ -27,6 +39,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Argent",
+    supported: "Mobile",
     icon: require("../assets/wallets/argent.jpg"),
     url: "https://www.argent.xyz/",
     style: {
@@ -35,6 +48,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Rainbow",
+    supported: "Mobile",
     icon: require("../assets/wallets/rainbow.png"),
     url: "https://rainbow.me/",
     style: {
@@ -43,6 +57,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Pillar",
+    supported: "Mobile",
     icon: require("../assets/wallets/pillar-wallet.jpg"),
     url: "https://pillarproject.io/",
     style: {
@@ -51,6 +66,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Gnosis Safe",
+    supported: "Mobile",
     icon: require("../assets/wallets/gnosis-safe.png"),
     url: "https://safe.gnosis.io/",
     style: {
@@ -59,6 +75,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Walleth",
+    supported: "Mobile",
     icon: require("../assets/wallets/walleth.png"),
     url: "https://walleth.org/",
     style: {
@@ -67,6 +84,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Tokenary",
+    supported: "Mobile",
     icon: require("../assets/wallets/tokenary.png"),
     url: "https://tokenary.io/",
     style: {
@@ -75,6 +93,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "SafePal",
+    supported: "Mobile",
     icon: require("../assets/wallets/safepal.png"),
     url: "https://safepal.io/",
     style: {
@@ -83,6 +102,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Equal",
+    supported: "Mobile",
     icon: require("../assets/wallets/equal.jpg"),
     url: "https://equal.tech/",
     style: {
@@ -91,6 +111,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Coinomi",
+    supported: "Mobile",
     icon: require("../assets/wallets/coinomi.jpg"),
     url: "https://coinomi.com/",
     style: {
@@ -99,6 +120,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "GridPlus",
+    supported: "Mobile",
     icon: require("../assets/wallets/gridplus.png"),
     url: "https://gridplus.io/",
     style: {
@@ -107,6 +129,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "CoolWallet S",
+    supported: "Mobile",
     icon: require("../assets/wallets/coolwallet-s.png"),
     url: "https://www.coolwallet.io/",
     style: {
@@ -115,6 +138,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Atomic",
+    supported: "Mobile",
     icon: require("../assets/wallets/atomic.png"),
     url: "https://atomicwallet.io/",
     style: {
@@ -123,6 +147,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Authereum",
+    supported: "Mobile",
     icon: require("../assets/wallets/authereum.png"),
     url: "https://authereum.org",
     style: {
@@ -131,6 +156,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Alice",
+    supported: "Mobile",
     icon: require("../assets/wallets/alice.png"),
     url: "https://www.alicedapp.com/",
     style: {
@@ -139,6 +165,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Infinito",
+    supported: "Mobile",
     icon: require("../assets/wallets/infinito-wallet.png"),
     url: "https://www.infinitowallet.io/",
     style: {
@@ -147,6 +174,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "MathWallet",
+    supported: "Mobile",
     icon: require("../assets/wallets/math-wallet.png"),
     url: "https://mathwallet.org/en/",
     style: {
@@ -155,6 +183,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "MYKEY",
+    supported: "Mobile",
     icon: require("../assets/wallets/mykey.png"),
     url: "https://mykey.org",
     style: {
@@ -163,6 +192,7 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Spatium",
+    supported: "Mobile",
     icon: require("../assets/wallets/spatium.jpg"),
     url: "https://spatium.net/",
     style: {

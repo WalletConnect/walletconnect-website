@@ -12,6 +12,7 @@ import {
   SAppIcon,
   SApp,
   SAppName,
+  SAppSupported,
   SFootNote,
 } from "../components/pageStyles";
 
@@ -21,10 +22,10 @@ const IndexPage = (props: any) => (
       <SBrandingWrapper>
         <SBranding>{`Wallets`}</SBranding>
         <SPageDescription>
-          Multiple iOS or Android wallets support WalletConnect protocol. Scan a
-          QR code from your desktop computer screen to start using a dApp with
-          your mobile wallet securely. Interaction between mobile apps and
-          mobile browse is supported with mobile deep linking.
+        Multiple wallets across many platforms support WalletConnect protocol. Scan a
+        QR code from your desktop computer screen to start using a dApp with
+        your mobile or desktop wallet securely. Interaction between apps and
+        browser is supported with deep linking.
         </SPageDescription>
       </SBrandingWrapper>
       <SSection>
@@ -41,6 +42,7 @@ const IndexPage = (props: any) => (
                   <img src={app.icon} alt={app.name} />
                 </SAppIcon>
                 <SAppName>{app.name}</SAppName>
+                <SAppSupported>{app.supported}</SAppSupported>
               </SApp>
             </a>
           ))}
