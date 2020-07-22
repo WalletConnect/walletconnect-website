@@ -169,6 +169,14 @@ const WALLETS: IApp[] = [
       cropCircle: true,
     },
   },
+  {
+    name: "Huobi Wallet",
+    icon: require("../assets/wallets/huobi.jpg"),
+    url: "https://www.huobiwallet.com/",
+    style: {
+      cropCircle: true,
+    },
+  },
 ];
 
 export default WALLETS;
