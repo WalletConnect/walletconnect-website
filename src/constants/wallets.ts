@@ -177,6 +177,14 @@ const WALLETS: IApp[] = [
       cropCircle: true,
     },
   },
+  {
+    name: "TokenPocket",
+    icon: require("../assets/wallets/tokenpocket.png"),
+    url: "https://www.tokenpocket.pro/",
+    style: {
+      cropCircle: true,
+    }
+  }
 ];
 
 export default WALLETS;
