@@ -465,6 +465,14 @@ const DAPPS: IApp[] = [
       cropCircle: true,
     },
   },
+  {
+    name: "Chainsfr",
+    icon: require("../assets/dapps/chainsfr.png"),
+    url: "https://chainsfr.com",
+    style: {
+      cropCircle: true,
+    },
+  }
 ];
 
 export default DAPPS;
