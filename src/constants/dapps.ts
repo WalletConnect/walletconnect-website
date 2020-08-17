@@ -478,7 +478,7 @@ const DAPPS: IApp[] = [
     icon: require("../assets/dapps/aka3.png"),
     url: "http://aka3.net",
     style: {
-      cropCircle: true,
+      cropCircle: false,
     },
   }
 ];
