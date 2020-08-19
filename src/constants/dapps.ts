@@ -472,6 +472,14 @@ const DAPPS: IApp[] = [
     style: {
       cropCircle: true,
     },
+  },
+  {
+    name: "AKA3 Email Alias",
+    icon: require("../assets/dapps/aka3.png"),
+    url: "http://aka3.net",
+    style: {
+      cropCircle: false,
+    },
   }
 ];
 
