@@ -9,6 +9,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+   {
+    name: "wallet.io",
+    icon: require("../assets/wallets/wallet.io.png"),
+    url: "https://wallet.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
   {
     name: "Metamask",
     icon: require("../assets/wallets/metamask.png"),
