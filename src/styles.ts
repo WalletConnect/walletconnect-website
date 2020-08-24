@@ -10,7 +10,8 @@ export const colors = {
   fadedBlue: '102, 114, 229',
   orange: '246, 133, 27',
   green: '79, 180, 128',
-  red: '222, 75, 57'
+  red: '222, 75, 57',
+  brand: '#4199FC'
 };
 
 export const fonts = {
@@ -238,6 +239,8 @@ export const globalStyles = `
     text-decoration: none;
     color: inherit;
     outline: none;
+    color: ${colors.brand};
+    font-weight: bold;
   }
 
   ul, li {
