@@ -100,74 +100,96 @@ const IndexPage = (props: any) => (
           <SColumn>
             <h2>What is WalletConnect?</h2>
             <p>
-              WalletConnect is an open source protocol for connecting decentralised applications to
-              mobile wallets using end-to-end encryption and QR code scanning.
-              A user can interact securely with any Dapp from their mobile phone, making
-              WalletConnect wallets a safer choice compared to desktop or browser extension wallets.
+              WalletConnect is an open source protocol for connecting
+              decentralised applications to mobile wallets using end-to-end
+              encryption and QR code scanning or deep linking. A user can
+              interact securely with any Dapp from their mobile phone, making
+              WalletConnect wallets a safer choice compared to desktop or
+              browser extension wallets.
             </p>
           </SColumn>
           <SColumn>
             <h2>How does it work?</h2>
             <p>
-              WalletConnect connects web applications to supported <Link to="/wallets">mobile wallets</Link>.
-              WalletConnect session is started by a scanning a QR code (desktop)
-              or by clicking an application deep link (mobile).
+              WalletConnect connects web applications to supported{" "}
+              <Link to="/wallets">mobile wallets</Link>. WalletConnect session
+              is started by a scanning a QR code (desktop) or by clicking an
+              application deep link (mobile).
             </p>
           </SColumn>
         </SDescriptionWrapper>
         <SFAQWrapper>
-            <h2>Frequently asked questions</h2>
+          <h2>Frequently asked questions</h2>
 
-            <SQuestion>
-              <h3>How do I install WalletConnect?</h3>
+          <SQuestion>
+            <h3>How do I install WalletConnect?</h3>
+            <p>
+              WalletConnect is not an app, but a protocol supported by many
+              different decentralised applications and wallets. Install any of{" "}
+              <Link to="/wallets">mobile wallets</Link> supporting WalletConnect
+              protocol. WalletConnect wallets are available for Android and
+              iPhone.
+            </p>
+          </SQuestion>
 
-              <p>WalletConnect is not an app, but a protocol supported by many different decentralised applications and wallets. Install any of <Link to="/wallets">mobile wallets</Link> supporting WalletConnect protocol. WalletConnect wallets are available for Android and iPhone.</p>
-            </SQuestion>
+          <SQuestion>
+            <h3>Is there a token?</h3>
+            <p>
+              There is no token. WalletConnect protocol does not run on a
+              blockchain and there are no fees.
+            </p>
+          </SQuestion>
 
-            <SQuestion>
-              <h3>Is there a token?</h3>
+          <SQuestion>
+            <h3>How can I help WalletConnect project?</h3>
+            <p>
+              WalletConnect project is developed by open source developers of
+              various Wallet and Dapp projects. Please contact us on Discord or
+              Telegram if you want to help the project.
+            </p>
+          </SQuestion>
 
-              <p>There is no token. WalletConnct protocol does not run on a blockchain and there are no fees.</p>
-            </SQuestion>
+          <SQuestion>
+            <h3>How can I build a wallet supporting WalletConnect?</h3>
+            <p>
+              There are libraries for React-Native(Javascript), Android (Java)
+              and Swift (iOS) available. Read more about it in our{" "}
+              <a href="https://https://docs.walletconnect.org/">
+                documentation
+              </a>
+              .
+            </p>
+          </SQuestion>
 
-            <SQuestion>
-              <h3>How can I help WalletConnect project?</h3>
+          <SQuestion>
+            <h3>How can I add WalletConnect support to Dapp I developed?</h3>
+            <p>
+              You can support various wallets either using{" "}
+              <a href="https://github.com/Web3Modal/web3modal">
+                Web3Modal library
+              </a>{" "}
+              or add a support for{" "}
+              <a href="https://docs.walletconnect.org/quick-start/dapps/web3-provider">
+                WalletConnect provider directly
+              </a>
+              .
+            </p>
+          </SQuestion>
 
-              <p>
-                WalletConnect project is developed by open source developers of various wallet and Dapp companies.
-                Please contact us on Discord or Telegram if you want to help the project.
-              </p>
-            </SQuestion>
-
-            <SQuestion>
-              <h3>How can I build a wallet supporting WalletConnect?</h3>
-              <p>
-                There are libraries for Android (Java) and Swift (iOS) available.
-                Read more about it in our <a href="https://https://docs.walletconnect.org/">documentation</a>.
-              </p>
-            </SQuestion>
-
-            <SQuestion>
-              <h3>How can I add WalletConnect support to Dapp I developed?</h3>
-              <p>
-                You can support various wallets either using <a href="https://github.com/Web3Modal/web3modal">Web3Modal library</a>
-                or add a support for <a href="https://docs.walletconnect.org/quick-start/dapps/web3-provider">WalletConnect wallet provider directly</a>.
-              </p>
-            </SQuestion>
-
-            <SQuestion>
-              <h3>How web frontend and mobile wallets communicate?</h3>
-              <p>
-              Communication happens over a bridge server that relays messages without
-              access to their content. The contents are encrypted
-              using the session data shared by the QR code between the desktop
-              and mobile. Read
-              more about it in our <a href="https://https://docs.walletconnect.org/">documentation</a>.
-              WalletConnect Foundation runs a public bridge server, but you can also roll your own.
-              </p>
-            </SQuestion>
-
-
+          <SQuestion>
+            <h3>How web frontend and mobile wallets communicate?</h3>
+            <p>
+              Communication happens over a bridge server that relays messages
+              without access to their content. The contents are encrypted using
+              the session data shared by the QR code or deep link between the
+              dapp and the wallet. Read more about it in our{" "}
+              <a href="https://https://docs.walletconnect.org/">
+                documentation
+              </a>
+              . WalletConnect Association runs a public bridge server, but you
+              can also roll your own.
+            </p>
+          </SQuestion>
         </SFAQWrapper>
       </SSection>
     </SIndexPage>
