@@ -466,6 +466,14 @@ const DAPPS: IApp[] = [
     },
   },
   {
+    name: "Nash",
+    icon: require("../assets/dapps/nash.jpg"),
+    url: "https://nash.io/",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
     name: "Chainsfr",
     icon: require("../assets/dapps/chainsfr.png"),
     url: "https://chainsfr.com",
@@ -480,7 +488,7 @@ const DAPPS: IApp[] = [
     style: {
       cropCircle: false,
     },
-  }
+  },
 ];
 
 export default DAPPS;

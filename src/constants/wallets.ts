@@ -186,9 +186,25 @@ const WALLETS: IApp[] = [
     },
   },
   {
+    name: "Nash",
+    icon: require("../assets/wallets/nash.jpg"),
+    url: "https://nash.io/",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
     name: "wallet.io",
     icon: require("../assets/wallets/wallet.io.png"),
     url: "https://wallet.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
+    name: "Infinity Wallet",
+    icon: require("../assets/wallets/infinity-wallet.png"),
+    url: "https://infinitywallet.io/",
     style: {
       cropCircle: false,
     },
