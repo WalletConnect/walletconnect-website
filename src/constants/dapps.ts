@@ -489,6 +489,22 @@ const DAPPS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "DeBank",
+    icon: require("../assets/dapps/debank.jpg"),
+    url: "https://debank.com/",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
+    name: "2Key",
+    icon: require("../assets/dapps/2key.jpg"),
+    url: "https://www.2key.network/",
+    style: {
+      cropCircle: true,
+    },
+  },
 ];
 
 export default DAPPS;

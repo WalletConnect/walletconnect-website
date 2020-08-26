@@ -43,10 +43,10 @@ const WALLETS: IApp[] = [
   },
   {
     name: "Pillar",
-    icon: require("../assets/wallets/pillar-wallet.jpg"),
+    icon: require("../assets/wallets/pillar-wallet.png"),
     url: "https://pillarproject.io/",
     style: {
-      cropCircle: false,
+      cropCircle: true,
     },
   },
   {
