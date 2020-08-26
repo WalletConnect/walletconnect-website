@@ -101,8 +101,8 @@ const IndexPage = (props: any) => (
             <h2>What is WalletConnect?</h2>
             <p>
               WalletConnect is an open source protocol for connecting
-              decentralised applications to mobile wallets using end-to-end
-              encryption and QR code scanning or deep linking. A user can
+              decentralised applications to mobile wallets with QR code scanning or deep linking.
+              A user can
               interact securely with any Dapp from their mobile phone, making
               WalletConnect wallets a safer choice compared to desktop or
               browser extension wallets.
@@ -154,7 +154,7 @@ const IndexPage = (props: any) => (
             <p>
               There are libraries for React-Native(Javascript), Android (Java)
               and Swift (iOS) available. Read more about it in our{" "}
-              <a href="https://https://docs.walletconnect.org/">
+              <a href="https://docs.walletconnect.org/quick-start/wallets">
                 documentation
               </a>
               .
@@ -190,6 +190,7 @@ const IndexPage = (props: any) => (
               can also roll your own.
             </p>
           </SQuestion>
+
         </SFAQWrapper>
       </SSection>
     </SIndexPage>
