@@ -209,6 +209,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "Ownbit",
+    icon: require("../assets/wallets/ownbit.png"),
+    url: "https://ownbit.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
