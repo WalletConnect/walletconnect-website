@@ -101,11 +101,10 @@ const IndexPage = (props: any) => (
             <h2>What is WalletConnect?</h2>
             <p>
               WalletConnect is an open source protocol for connecting
-              decentralised applications to mobile wallets with QR code scanning or deep linking.
-              A user can
-              interact securely with any Dapp from their mobile phone, making
-              WalletConnect wallets a safer choice compared to desktop or
-              browser extension wallets.
+              decentralised applications to mobile wallets with QR code scanning
+              or deep linking. A user can interact securely with any Dapp from
+              their mobile phone, making WalletConnect wallets a safer choice
+              compared to desktop or browser extension wallets.
             </p>
           </SColumn>
           <SColumn>
@@ -183,14 +182,11 @@ const IndexPage = (props: any) => (
               without access to their content. The contents are encrypted using
               the session data shared by the QR code or deep link between the
               dapp and the wallet. Read more about it in our{" "}
-              <a href="https://https://docs.walletconnect.org/">
-                documentation
-              </a>
-              . WalletConnect Association runs a public bridge server, but you
-              can also roll your own.
+              <a href="https://docs.walletconnect.org/">documentation</a>.
+              WalletConnect Association runs a public bridge server, but you can
+              also roll your own.
             </p>
           </SQuestion>
-
         </SFAQWrapper>
       </SSection>
     </SIndexPage>

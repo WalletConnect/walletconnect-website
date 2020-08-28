@@ -225,6 +225,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "EasyPocket",
+    icon: require("../assets/wallets/easypocket.jpg"),
+    url: "https://easypocket.app/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
