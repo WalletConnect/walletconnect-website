@@ -194,6 +194,14 @@ const WALLETS: IApp[] = [
     },
   },
   {
+    name: "Alpha",
+    icon: require("../assets/wallets/alpha-wallet.jpg"),
+    url: "https://alphawallet.com/",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
     name: "wallet.io",
     icon: require("../assets/wallets/wallet.io.png"),
     url: "https://wallet.io/",
