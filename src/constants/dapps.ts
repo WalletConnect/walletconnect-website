@@ -505,6 +505,22 @@ const DAPPS: IApp[] = [
       cropCircle: true,
     },
   },
+  {
+    name: "Pitch",
+    icon: require("../assets/dapps/pitch.jpg"),
+    url: "https://pitchinvestorslive.com/",
+    style: {
+      cropCircle: true,
+    },
+  },
+  {
+    name: "Unagii",
+    icon: require("../assets/dapps/unagii.png"),
+    url: "https://www.unagii.com/",
+    style: {
+      cropCircle: true,
+    },
+  },
 ];
 
 export default DAPPS;
