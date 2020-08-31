@@ -234,11 +234,19 @@ const WALLETS: IApp[] = [
     },
   },
   {
-    name: "ONTO"",
+    name: "ONTO",
     icon: require("../assets/wallets/ONTO.png"),
     url: "https://onto.app/",
     style: {
       cropCircle: false,
+    },
+  },
+  {
+    name: "Bridge Wallet",
+    icon: require("../assets/wallets/bridge.png"),
+    url: "https://www.mtpelerin.com/bridge-wallet",
+    style: {
+      cropCircle: true,
     },
   },
 ];
