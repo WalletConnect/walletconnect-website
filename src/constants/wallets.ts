@@ -233,6 +233,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "ONTO"",
+    icon: require("../assets/wallets/ONTO.png"),
+    url: "https://onto.app/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
