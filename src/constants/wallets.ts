@@ -246,7 +246,7 @@ const WALLETS: IApp[] = [
     icon: require("../assets/wallets/bridge.png"),
     url: "https://www.mtpelerin.com/bridge-wallet",
     style: {
-      cropCircle: true,
+      cropCircle: false,
     },
   },
 ];
