@@ -250,7 +250,7 @@ const WALLETS: IApp[] = [
     },
   },
   {
-    name: "SparkPoint Wallet",
+    name: "SparkPoint",
     icon: require("../assets/wallets/sparkpoint.png"),
     url: "https://sparkpoint.io/",
     style: {
