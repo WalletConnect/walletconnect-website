@@ -249,6 +249,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "SparkPoint",
+    icon: require("../assets/wallets/sparkpoint.png"),
+    url: "https://sparkpoint.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
