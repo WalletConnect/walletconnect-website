@@ -257,6 +257,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "ZelCore",
+    icon: require("../assets/wallets/zelcore.png"),
+    url: "https://zel.network/project/zelcore/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
