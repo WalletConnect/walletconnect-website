@@ -50,14 +50,6 @@ const WALLETS: IApp[] = [
     },
   },
   {
-    name: "Gnosis Safe",
-    icon: require("../assets/wallets/gnosis-safe.png"),
-    url: "https://safe.gnosis.io/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
     name: "Walleth",
     icon: require("../assets/wallets/walleth.png"),
     url: "https://walleth.org/",
