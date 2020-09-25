@@ -265,6 +265,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "Crypto.com | DeFi Wallet",
+    icon: require("../assets/wallets/crypto.png"),
+    url: "https://crypto.com/en/defi/wallet/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
