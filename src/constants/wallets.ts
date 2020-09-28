@@ -273,6 +273,14 @@ const WALLETS: IApp[] = [
       cropCircle: false,
     },
   },
+  {
+    name: "ViaWallet",
+    icon: require("../assets/wallets/viawallet.png"),
+    url: "https://viawallet.com/",
+    style: {
+      cropCircle: false,
+    },
+  },
 ];
 
 export default WALLETS;
