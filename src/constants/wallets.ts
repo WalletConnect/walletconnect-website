@@ -41,9 +41,7 @@ const WALLETS: IProject[] = [
     name: "Pillar",
     icon: require("../assets/wallets/pillar-wallet.png"),
     url: "https://pillarproject.io/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "imToken",
@@ -55,9 +53,7 @@ const WALLETS: IProject[] = [
     name: "TokenPocket",
     icon: require("../assets/wallets/tokenpocket.png"),
     url: "https://www.tokenpocket.pro/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "Walleth",
@@ -81,9 +77,7 @@ const WALLETS: IProject[] = [
     name: "Huobi Wallet",
     icon: require("../assets/wallets/huobi.jpg"),
     url: "https://www.huobiwallet.com/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "Eidoo",
@@ -101,17 +95,13 @@ const WALLETS: IProject[] = [
     name: "Nash",
     icon: require("../assets/wallets/nash.jpg"),
     url: "https://nash.io/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "Coinomi",
     icon: require("../assets/wallets/coinomi.jpg"),
     url: "https://coinomi.com/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "GridPlus",
@@ -129,17 +119,13 @@ const WALLETS: IProject[] = [
     name: "Alice",
     icon: require("../assets/wallets/alice.png"),
     url: "https://www.alicedapp.com/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "Alpha",
     icon: require("../assets/wallets/alpha-wallet.jpg"),
     url: "https://alphawallet.com/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "Tokenary",
@@ -181,9 +167,7 @@ const WALLETS: IProject[] = [
     name: "Spatium",
     icon: require("../assets/wallets/spatium.jpg"),
     url: "https://spatium.net/",
-    style: {
-      cropCircle: true,
-    },
+    style: { cropCircle: true },
   },
   {
     name: "wallet.io",
