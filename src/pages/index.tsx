@@ -3,11 +3,18 @@ import styled from "styled-components";
 
 import Link from "gatsby-link";
 import Layout from "../components/layout";
+import Grid from "../components/Grid";
+import FUNDERS from "../constants/funders";
+import CONTRIBUTORS from "../constants/contributors";
+
 import {
   SIndexPage,
   SBrandingWrapper,
   SBranding,
   SSection,
+  SAppIcon,
+  SApp,
+  SAppName,
 } from "../components/pageStyles";
 import banner from "../assets/banner.png";
 import { colors, responsive } from "../styles";
@@ -51,6 +58,17 @@ const SColumn = styled.div`
   line-height: 1.35;
 `;
 
+const SSectionTitle = styled.div`
+  flex: 1;
+  margin-top: 30px;
+  text-align: center;
+  & h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgb(${colors.darkGrey});
+  }
+`;
+
 const SFAQWrapper = styled.div`
   display: block;
   max-width: 600px;
@@ -60,6 +78,7 @@ const SFAQWrapper = styled.div`
     font-size: 32px;
     font-weight: 300;
     color: rgb(${colors.darkGrey});
+    margin-top: 40px;
     margin-bottom: 20px;
   }
 `;
@@ -117,6 +136,48 @@ const IndexPage = (props: any) => (
             </p>
           </SColumn>
         </SDescriptionWrapper>
+        <SSectionTitle>
+          <h2>Top Project Funders</h2>
+        </SSectionTitle>
+        <Grid itemMaxWidth={200} gap={30}>
+          {FUNDERS.map((app) => (
+            <a
+              key={app.name}
+              href={app.url}
+              target="blank"
+              rel="noreferrer noopener"
+            >
+              <SApp>
+                <SAppIcon {...app.style}>
+                  <img src={app.icon} alt={app.name} />
+                </SAppIcon>
+              </SApp>
+            </a>
+          ))}
+        </Grid>
+        <SSectionTitle>
+          <h2>Top Code Contributors</h2>
+        </SSectionTitle>
+        <Grid itemMaxWidth={120} gap={30}>
+          {CONTRIBUTORS.map((app) => (
+            <a
+              key={app.name}
+              href={app.url}
+              target="blank"
+              rel="noreferrer noopener"
+            >
+              <SApp>
+                <SAppIcon {...app.style}>
+                  <img src={app.icon} alt={app.name} />
+                </SAppIcon>
+                <SAppName monochrome={app.style.monochrome}>
+                  {app.name}
+                </SAppName>
+              </SApp>
+            </a>
+          ))}
+        </Grid>
+
         <SFAQWrapper>
           <h2>Frequently asked questions</h2>
 

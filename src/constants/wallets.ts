@@ -1,45 +1,41 @@
-import { IApp } from "../helpers/types";
+import { IProject } from "../helpers/types";
 
-const WALLETS: IApp[] = [
+const WALLETS: IProject[] = [
   {
     name: "Rainbow",
     icon: require("../assets/wallets/rainbow.png"),
     url: "https://rainbow.me/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Trust",
     icon: require("../assets/wallets/trust-wallet.png"),
     url: "https://trustwallet.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Argent",
     icon: require("../assets/wallets/argent.jpg"),
     url: "https://www.argent.xyz/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Metamask",
     icon: require("../assets/wallets/metamask.png"),
     url: "https://mobile.metamask.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
+  },
+  {
+    name: "Gnosis Safe Multisig",
+    icon: require("../assets/wallets/gnosis-safe.jpg"),
+    url: "https://gnosis-safe.io/",
+    style: {},
   },
   {
     name: "Crypto.com | DeFi Wallet",
     icon: require("../assets/wallets/crypto.png"),
     url: "https://crypto.com/en/defi/wallet/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Pillar",
@@ -53,9 +49,7 @@ const WALLETS: IApp[] = [
     name: "imToken",
     icon: require("../assets/wallets/imtoken.png"),
     url: "https://token.im/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "TokenPocket",
@@ -66,36 +60,22 @@ const WALLETS: IApp[] = [
     },
   },
   {
-    name: "Gnosis Safe Multisig",
-    icon: require("../assets/wallets/gnosis-safe.jpg"),
-    url: "https://gnosis-safe.io/",
-    style: {
-      cropCircle: false,
-    },
-  },
-  {
     name: "Walleth",
     icon: require("../assets/wallets/walleth.png"),
     url: "https://walleth.org/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Atomic",
     icon: require("../assets/wallets/atomic.png"),
     url: "https://atomicwallet.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Authereum",
     icon: require("../assets/wallets/authereum.png"),
     url: "https://authereum.org",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Huobi Wallet",
@@ -109,17 +89,13 @@ const WALLETS: IApp[] = [
     name: "Eidoo",
     icon: require("../assets/wallets/eidoo.png"),
     url: "https://eidoo.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "ZelCore",
     icon: require("../assets/wallets/zelcore.png"),
     url: "https://zel.network/project/zelcore/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Nash",
@@ -141,17 +117,13 @@ const WALLETS: IApp[] = [
     name: "GridPlus",
     icon: require("../assets/wallets/gridplus.png"),
     url: "https://gridplus.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "CoolWallet S",
     icon: require("../assets/wallets/coolwallet-s.png"),
     url: "https://www.coolwallet.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Alice",
@@ -173,49 +145,37 @@ const WALLETS: IApp[] = [
     name: "Tokenary",
     icon: require("../assets/wallets/tokenary.png"),
     url: "https://tokenary.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "SafePal",
     icon: require("../assets/wallets/safepal.png"),
     url: "https://safepal.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Equal",
     icon: require("../assets/wallets/equal.jpg"),
     url: "https://equal.tech/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Infinito",
     icon: require("../assets/wallets/infinito-wallet.png"),
     url: "https://www.infinitowallet.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "MathWallet",
     icon: require("../assets/wallets/math-wallet.png"),
     url: "https://mathwallet.org/en/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "MYKEY",
     icon: require("../assets/wallets/mykey.png"),
     url: "https://mykey.org",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Spatium",
@@ -229,65 +189,49 @@ const WALLETS: IApp[] = [
     name: "wallet.io",
     icon: require("../assets/wallets/wallet.io.png"),
     url: "https://wallet.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Infinity Wallet",
     icon: require("../assets/wallets/infinity-wallet.png"),
     url: "https://infinitywallet.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Ownbit",
     icon: require("../assets/wallets/ownbit.png"),
     url: "https://ownbit.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "EasyPocket",
     icon: require("../assets/wallets/easypocket.jpg"),
     url: "https://easypocket.app/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "ONTO",
     icon: require("../assets/wallets/ONTO.png"),
     url: "https://onto.app/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Bridge Wallet",
     icon: require("../assets/wallets/bridge.png"),
     url: "https://www.mtpelerin.com/bridge-wallet",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "SparkPoint",
     icon: require("../assets/wallets/sparkpoint.png"),
     url: "https://sparkpoint.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "ViaWallet",
     icon: require("../assets/wallets/viawallet.png"),
     url: "https://viawallet.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
 ];
 

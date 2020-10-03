@@ -1,8 +1,8 @@
-export interface IApp {
+import { IAppIconStyleProps } from "../components/pageStyles";
+
+export interface IProject {
   name: string;
   icon: string;
   url: string;
-  style: {
-    cropCircle: boolean;
-  };
+  style: IAppIconStyleProps;
 }

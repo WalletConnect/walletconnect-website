@@ -52,6 +52,7 @@ export const SApp = styled.div`
 
 export interface IAppIconStyleProps {
   cropCircle?: boolean;
+  monochrome?: boolean;
 }
 
 // eslint-disable-next-line no-mixed-operators
@@ -62,14 +63,22 @@ export const SAppIcon = styled.div<IAppIconStyleProps>`
   justify-content: center;
   padding: 25px;
   & img {
+    filter: ${({ monochrome }) => (monochrome ? "grayscale(100%)" : "initial")};
     width: 100%;
     height: 100%;
     border-radius: ${({ cropCircle }) => (cropCircle ? "50%" : "initial")};
   }
 `;
 
-export const SAppName = styled.div`
+export interface IAppNameStyleProps {
+  monochrome?: boolean;
+}
+
+// eslint-disable-next-line no-mixed-operators
+export const SAppName = styled.div<IAppNameStyleProps>`
   font-weight: bold;
+  color: ${({ monochrome }) =>
+    monochrome ? `rgb(${colors.darkGrey})` : "inherit"};
 `;
 
 export const SFootNote = styled.div`

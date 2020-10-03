@@ -10,7 +10,7 @@ const SFooter = styled.footer`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  height: 80px;
+  height: 160px;
   display: flex;
   flex-shrink: 0;
   align-items: center;

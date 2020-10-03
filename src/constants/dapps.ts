@@ -1,21 +1,17 @@
-import { IApp } from "../helpers/types";
+import { IProject } from "../helpers/types";
 
-const DAPPS: IApp[] = [
+const DAPPS: IProject[] = [
   {
     name: "MakerDAO",
     icon: require("../assets/dapps/maker.png"),
     url: "https://oasis.app/borrow",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Uniswap",
     icon: require("../assets/dapps/uniswap.jpg"),
     url: "https://uniswap.exchange/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Zerion",
@@ -37,17 +33,13 @@ const DAPPS: IApp[] = [
     name: "Binance DEX",
     icon: require("../assets/dapps/binancedex.png"),
     url: "https://binance.org/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "3Box",
     icon: require("../assets/dapps/box.png"),
     url: "https://3box.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "OpenSea",
@@ -85,41 +77,31 @@ const DAPPS: IApp[] = [
     name: "1inch Exchange",
     icon: require("../assets/dapps/oneinchexchange.png"),
     url: "https://1inch.exchange/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "DeFi Portfolio Tracker",
     icon: require("../assets/dapps/defiportfolio.png"),
     url: "https://portfolio.defiprime.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Bamboo Relay",
     icon: require("../assets/dapps/bamboorelay.png"),
     url: "https://bamboorelay.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "dex.blue",
     icon: require("../assets/dapps/dexblue.jpg"),
     url: "https://dex.blue/trading/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Loopring",
     icon: require("../assets/dapps/loopring.jpg"),
     url: "https://loopring.io/trade/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Rarible",
@@ -149,9 +131,7 @@ const DAPPS: IApp[] = [
     name: "InstaDapp",
     icon: require("../assets/dapps/instadapp.jpg"),
     url: "https://instadapp.io/dashboard/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "PoolTogether",
@@ -189,17 +169,13 @@ const DAPPS: IApp[] = [
     name: "MyCrypto",
     icon: require("../assets/dapps/mycrypto.png"),
     url: "https://beta.mycrypto.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Gnosis Safe Multisig",
     icon: require("../assets/wallets/gnosis-safe.jpg"),
     url: "https://gnosis-safe.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Idle Finance",
@@ -213,9 +189,7 @@ const DAPPS: IApp[] = [
     name: "iearn.finance",
     icon: require("../assets/dapps/iearnfinance.jpg"),
     url: "https://iearn.finance/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "RCN Finance",
@@ -237,17 +211,13 @@ const DAPPS: IApp[] = [
     name: "Kickback",
     icon: require("../assets/dapps/kickback.jpg"),
     url: "https://kickback.events/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Aave",
     icon: require("../assets/dapps/aave.png"),
     url: "https://app.aave.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Zapper",
@@ -269,33 +239,25 @@ const DAPPS: IApp[] = [
     name: "Mooni",
     icon: require("../assets/dapps/mooni.jpg"),
     url: "https://app.mooni.tech/exchange",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Clovers",
     icon: require("../assets/dapps/clovers.png"),
     url: "https://clovers.network/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Mintbase",
     icon: require("../assets/dapps/mintbase.jpg"),
     url: "https://mintbase.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "DAOstack",
     icon: require("../assets/dapps/daostack.jpg"),
     url: "https://alchemy.daostack.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "KnownOrigin",
@@ -309,33 +271,25 @@ const DAPPS: IApp[] = [
     name: "Affogato",
     icon: require("../assets/dapps/affogato.png"),
     url: "https://affogato.co/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "StablePay",
     icon: require("../assets/dapps/stablepay.jpg"),
     url: "https://stablepay.io/dashboard",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "DeFi Saver",
     icon: require("../assets/dapps/defisaver.jpg"),
     url: "https://defisaver.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "MyEtherWallet",
     icon: require("../assets/dapps/myetherwallet.jpg"),
     url: "https://www.myetherwallet.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Loom Network",
@@ -349,17 +303,13 @@ const DAPPS: IApp[] = [
     name: "Curve",
     icon: require("../assets/dapps/curvefinance.png"),
     url: "https://www.curve.fi",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Matic Network",
     icon: require("../assets/dapps/maticnetwork.jpg"),
     url: "https://matic.network/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "ThorChain",
@@ -373,41 +323,31 @@ const DAPPS: IApp[] = [
     name: "BulkSender",
     icon: require("../assets/dapps/bulksender.png"),
     url: "https://bulksender.app/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Heroes of Ether",
     icon: require("../assets/dapps/heroesofether.png"),
     url: "https://heroesofether.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Betoken",
     icon: require("../assets/dapps/betoken.png"),
     url: "https://betoken.fund/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Linkdrop",
     icon: require("../assets/dapps/linkdrop.png"),
     url: "https://linkdrop.io/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "HelioWallet",
     icon: require("../assets/dapps/heliowallet.png"),
     url: "https://heliowallet.com/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Escaroo",
@@ -453,17 +393,13 @@ const DAPPS: IApp[] = [
     name: "Furucombo",
     icon: require("../assets/dapps/furucombo.png"),
     url: "https://furucombo.app/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Melon",
     icon: require("../assets/dapps/melon.png"),
     url: "https://melon.avantgarde.finance/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "Matcha",
@@ -493,9 +429,7 @@ const DAPPS: IApp[] = [
     name: "AKA3 Email Alias",
     icon: require("../assets/dapps/aka3.png"),
     url: "http://aka3.net",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
   {
     name: "DeBank",
@@ -533,9 +467,7 @@ const DAPPS: IApp[] = [
     name: "Cream Finance",
     icon: require("../assets/dapps/creamfinance.jpg"),
     url: "https://cream.finance/",
-    style: {
-      cropCircle: false,
-    },
+    style: {},
   },
 ];
 

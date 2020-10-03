@@ -37,7 +37,7 @@ const IndexPage = (props: any) => (
               rel="noreferrer noopener"
             >
               <SApp>
-                <SAppIcon cropCircle={app.style.cropCircle}>
+                <SAppIcon {...app.style}>
                   <img src={app.icon} alt={app.name} />
                 </SAppIcon>
                 <SAppName>{app.name}</SAppName>
