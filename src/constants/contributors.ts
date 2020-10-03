@@ -23,7 +23,7 @@ const CONTRIBUTORS: IProject[] = [
     name: "Walleth",
     icon: require("../assets/wallets/walleth.png"),
     url: "https://walleth.org/",
-    style: {},
+    style: { monochrome: true },
   },
   {
     name: "Gnosis",
