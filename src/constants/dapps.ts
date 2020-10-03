@@ -194,6 +194,14 @@ const DAPPS: IApp[] = [
     },
   },
   {
+    name: "Gnosis Safe Multisig",
+    icon: require("../assets/wallets/gnosis-safe.jpg"),
+    url: "https://gnosis-safe.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
     name: "Idle Finance",
     icon: require("../assets/dapps/idlefinance.png"),
     url: "https://idle.finance/",
@@ -519,6 +527,14 @@ const DAPPS: IApp[] = [
     url: "https://www.unagii.com/",
     style: {
       cropCircle: true,
+    },
+  },
+  {
+    name: "Cream Finance",
+    icon: require("../assets/dapps/creamfinance.jpg"),
+    url: "https://cream.finance/",
+    style: {
+      cropCircle: false,
     },
   },
 ];
