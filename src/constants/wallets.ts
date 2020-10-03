@@ -34,6 +34,14 @@ const WALLETS: IApp[] = [
     },
   },
   {
+    name: "Eidoo",
+    icon: require("../assets/wallets/eidoo.png"),
+    url: "https://eidoo.io/",
+    style: {
+      cropCircle: false,
+    },
+  },
+  {
     name: "Rainbow",
     icon: require("../assets/wallets/rainbow.png"),
     url: "https://rainbow.me/",
