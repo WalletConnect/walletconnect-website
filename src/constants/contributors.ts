@@ -20,10 +20,10 @@ const CONTRIBUTORS: IProject[] = [
     style: { monochrome: true },
   },
   {
-    name: "Metamask",
-    icon: require("../assets/wallets/metamask.png"),
-    url: "https://mobile.metamask.io/",
-    style: { monochrome: true },
+    name: "Walleth",
+    icon: require("../assets/wallets/walleth.png"),
+    url: "https://walleth.org/",
+    style: {},
   },
   {
     name: "Gnosis",
