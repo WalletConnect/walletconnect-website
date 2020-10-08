@@ -217,6 +217,12 @@ const WALLETS: IProject[] = [
     url: "https://viawallet.com/",
     style: {},
   },
+  {
+    name: "Coin98",
+    icon: require("../assets/wallets/coin98.png"),
+    url: "https://coin98.app/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
