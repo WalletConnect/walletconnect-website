@@ -409,6 +409,30 @@ const DAPPS: IProject[] = [
     url: "https://zksync.io/",
     style: { cropCircle: true },
   },
+  {
+    name: "TokenSets",
+    icon: require("../assets/dapps/tokensets.jpg"),
+    url: "https://tokensets.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Shell Exchange",
+    icon: require("../assets/dapps/shell.jpg"),
+    url: "https://shells.exchange/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Index Coop",
+    icon: require("../assets/dapps/indexcoop.jpg"),
+    url: "https://www.indexcoop.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "SwapX",
+    icon: require("../assets/dapps/swapx.jpg"),
+    url: "https://app.swapx.org/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;

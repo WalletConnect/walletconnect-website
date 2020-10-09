@@ -195,7 +195,7 @@ const WALLETS: IProject[] = [
   },
   {
     name: "ONTO",
-    icon: require("../assets/wallets/ONTO.png"),
+    icon: require("../assets/wallets/onto.png"),
     url: "https://onto.app/",
     style: {},
   },
@@ -225,7 +225,7 @@ const WALLETS: IProject[] = [
   },
   {
     name: "BitKeep",
-    icon: require("../assets/wallets/BitKeep.png"),
+    icon: require("../assets/wallets/bitkeep.png"),
     url: "https://bitkeep.com/",
     style: {},
   },
