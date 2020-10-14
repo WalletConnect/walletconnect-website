@@ -229,6 +229,12 @@ const WALLETS: IProject[] = [
     url: "https://bitkeep.com/",
     style: {},
   },
+  {
+    name: "AT.Wallet",
+    icon: require("../assets/wallets/atwallet.png"),
+    url: "https://authentrend.com/at-wallet/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
