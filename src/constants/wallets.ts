@@ -235,6 +235,12 @@ const WALLETS: IProject[] = [
     url: "https://authentrend.com/at-wallet/",
     style: {},
   },
+  {
+    name: "MoriX Wallet",
+    icon: require("../assets/wallets/morixwallet.png"),
+    url: "https://morixjp.com/product/walletcard",
+    style: {},
+  },
 ];
 
 export default WALLETS;
