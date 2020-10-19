@@ -10,7 +10,7 @@ const FUNDERS: IProject[] = [
   {
     name: "Consensys Labs",
     icon: require("../assets/funders/consensys-labs.png"),
-    url: "hhttps://labs.consensys.net/",
+    url: "https://labs.consensys.net/",
     style: { monochrome: true },
   },
   {
