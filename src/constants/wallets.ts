@@ -229,6 +229,12 @@ const WALLETS: IProject[] = [
     url: "https://bitkeep.com/",
     style: {},
   },
+{
+  name: "XDC Wallet",
+  icon: require("../assets/wallets/xdc.png"),
+  url: "https://play.google.com/store/apps/details?id=com.xdcwallet",
+  style: {},
+},
 ];
 
 export default WALLETS;
