@@ -433,6 +433,12 @@ const DAPPS: IProject[] = [
     url: "https://app.swapx.org/",
     style: { cropCircle: true },
   },
+  {
+    name: "Starname",
+    icon: require("../assets/dapps/starname.png"),
+    url: "https://starname.me/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;
