@@ -436,7 +436,7 @@ const DAPPS: IProject[] = [
   {
     name: "Starname",
     icon: require("../assets/dapps/starname.png"),
-    url: "https://starname.me/",
+    url: "https://app.starname.me/",
     style: { cropCircle: true },
   },
 ];
