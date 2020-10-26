@@ -229,6 +229,12 @@ const WALLETS: IProject[] = [
     url: "https://bitkeep.com/",
     style: {},
   },
+  {
+    name: "SWFT Wallet",
+    icon: require("../assets/wallets/swft.png"),
+    url: "https://www.swft.pro/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
