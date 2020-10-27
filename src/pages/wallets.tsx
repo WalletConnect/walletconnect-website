@@ -21,10 +21,10 @@ const IndexPage = (props: any) => (
       <SBrandingWrapper>
         <SBranding>{`Wallets`}</SBranding>
         <SPageDescription>
-          Multiple iOS or Android wallets support WalletConnect protocol. Scan a
+          Multiple iOS or Android wallets support the WalletConnect protocol. Scan a
           QR code from your desktop computer screen to start using a dApp with
           your mobile wallet securely. Interaction between mobile apps and
-          mobile browse is supported with mobile deep linking.
+          mobile browsers are supported via mobile deep linking.
         </SPageDescription>
       </SBrandingWrapper>
       <SSection>
