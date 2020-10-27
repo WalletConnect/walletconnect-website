@@ -229,6 +229,12 @@ const WALLETS: IProject[] = [
     url: "https://bitkeep.com/",
     style: {},
   },
+  {
+    name: "Vision",
+    icon: require("../assets/wallets/vision.png"),
+    url: "https://vision-crypto.com/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
