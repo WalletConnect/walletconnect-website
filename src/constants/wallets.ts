@@ -230,6 +230,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "Vision",
+    icon: require("../assets/wallets/vision.png"),
+    url: "https://vision-crypto.com/",
+    style: {},
+  },
+  {
     name: "SWFT Wallet",
     icon: require("../assets/wallets/swft.png"),
     url: "https://www.swft.pro/",
