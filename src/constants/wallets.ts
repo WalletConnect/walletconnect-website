@@ -38,12 +38,6 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "PeakDeFi Wallet",
-    icon: require("../assets/wallets/peakdefi.png"),
-    url: "https://app.peakdefi.com/download",
-    style: {},
-  },
-  {
     name: "Pillar",
     icon: require("../assets/wallets/pillar-wallet.png"),
     url: "https://pillarproject.io/",
@@ -245,6 +239,12 @@ const WALLETS: IProject[] = [
     name: "SWFT Wallet",
     icon: require("../assets/wallets/swft.png"),
     url: "https://www.swft.pro/",
+    style: {},
+  },
+  {
+    name: "PeakDeFi Wallet",
+    icon: require("../assets/wallets/peakdefi.png"),
+    url: "https://app.peakdefi.com/download",
     style: {},
   },
 ];
