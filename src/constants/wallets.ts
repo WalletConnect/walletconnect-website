@@ -235,6 +235,12 @@ const WALLETS: IProject[] = [
     url: "https://vision-crypto.com/",
     style: {},
   },
+  {
+    name: "SWFT Wallet",
+    icon: require("../assets/wallets/swft.png"),
+    url: "https://www.swft.pro/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
