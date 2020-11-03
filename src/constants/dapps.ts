@@ -439,6 +439,12 @@ const DAPPS: IProject[] = [
     url: "https://app.starname.me/",
     style: { cropCircle: true },
   },
+  {
+    name: "Invoice.build",
+    icon: require("../assets/dapps/invoice-build.png"),
+    url: "https://invoice.build/",
+    style: {},
+  },
 ];
 
 export default DAPPS;
