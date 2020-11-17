@@ -439,6 +439,12 @@ const DAPPS: IProject[] = [
     url: "https://app.starname.me/",
     style: { cropCircle: true },
   },
+  {
+    name: "MANTRA DAO",
+    icon: require("../assets/dapps/mantradao.png"),
+    url: "https://app.mantradao.com/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;
