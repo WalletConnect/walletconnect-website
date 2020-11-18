@@ -247,6 +247,12 @@ const WALLETS: IProject[] = [
     url: "https://app.peakdefi.com/download",
     style: {},
   },
+  {
+    name: "Unstoppable Wallet",
+    icon: require("../assets/wallets/unstoppable.png"),
+    url: "https://unstoppable.money/",
+    style: {},
+  }
 ];
 
 export default WALLETS;
