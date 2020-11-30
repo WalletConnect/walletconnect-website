@@ -260,6 +260,18 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "MEET.ONE",
+    icon: require("../assets/wallets/meetone.jpg"),
+    url: "https://meet.one/",
+    style: {},
+  },
+  {
+    name: "Dok Wallet",
+    icon: require("../assets/wallets/dok.png"),
+    url: "https://dokwallet.com/",
+    style: {},
+  },
+  {
     name: "AT.Wallet",
     icon: require("../assets/wallets/atwallet.png"),
     url: "https://authentrend.com/at-wallet/",

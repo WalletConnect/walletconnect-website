@@ -440,9 +440,27 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "Space",
+    icon: require("../assets/dapps/space.png"),
+    url: "https://space.storage/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Maskbook",
+    icon: require("../assets/dapps/maskbook.png"),
+    url: "https://mask.io/",
+    style: { cropCircle: true },
+  },
+  {
     name: "MANTRA DAO",
     icon: require("../assets/dapps/mantradao.png"),
     url: "https://app.mantradao.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Snapshot",
+    icon: require("../assets/dapps/snapshot.jpg"),
+    url: "https://snapshot.page/",
     style: { cropCircle: true },
   },
   {
@@ -450,6 +468,66 @@ const DAPPS: IProject[] = [
     icon: require("../assets/dapps/invoice-build.png"),
     url: "https://invoice.build/",
     style: {},
+  },
+  {
+    name: "Ankr",
+    icon: require("../assets/dapps/ankr.jpg"),
+    url: "https://ankr.com/",
+    style: {},
+  },
+  {
+    name: "DODO",
+    icon: require("../assets/dapps/dodo.png"),
+    url: "https://app.dodoex.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "zLOT",
+    icon: require("../assets/dapps/zlot.jpg"),
+    url: "https://zlot.finance/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Adex Network",
+    icon: require("../assets/dapps/adexnetwork.jpg"),
+    url: "https://staking.adex.network/",
+    style: {},
+  },
+  {
+    name: "Actus Protocol",
+    icon: require("../assets/dapps/actusprotocol.jpg"),
+    url: "https://portal.actus-protocol.io/",
+    style: {},
+  },
+  {
+    name: "AstroTools.io",
+    icon: require("../assets/dapps/astrotools.jpg"),
+    url: "https://astrotools.io/",
+    style: {},
+  },
+  {
+    name: "Rubic Exchange",
+    icon: require("../assets/dapps/rubic.jpg"),
+    url: "https://rubic.exchange/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Harvest Finance",
+    icon: require("../assets/dapps/harvestfinance.jpg"),
+    url: "https://harvest.finance/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "OctoFi",
+    icon: require("../assets/dapps/octofinance.jpg"),
+    url: "https://octo.fi/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Mushroom Finance",
+    icon: require("../assets/dapps/mushroomfinance.jpg"),
+    url: "https://mushrooms.finance/",
+    style: { cropCircle: true },
   },
 ];
 
