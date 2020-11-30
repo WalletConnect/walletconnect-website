@@ -253,6 +253,12 @@ const WALLETS: IProject[] = [
     url: "https://play.google.com/store/apps/details?id=com.xdcwallet",
     style: {},
   },
+  {
+    name: "Unstoppable Wallet",
+    icon: require("../assets/wallets/unstoppable.png"),
+    url: "https://unstoppable.money/",
+    style: {},
+  }
 ];
 
 export default WALLETS;
