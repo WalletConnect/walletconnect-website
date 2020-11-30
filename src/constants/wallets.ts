@@ -229,12 +229,30 @@ const WALLETS: IProject[] = [
     url: "https://bitkeep.com/",
     style: {},
   },
-{
-  name: "XDC Wallet",
-  icon: require("../assets/wallets/xdc.png"),
-  url: "https://play.google.com/store/apps/details?id=com.xdcwallet",
-  style: {},
-},
+  {
+    name: "Vision",
+    icon: require("../assets/wallets/vision.png"),
+    url: "https://vision-crypto.com/",
+    style: {},
+  },
+  {
+    name: "SWFT Wallet",
+    icon: require("../assets/wallets/swft.png"),
+    url: "https://www.swft.pro/",
+    style: {},
+  },
+  {
+    name: "PeakDeFi Wallet",
+    icon: require("../assets/wallets/peakdefi.png"),
+    url: "https://app.peakdefi.com/download",
+    style: {},
+  },
+  {
+    name: "XDC Wallet",
+    icon: require("../assets/wallets/xdc.png"),
+    url: "https://play.google.com/store/apps/details?id=com.xdcwallet",
+    style: {},
+  },
 ];
 
 export default WALLETS;
