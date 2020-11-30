@@ -445,6 +445,12 @@ const DAPPS: IProject[] = [
     url: "https://app.mantradao.com/",
     style: { cropCircle: true },
   },
+  {
+    name: "Invoice.build",
+    icon: require("../assets/dapps/invoice-build.png"),
+    url: "https://invoice.build/",
+    style: {},
+  },
 ];
 
 export default DAPPS;
