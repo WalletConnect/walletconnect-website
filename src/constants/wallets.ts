@@ -248,6 +248,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "XDC Wallet",
+    icon: require("../assets/wallets/xdc.png"),
+    url: "https://play.google.com/store/apps/details?id=com.xdcwallet",
+    style: {},
+  },
+  {
     name: "Unstoppable Wallet",
     icon: require("../assets/wallets/unstoppable.png"),
     url: "https://unstoppable.money/",
