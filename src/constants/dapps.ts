@@ -529,6 +529,12 @@ const DAPPS: IProject[] = [
     url: "https://mushrooms.finance/",
     style: { cropCircle: true },
   },
+  {
+    name: "XinFin XDC Network",
+    icon: require("../assets/dapps/xdcnetwork.jpg"),
+    url: "https://xinfin.network/",
+    style: {},
+  },
 ];
 
 export default DAPPS;
