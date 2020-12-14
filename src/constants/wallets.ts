@@ -122,7 +122,7 @@ const WALLETS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "Alpha",
+    name: "AlphaWallet",
     icon: require("../assets/wallets/alpha-wallet.jpg"),
     url: "https://alphawallet.com/",
     style: { cropCircle: true },
