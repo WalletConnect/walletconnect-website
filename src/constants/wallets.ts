@@ -283,6 +283,12 @@ const WALLETS: IProject[] = [
     url: "https://morixjp.com/product/walletcard",
     style: {},
   },
+  {
+    name: "Midas Wallet",
+    icon: require("../assets/wallets/midas-wallet.png"),
+    url: "https://midasprotocol.io/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
