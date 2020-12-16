@@ -122,7 +122,7 @@ const WALLETS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "Alpha",
+    name: "AlphaWallet",
     icon: require("../assets/wallets/alpha-wallet.jpg"),
     url: "https://alphawallet.com/",
     style: { cropCircle: true },
@@ -281,6 +281,12 @@ const WALLETS: IProject[] = [
     name: "MoriX Wallet",
     icon: require("../assets/wallets/morixwallet.png"),
     url: "https://morixjp.com/product/walletcard",
+    style: {},
+  },
+  {
+    name: "Midas Wallet",
+    icon: require("../assets/wallets/midas-wallet.png"),
+    url: "https://midasprotocol.io/",
     style: {},
   },
 ];

@@ -2,33 +2,185 @@ import { IProject } from "../helpers/types";
 
 const DAPPS: IProject[] = [
   {
-    name: "MakerDAO",
-    icon: require("../assets/dapps/maker.png"),
-    url: "https://oasis.app/borrow",
-    style: {},
+    name: "Etherscan",
+    icon: require("../assets/dapps/etherscan.jpg"),
+    // 2020-12-16 9.29M
+    url: "https://etherscan.io/",
+    style: { cropCircle: true },
   },
   {
     name: "Uniswap",
     icon: require("../assets/dapps/uniswap.jpg"),
+    // 2020-12-16 2.98M
     url: "https://uniswap.exchange/",
+    style: {},
+  },
+  {
+    name: "Binance DEX",
+    // 2020-12-16 936.60K
+    icon: require("../assets/dapps/binancedex.png"),
+    url: "https://binance.org/",
+    style: {},
+  },
+  {
+    name: "OpenSea",
+    icon: require("../assets/dapps/opensea.jpg"),
+    // 2020-12-16 367.65K
+    url: "https://opensea.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Zapper",
+    icon: require("../assets/dapps/zapper.png"),
+    // 2020-12-16 294.02K
+    url: "https://www.zapper.fi/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Aave",
+    icon: require("../assets/dapps/aave.png"),
+    // 2020-12-16 249.86 K
+    url: "https://app.aave.com/",
     style: {},
   },
   {
     name: "Zerion",
     icon: require("../assets/dapps/zerion.png"),
+    // 2020-12-16 234.68 K
     url: "https://beta.zerion.io/",
     style: { cropCircle: true },
   },
   {
-    name: "LocalEthereum",
-    icon: require("../assets/dapps/localethereum.png"),
-    url: "https://localethereum.com/",
+    name: "LocalCryptos",
+    icon: require("../assets/dapps/localcryptos.jpg"),
+    // 2020-12-16 211.42 K
+    url: "https://localcryptos.com/",
     style: { cropCircle: true },
   },
   {
-    name: "Binance DEX",
-    icon: require("../assets/dapps/binancedex.png"),
-    url: "https://binance.org/",
+    name: "DeBank",
+    icon: require("../assets/dapps/debank.jpg"),
+    // 2020-12-16 198.87 K
+    url: "https://debank.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Unstoppable Domains",
+    icon: require("../assets/dapps/unstoppable.png"),
+    // 2020-12-16 197.56 K
+    url: "https://unstoppabledomains.com/manager",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Rarible",
+    icon: require("../assets/dapps/rarible.png"),
+    // 2020-12-16 195.00K
+    url: "https://app.rarible.com/#/connect",
+    style: { cropCircle: true },
+  },
+  {
+    name: "1inch Exchange",
+    icon: require("../assets/dapps/oneinchexchange.png"),
+    // 2020-12-16 180.41K
+    url: "https://1inch.exchange/",
+    style: {},
+  },
+  {
+    name: "Nash",
+    icon: require("../assets/dapps/nash.jpg"),
+    // 2020-12-16 140.73K
+    url: "https://nash.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Curve",
+    icon: require("../assets/dapps/curvefinance.png"),
+    // 2020-12-16 131.72K
+    url: "https://www.curve.fi",
+    style: {},
+  },
+  {
+    name: "Adex Network",
+    icon: require("../assets/dapps/adexnetwork.jpg"),
+    // 2020-12-16 106.72K
+    url: "https://staking.adex.network/",
+    style: {},
+  },
+  {
+    name: "dYdX",
+    icon: require("../assets/dapps/dydx.jpg"),
+    // 2020-12-16 94.10 K
+    url: "https://dydx.exchange/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "MyCrypto",
+    icon: require("../assets/dapps/mycrypto.png"),
+    // 2020-12-16 79.48 K
+    url: "https://beta.mycrypto.com/",
+    style: {},
+  },
+  {
+    name: "Oasis App",
+    icon: require("../assets/dapps/oasis.png"),
+    // 2020-12-16 79.06 K
+    url: "https://oasis.app/dashboard",
+    style: {},
+  },
+  {
+    name: "TokenSets",
+    icon: require("../assets/dapps/tokensets.jpg"),
+    // 2020-12-16 74.81K
+    url: "https://tokensets.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "MANTRA DAO",
+    icon: require("../assets/dapps/mantradao.png"),
+    // 2020-12-16 63.43K
+    url: "https://app.mantradao.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Matcha",
+    icon: require("../assets/dapps/matcha.jpg"),
+    // 2020-12-16 56.95 K
+    url: "https://matcha.xyz",
+    style: { cropCircle: true },
+  },
+  {
+    name: "KyberSwap",
+    icon: require("../assets/dapps/kyberswap.jpg"),
+    // 2020-12-16 <50 K
+    url: "https://kyberswap.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "DeFi Portfolio Tracker",
+    icon: require("../assets/dapps/defiportfolio.png"),
+    // 2020-12-16 <50 K
+    url: "https://portfolio.defiprime.com/",
+    style: {},
+  },
+  {
+    name: "Loopring",
+    icon: require("../assets/dapps/loopring.jpg"),
+    // 2020-12-16 <50 K
+    url: "https://loopring.io/trade/",
+    style: {},
+  },
+  {
+    name: "InstaDapp",
+    icon: require("../assets/dapps/instadapp.jpg"),
+    // 2020-12-16 <50 K
+    url: "https://instadapp.io/dashboard/",
+    style: {},
+  },
+  {
+    name: "Matic Network",
+    icon: require("../assets/dapps/maticnetwork.jpg"),
+    // 2020-12-16 <50 K
+    url: "https://matic.network/",
     style: {},
   },
   {
@@ -38,15 +190,10 @@ const DAPPS: IProject[] = [
     style: {},
   },
   {
-    name: "OpenSea",
-    icon: require("../assets/dapps/opensea.jpg"),
-    url: "https://opensea.io/",
-    style: { cropCircle: true },
-  },
-  {
     name: "DDEX",
     icon: require("../assets/dapps/ddex.png"),
     url: "https://ddex.io/",
+    // N/A
     style: { cropCircle: true },
   },
   {
@@ -56,52 +203,10 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "KyberSwap",
-    icon: require("../assets/dapps/kyberswap.jpg"),
-    url: "https://kyberswap.com/",
-    style: { cropCircle: true },
-  },
-  {
-    name: "1inch Exchange",
-    icon: require("../assets/dapps/oneinchexchange.png"),
-    url: "https://1inch.exchange/",
-    style: {},
-  },
-  {
-    name: "DeFi Portfolio Tracker",
-    icon: require("../assets/dapps/defiportfolio.png"),
-    url: "https://portfolio.defiprime.com/",
-    style: {},
-  },
-  {
     name: "Bamboo Relay",
     icon: require("../assets/dapps/bamboorelay.png"),
     url: "https://bamboorelay.com/",
     style: {},
-  },
-  {
-    name: "dex.blue",
-    icon: require("../assets/dapps/dexblue.jpg"),
-    url: "https://dex.blue/trading/",
-    style: {},
-  },
-  {
-    name: "Loopring",
-    icon: require("../assets/dapps/loopring.jpg"),
-    url: "https://loopring.io/trade/",
-    style: {},
-  },
-  {
-    name: "Rarible",
-    icon: require("../assets/dapps/rarible.png"),
-    url: "https://app.rarible.com/#/connect",
-    style: { cropCircle: true },
-  },
-  {
-    name: "dYdX",
-    icon: require("../assets/dapps/dydx.jpg"),
-    url: "https://dydx.exchange/",
-    style: { cropCircle: true },
   },
   {
     name: "Synthetix",
@@ -110,9 +215,9 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "InstaDapp",
-    icon: require("../assets/dapps/instadapp.jpg"),
-    url: "https://instadapp.io/dashboard/",
+    name: "dex.blue",
+    icon: require("../assets/dapps/dexblue.jpg"),
+    url: "https://dex.blue/trading/",
     style: {},
   },
   {
@@ -124,7 +229,7 @@ const DAPPS: IProject[] = [
   {
     name: "Sablier",
     icon: require("../assets/dapps/sablier.jpg"),
-    url: "https://www.sablier.finance/",
+    url: "https://sablier.finance/",
     style: { cropCircle: true },
   },
   {
@@ -140,10 +245,10 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "MyCrypto",
-    icon: require("../assets/dapps/mycrypto.png"),
-    url: "https://beta.mycrypto.com/",
-    style: {},
+    name: "ENS Domains",
+    icon: require("../assets/dapps/ensdomains.jpg"),
+    url: "https://app.ens.domains/",
+    style: { cropCircle: true },
   },
   {
     name: "Gnosis Safe Multisig",
@@ -182,18 +287,6 @@ const DAPPS: IProject[] = [
     style: {},
   },
   {
-    name: "Aave",
-    icon: require("../assets/dapps/aave.png"),
-    url: "https://app.aave.com/",
-    style: {},
-  },
-  {
-    name: "Zapper",
-    icon: require("../assets/dapps/zapper.png"),
-    url: "https://www.zapper.fi/",
-    style: { cropCircle: true },
-  },
-  {
     name: "88mph",
     icon: require("../assets/dapps/88mph.jpg"),
     url: "https://88mph.app/",
@@ -230,6 +323,12 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "MyEtherWallet",
+    icon: require("../assets/dapps/myetherwallet.jpg"),
+    url: "https://myetherwallet.com/",
+    style: {},
+  },
+  {
     name: "Affogato",
     icon: require("../assets/dapps/affogato.png"),
     url: "https://affogato.co/",
@@ -248,28 +347,10 @@ const DAPPS: IProject[] = [
     style: {},
   },
   {
-    name: "MyEtherWallet",
-    icon: require("../assets/dapps/myetherwallet.jpg"),
-    url: "https://www.myetherwallet.com/",
-    style: {},
-  },
-  {
     name: "Loom Network",
     icon: require("../assets/dapps/loomnetwork.png"),
     url: "https://dashboard.dappchains.com/login",
     style: { cropCircle: true },
-  },
-  {
-    name: "Curve",
-    icon: require("../assets/dapps/curvefinance.png"),
-    url: "https://www.curve.fi",
-    style: {},
-  },
-  {
-    name: "Matic Network",
-    icon: require("../assets/dapps/maticnetwork.jpg"),
-    url: "https://matic.network/",
-    style: {},
   },
   {
     name: "ThorChain",
@@ -326,12 +407,6 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "Unstoppable Domains",
-    icon: require("../assets/dapps/unstoppable.png"),
-    url: "https://unstoppabledomains.com/manager",
-    style: { cropCircle: true },
-  },
-  {
     name: "MCDEX",
     icon: require("../assets/dapps/mcdex.png"),
     url: "https://mcdex.io",
@@ -350,18 +425,6 @@ const DAPPS: IProject[] = [
     style: {},
   },
   {
-    name: "Matcha",
-    icon: require("../assets/dapps/matcha.jpg"),
-    url: "https://matcha.xyz",
-    style: { cropCircle: true },
-  },
-  {
-    name: "Nash",
-    icon: require("../assets/dapps/nash.jpg"),
-    url: "https://nash.io/",
-    style: { cropCircle: true },
-  },
-  {
     name: "Chainsfr",
     icon: require("../assets/dapps/chainsfr.png"),
     url: "https://chainsfr.com",
@@ -372,12 +435,6 @@ const DAPPS: IProject[] = [
     icon: require("../assets/dapps/aka3.png"),
     url: "http://aka3.net",
     style: {},
-  },
-  {
-    name: "DeBank",
-    icon: require("../assets/dapps/debank.jpg"),
-    url: "https://debank.com/",
-    style: { cropCircle: true },
   },
   {
     name: "2Key",
@@ -407,12 +464,6 @@ const DAPPS: IProject[] = [
     name: "zkSync",
     icon: require("../assets/dapps/zksync.jpg"),
     url: "https://zksync.io/",
-    style: { cropCircle: true },
-  },
-  {
-    name: "TokenSets",
-    icon: require("../assets/dapps/tokensets.jpg"),
-    url: "https://tokensets.com/",
     style: { cropCircle: true },
   },
   {
@@ -452,12 +503,6 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "MANTRA DAO",
-    icon: require("../assets/dapps/mantradao.png"),
-    url: "https://app.mantradao.com/",
-    style: { cropCircle: true },
-  },
-  {
     name: "Snapshot",
     icon: require("../assets/dapps/snapshot.jpg"),
     url: "https://snapshot.page/",
@@ -488,9 +533,9 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "Adex Network",
-    icon: require("../assets/dapps/adexnetwork.jpg"),
-    url: "https://staking.adex.network/",
+    name: "Tokamak Network",
+    icon: require("../assets/dapps/tokamak.png"),
+    url: "https://tokamak.network/",
     style: {},
   },
   {
@@ -530,11 +575,17 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "Bitfrost Finance",
+    icon: require("../assets/dapps/bitfrostfinance.png"),
+    url: "https://bitfrost.finance/",
+    style: { cropCircle: true },
+  },
+  {
     name: "XinFin XDC Network",
     icon: require("../assets/dapps/xdcnetwork.jpg"),
     url: "https://xinfin.network/",
     style: {},
-  },
+  }
 ];
 
 export default DAPPS;
