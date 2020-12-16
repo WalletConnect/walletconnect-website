@@ -582,10 +582,10 @@ const DAPPS: IProject[] = [
   },
   {
     name: "XinFin XDC Network",
-    icon: require("../assets/dapps/xdcnetwork.jpg"),
+    icon: require("../assets/dapps/xdcnetwork.png"),
     url: "https://xinfin.network/",
     style: {},
-  }
+  },
 ];
 
 export default DAPPS;
