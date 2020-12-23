@@ -289,6 +289,12 @@ const WALLETS: IProject[] = [
     url: "https://midasprotocol.io/",
     style: {},
   },
+  {
+    name: "Loopring Wallet",
+    icon: require("../assets/wallets/loopring.jpg"),
+    url: "https://loopring.io",
+    style: {},
+  },
 ];
 
 export default WALLETS;
