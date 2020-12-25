@@ -242,7 +242,7 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "PeakDeFi Wallet",
+    name: "PEAKDEFI Wallet",
     icon: require("../assets/wallets/peakdefi.png"),
     url: "https://app.peakdefi.com/download",
     style: {},
