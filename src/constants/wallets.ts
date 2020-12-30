@@ -110,6 +110,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "CYBAVO wallet",
+    icon: require("../assets/wallets/cybavowallet.png"),
+    url: "https://www.cybavo.com/wallet-app-sdk/",
+    style: {},
+  },
+  {
     name: "CoolWallet S",
     icon: require("../assets/wallets/coolwallet-s.png"),
     url: "https://www.coolwallet.io/",
