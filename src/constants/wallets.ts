@@ -110,7 +110,7 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "CYBAVO wallet",
+    name: "CYBAVO Wallet",
     icon: require("../assets/wallets/cybavowallet.png"),
     url: "https://www.cybavo.com/wallet-app-sdk/",
     style: {},
