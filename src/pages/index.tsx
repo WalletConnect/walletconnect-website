@@ -212,7 +212,7 @@ const IndexPage = (props: any) => (
           <SQuestion>
             <h3>How can I build a wallet supporting WalletConnect?</h3>
             <p>
-              There are libraries for React-Native(Javascript), Android (Java)
+              There are libraries for React-Native(Javascript), Android (Kotlin)
               and Swift (iOS) available. Read more about it in our{" "}
               <a href="https://docs.walletconnect.org/quick-start/wallets">
                 documentation
