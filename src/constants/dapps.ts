@@ -166,7 +166,7 @@ const DAPPS: IProject[] = [
     name: "Loopring",
     icon: require("../assets/dapps/loopring.jpg"),
     // 2020-12-16 <50 K
-    url: "https://loopring.io/trade/",
+    url: "https://exchange.loopring.io",
     style: {},
   },
   {

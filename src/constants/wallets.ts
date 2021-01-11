@@ -110,6 +110,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "CYBAVO Wallet",
+    icon: require("../assets/wallets/cybavowallet.png"),
+    url: "https://www.cybavo.com/wallet-app-sdk/",
+    style: {},
+  },
+  {
     name: "CoolWallet S",
     icon: require("../assets/wallets/coolwallet-s.png"),
     url: "https://www.coolwallet.io/",
@@ -242,7 +248,7 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "PeakDeFi Wallet",
+    name: "PEAKDEFI Wallet",
     icon: require("../assets/wallets/peakdefi.png"),
     url: "https://app.peakdefi.com/download",
     style: {},
@@ -287,6 +293,18 @@ const WALLETS: IProject[] = [
     name: "Midas Wallet",
     icon: require("../assets/wallets/midas-wallet.png"),
     url: "https://midasprotocol.io/",
+    style: {},
+  },
+  {
+    name: "Loopring Wallet",
+    icon: require("../assets/wallets/loopring.jpg"),
+    url: "https://loopring.io",
+    style: {},
+  },
+  {
+    name: "Ellipal",
+    icon: require("../assets/wallets/ellipal.png"),
+    url: "https://www.ellipal.com/",
     style: {},
   },
 ];
