@@ -301,6 +301,12 @@ const WALLETS: IProject[] = [
     url: "https://loopring.io",
     style: {},
   },
+  {
+    name: "Ellipal",
+    icon: require("../assets/wallets/ellipal.png"),
+    url: "https://www.ellipal.com/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
