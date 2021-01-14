@@ -586,6 +586,18 @@ const DAPPS: IProject[] = [
     url: "https://xinfin.network/",
     style: {},
   },
+  {
+    name: "Orchid Protocol",
+    icon: require("../assets/dapps/orchid.png"),
+    url: "https://account.orchid.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Lido",
+    icon: require("../assets/dapps/lido.png"),
+    url: "https://stake.lido.fi/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;
