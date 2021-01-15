@@ -50,6 +50,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "D'CENT Wallet",
+    icon: require("../assets/wallets/dcentwallet.png"),
+    url: "https://dcentwallet.com/",
+    style: {},
+  },
+  {
     name: "TokenPocket",
     icon: require("../assets/wallets/tokenpocket.png"),
     url: "https://www.tokenpocket.pro/",
