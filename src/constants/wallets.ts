@@ -307,6 +307,12 @@ const WALLETS: IProject[] = [
     url: "https://www.ellipal.com/",
     style: {},
   },
+  {
+    name: "TrustVault",
+    icon: require("../assets/wallets/trustvault.png"),
+    url: "https://www.trustology.io/",
+    style: {},
+  },
 ];
 
 export default WALLETS;
