@@ -598,6 +598,12 @@ const DAPPS: IProject[] = [
     url: "https://stake.lido.fi/",
     style: { cropCircle: true },
   },
+  {
+    name: "Datamine Network",
+    icon: require("../assets/dapps/datamine.jpg"),
+    url: "https://datamine.network/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;
