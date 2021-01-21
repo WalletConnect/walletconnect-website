@@ -50,10 +50,16 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "D'CENT Wallet",
-    icon: require("../assets/wallets/dcentwallet.png"),
-    url: "https://dcentwallet.com/",
+    name: "Walleth",
+    icon: require("../assets/wallets/walleth.png"),
+    url: "https://walleth.org/",
     style: {},
+  },
+  {
+    name: "BitPay",
+    icon: require("../assets/wallets/bitpay.jpg"),
+    url: "https://bitpay.com/wallet",
+    style: { cropCircle: true },
   },
   {
     name: "TokenPocket",
@@ -62,15 +68,15 @@ const WALLETS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "Walleth",
-    icon: require("../assets/wallets/walleth.png"),
-    url: "https://walleth.org/",
+    name: "D'CENT Wallet",
+    icon: require("../assets/wallets/dcentwallet.png"),
+    url: "https://dcentwallet.com/",
     style: {},
   },
   {
-    name: "Atomic",
-    icon: require("../assets/wallets/atomic.png"),
-    url: "https://atomicwallet.io/",
+    name: "MathWallet",
+    icon: require("../assets/wallets/math-wallet.png"),
+    url: "https://mathwallet.org/en/",
     style: {},
   },
   {
@@ -90,6 +96,54 @@ const WALLETS: IProject[] = [
     icon: require("../assets/wallets/eidoo.png"),
     url: "https://eidoo.io/",
     style: {},
+  },
+  {
+    name: "MYKEY",
+    icon: require("../assets/wallets/mykey.png"),
+    url: "https://mykey.org",
+    style: {},
+  },
+  {
+    name: "Loopring Wallet",
+    icon: require("../assets/wallets/loopring.jpg"),
+    url: "https://loopring.io",
+    style: {},
+  },
+  {
+    name: "TrustVault",
+    icon: require("../assets/wallets/trustvault.png"),
+    url: "https://www.trustology.io/",
+    style: {},
+  },
+  {
+    name: "Atomic",
+    icon: require("../assets/wallets/atomic.png"),
+    url: "https://atomicwallet.io/",
+    style: {},
+  },
+  {
+    name: "Coin98",
+    icon: require("../assets/wallets/coin98.png"),
+    url: "https://coin98.app/",
+    style: {},
+  },
+  {
+    name: "CoolWallet S",
+    icon: require("../assets/wallets/coolwallet-s.png"),
+    url: "https://www.coolwallet.io/",
+    style: {},
+  },
+  {
+    name: "Alice",
+    icon: require("../assets/wallets/alice.png"),
+    url: "https://www.alicedapp.com/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "AlphaWallet",
+    icon: require("../assets/wallets/alpha-wallet.jpg"),
+    url: "https://alphawallet.com/",
+    style: { cropCircle: true },
   },
   {
     name: "ZelCore",
@@ -122,28 +176,22 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "CoolWallet S",
-    icon: require("../assets/wallets/coolwallet-s.png"),
-    url: "https://www.coolwallet.io/",
-    style: {},
-  },
-  {
-    name: "Alice",
-    icon: require("../assets/wallets/alice.png"),
-    url: "https://www.alicedapp.com/",
-    style: { cropCircle: true },
-  },
-  {
-    name: "AlphaWallet",
-    icon: require("../assets/wallets/alpha-wallet.jpg"),
-    url: "https://alphawallet.com/",
-    style: { cropCircle: true },
-  },
-  {
     name: "Tokenary",
     icon: require("../assets/wallets/tokenary.png"),
     url: "https://tokenary.io/",
     style: {},
+  },
+  {
+    name: "Torus",
+    icon: require("../assets/wallets/torus.jpg"),
+    url: "https://toruswallet.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Spatium",
+    icon: require("../assets/wallets/spatium.jpg"),
+    url: "https://spatium.net/",
+    style: { cropCircle: true },
   },
   {
     name: "SafePal",
@@ -162,24 +210,6 @@ const WALLETS: IProject[] = [
     icon: require("../assets/wallets/infinito-wallet.png"),
     url: "https://www.infinitowallet.io/",
     style: {},
-  },
-  {
-    name: "MathWallet",
-    icon: require("../assets/wallets/math-wallet.png"),
-    url: "https://mathwallet.org/en/",
-    style: {},
-  },
-  {
-    name: "MYKEY",
-    icon: require("../assets/wallets/mykey.png"),
-    url: "https://mykey.org",
-    style: {},
-  },
-  {
-    name: "Spatium",
-    icon: require("../assets/wallets/spatium.jpg"),
-    url: "https://spatium.net/",
-    style: { cropCircle: true },
   },
   {
     name: "wallet.io",
@@ -230,12 +260,6 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "Coin98",
-    icon: require("../assets/wallets/coin98.png"),
-    url: "https://coin98.app/",
-    style: {},
-  },
-  {
     name: "BitKeep",
     icon: require("../assets/wallets/bitkeep.png"),
     url: "https://bitkeep.com/",
@@ -251,7 +275,7 @@ const WALLETS: IProject[] = [
     name: "SWFT Wallet",
     icon: require("../assets/wallets/swft.png"),
     url: "https://www.swft.pro/",
-    style: {},
+    style: { cropCircle: true },
   },
   {
     name: "PEAKDEFI Wallet",
@@ -302,21 +326,9 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
-    name: "Loopring Wallet",
-    icon: require("../assets/wallets/loopring.jpg"),
-    url: "https://loopring.io",
-    style: {},
-  },
-  {
     name: "Ellipal",
     icon: require("../assets/wallets/ellipal.png"),
     url: "https://www.ellipal.com/",
-    style: {},
-  },
-  {
-    name: "TrustVault",
-    icon: require("../assets/wallets/trustvault.png"),
-    url: "https://www.trustology.io/",
     style: {},
   },
 ];
