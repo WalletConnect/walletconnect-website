@@ -22,7 +22,7 @@ const WALLETS: IProject[] = [
   {
     name: "Metamask",
     icon: require("../assets/wallets/metamask.png"),
-    url: "https://mobile.metamask.io/",
+    url: "https://metamask.io/",
     style: {},
   },
   {
