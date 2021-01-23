@@ -30,6 +30,13 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "Compound",
+    icon: require("../assets/dapps/compound.png"),
+    // 2021-01-23 334.04K
+    url: "https://compound.finance/",
+    style: { cropCircle: true },
+  },
+  {
     name: "Zapper",
     icon: require("../assets/dapps/zapper.png"),
     // 2020-12-16 294.02K
@@ -84,6 +91,13 @@ const DAPPS: IProject[] = [
     // 2020-12-16 180.41K
     url: "https://1inch.exchange/",
     style: {},
+  },
+  {
+    name: "yearn",
+    icon: require("../assets/dapps/yearn.png"),
+    // 2021-01-23 148.91K
+    url: "https://yearn.finance/",
+    style: { cropCircle: true },
   },
   {
     name: "Nash",
@@ -449,6 +463,12 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "SushiSwap",
+    icon: require("../assets/dapps/sushiswap.png"),
+    url: "https://sushiswap.fi/",
+    style: { cropCircle: true },
+  },
+  {
     name: "Unagii",
     icon: require("../assets/dapps/unagii.png"),
     url: "https://www.unagii.com/",
@@ -602,6 +622,12 @@ const DAPPS: IProject[] = [
     name: "Datamine Network",
     icon: require("../assets/dapps/datamine.jpg"),
     url: "https://datamine.network/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Streamr",
+    icon: require("../assets/dapps/streamr.jpg"),
+    url: "https://streamr.network/",
     style: { cropCircle: true },
   },
 ];
