@@ -331,6 +331,12 @@ const WALLETS: IProject[] = [
     url: "https://www.ellipal.com/",
     style: {},
   },
+  {
+    name: "KEYRING PRO",
+    icon: require("../assets/wallets/keyringpro.png"),
+    url: "https://keyring.app/",
+    style: {},
+  }
 ];
 
 export default WALLETS;
