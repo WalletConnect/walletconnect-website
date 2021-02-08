@@ -68,9 +68,9 @@ const WALLETS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "D'CENT Wallet",
-    icon: require("../assets/wallets/dcentwallet.png"),
-    url: "https://dcentwallet.com/",
+    name: "ONTO",
+    icon: require("../assets/wallets/onto.png"),
+    url: "https://onto.app/",
     style: {},
   },
   {
@@ -144,6 +144,12 @@ const WALLETS: IProject[] = [
     icon: require("../assets/wallets/alpha-wallet.jpg"),
     url: "https://alphawallet.com/",
     style: { cropCircle: true },
+  },
+  {
+    name: "D'CENT Wallet",
+    icon: require("../assets/wallets/dcentwallet.png"),
+    url: "https://dcentwallet.com/",
+    style: {},
   },
   {
     name: "ZelCore",
@@ -233,12 +239,6 @@ const WALLETS: IProject[] = [
     name: "EasyPocket",
     icon: require("../assets/wallets/easypocket.jpg"),
     url: "https://easypocket.app/",
-    style: {},
-  },
-  {
-    name: "ONTO",
-    icon: require("../assets/wallets/onto.png"),
-    url: "https://onto.app/",
     style: {},
   },
   {
