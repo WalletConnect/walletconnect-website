@@ -22,7 +22,7 @@ const WALLETS: IProject[] = [
   {
     name: "Metamask",
     icon: require("../assets/wallets/metamask.png"),
-    url: "https://mobile.metamask.io/",
+    url: "https://metamask.io/",
     style: {},
   },
   {
@@ -331,6 +331,18 @@ const WALLETS: IProject[] = [
     url: "https://www.ellipal.com/",
     style: {},
   },
+  {
+    name: "KEYRING PRO",
+    icon: require("../assets/wallets/keyringpro.png"),
+    url: "https://keyring.app/",
+    style: {},
+  },
+  {
+    name: "Aktionariat",
+    icon: require("../assets/wallets/aktionariat.png"),
+    url: "https://aktionariat.com/",
+    style: { cropCircle: true },
+  }
 ];
 
 export default WALLETS;

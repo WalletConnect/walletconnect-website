@@ -630,6 +630,12 @@ const DAPPS: IProject[] = [
     url: "https://streamr.network/",
     style: { cropCircle: true },
   },
+  {
+    name: "DappRadar",
+    icon: require("../assets/dapps/dappradar.png"),
+    url: "https://dappradar.com/hub/wallet",
+    style: { cropCircle: true },
+  },
 ];
 
 export default DAPPS;
