@@ -658,7 +658,7 @@ const DAPPS: IProject[] = [
   {
     name: "HoneySwap",
     icon: require("../assets/dapps/honeyswap.jpg"),
-    url: "https://paraswap.org/",
+    url: "https://honeyswap.org/",
     style: { cropCircle: true },
   },
 ];
