@@ -624,6 +624,7 @@ const DAPPS: IProject[] = [
     url: "https://datamine.network/",
     style: { cropCircle: true },
   },
+  // apps below to be reviewed on SimilarWeb
   {
     name: "Streamr",
     icon: require("../assets/dapps/streamr.jpg"),
@@ -634,6 +635,30 @@ const DAPPS: IProject[] = [
     name: "DappRadar",
     icon: require("../assets/dapps/dappradar.png"),
     url: "https://dappradar.com/hub/wallet",
+    style: { cropCircle: true },
+  },
+  {
+    name: "SuperRare",
+    icon: require("../assets/dapps/superrare.jpg"),
+    url: "https://superrare.co/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "Arbitrum",
+    icon: require("../assets/dapps/arbitrum.jpg"),
+    url: "https://portal.arbitrum.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "ParaSwap",
+    icon: require("../assets/dapps/paraswap.jpg"),
+    url: "https://paraswap.io/",
+    style: { cropCircle: true },
+  },
+  {
+    name: "HoneySwap",
+    icon: require("../assets/dapps/honeyswap.jpg"),
+    url: "https://paraswap.org/",
     style: { cropCircle: true },
   },
 ];

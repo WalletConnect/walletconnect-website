@@ -49,10 +49,25 @@ const WALLETS: IProject[] = [
     url: "https://token.im/",
     style: {},
   },
+
   {
-    name: "Walleth",
-    icon: require("../assets/wallets/walleth.png"),
-    url: "https://walleth.org/",
+    name: "ONTO",
+    icon: require("../assets/wallets/onto.png"),
+    url: "https://onto.app/",
+    style: {},
+  },
+
+  {
+    name: "TokenPocket",
+    icon: require("../assets/wallets/tokenpocket.png"),
+    url: "https://www.tokenpocket.pro/",
+    style: { cropCircle: true },
+  },
+
+  {
+    name: "MathWallet",
+    icon: require("../assets/wallets/math-wallet.png"),
+    url: "https://mathwallet.org/en/",
     style: {},
   },
   {
@@ -62,21 +77,15 @@ const WALLETS: IProject[] = [
     style: { cropCircle: true },
   },
   {
-    name: "TokenPocket",
-    icon: require("../assets/wallets/tokenpocket.png"),
-    url: "https://www.tokenpocket.pro/",
-    style: { cropCircle: true },
-  },
-  {
-    name: "ONTO",
-    icon: require("../assets/wallets/onto.png"),
-    url: "https://onto.app/",
+    name: "Ledger Live",
+    icon: require("../assets/wallets/ledgerlive.png"),
+    url: "https://www.ledger.com/ledger-live",
     style: {},
   },
   {
-    name: "MathWallet",
-    icon: require("../assets/wallets/math-wallet.png"),
-    url: "https://mathwallet.org/en/",
+    name: "Walleth",
+    icon: require("../assets/wallets/walleth.png"),
+    url: "https://walleth.org/",
     style: {},
   },
   {
@@ -342,7 +351,7 @@ const WALLETS: IProject[] = [
     icon: require("../assets/wallets/aktionariat.png"),
     url: "https://aktionariat.com/",
     style: { cropCircle: true },
-  }
+  },
 ];
 
 export default WALLETS;
