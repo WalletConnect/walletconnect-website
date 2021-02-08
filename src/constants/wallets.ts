@@ -336,6 +336,12 @@ const WALLETS: IProject[] = [
     icon: require("../assets/wallets/keyringpro.png"),
     url: "https://keyring.app/",
     style: {},
+  },
+  {
+    name: "Aktionariat",
+    icon: require("../assets/wallets/aktionariat.png"),
+    url: "https://aktionariat.com/",
+    style: { cropCircle: true },
   }
 ];
 
