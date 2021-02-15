@@ -661,6 +661,12 @@ const DAPPS: IProject[] = [
     url: "https://honeyswap.org/",
     style: { cropCircle: true },
   },
+  {
+    name: "Fleek",
+    icon: require("../assets/dapps/fleek.png"),
+    url: "https://fleek.co/",
+    style: {},
+  },
 ];
 
 export default DAPPS;
