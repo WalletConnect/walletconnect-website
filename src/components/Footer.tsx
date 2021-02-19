@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import telegram from "../assets/telegram.svg";
 import twitter from "../assets/twitter.svg";
 import discord from "../assets/discord.svg";
 import github from "../assets/github.svg";
@@ -62,17 +61,6 @@ const Footer = (props: any) => (
         <img src={discord} alt="Discord" />
       </SSocialIcon>
       <p>Discord</p>
-    </SExternalLink>
-
-    <SExternalLink
-      href="https://telegram.walletconnect.org/"
-      target="blank"
-      rel="noreferrer noopener"
-    >
-      <SSocialIcon>
-        <img src={telegram} alt="Telegram" />
-      </SSocialIcon>
-      <p>Telegram</p>
     </SExternalLink>
 
     <SExternalLink
