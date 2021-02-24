@@ -547,6 +547,12 @@ const DAPPS: IProject[] = [
     style: { cropCircle: true },
   },
   {
+    name: "DeFiner",
+    icon: require("../assets/dapps/definer.png"),
+    url: "https://app.definer.org/",
+    style: { cropCircle: true },
+  },
+  {
     name: "zLOT",
     icon: require("../assets/dapps/zlot.jpg"),
     url: "https://zlot.finance/",
