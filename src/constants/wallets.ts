@@ -352,6 +352,12 @@ const WALLETS: IProject[] = [
     url: "https://aktionariat.com/",
     style: { cropCircle: true },
   },
+  {
+    name: "MEW",
+    icon: require("../assets/wallets/myetherwallet.png"),
+    url: "https://www.myetherwallet.com/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default WALLETS;
