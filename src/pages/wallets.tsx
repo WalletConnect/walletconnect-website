@@ -21,10 +21,10 @@ const IndexPage = (props: any) => (
       <SBrandingWrapper>
         <SBranding>{`Wallets`}</SBranding>
         <SPageDescription>
-          Multiple iOS and Android wallets support the WalletConnect protocol. Simply scan a
-          QR code from your desktop computer screen to start securely using a dApp with
-          your mobile wallet. Interaction between mobile apps and
-          mobile browsers are supported via mobile deep linking.
+          Multiple iOS and Android wallets support the WalletConnect protocol.
+          Simply scan a QR code from your desktop computer screen to start
+          securely using a dApp with your mobile wallet. Interaction between
+          mobile apps and mobile browsers are supported via mobile deep linking.
         </SPageDescription>
       </SBrandingWrapper>
       <SSection>
@@ -54,7 +54,7 @@ const IndexPage = (props: any) => (
             target="blank"
             rel="noreferrer noopener"
           >
-            Github
+            GitHub
           </a>{" "}
           to add your wallet here.
         </p>

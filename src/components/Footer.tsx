@@ -80,9 +80,9 @@ const Footer = (props: any) => (
       rel="noreferrer noopener"
     >
       <SSocialIcon>
-        <img src={github} alt="Github" />
+        <img src={github} alt="GitHub" />
       </SSocialIcon>
-      <p>Github</p>
+      <p>GitHub</p>
     </SExternalLink>
   </SFooter>
 );

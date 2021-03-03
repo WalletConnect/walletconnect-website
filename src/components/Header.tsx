@@ -55,7 +55,7 @@ const Header = (props: any) => (
       href="https://github.walletconnect.org/"
       target="blank"
       rel="noreferrer noopener"
-    >{`Github`}</SExternalLink>
+    >{`GitHub`}</SExternalLink>
 
     <SExternalLink
       href="https://docs.walletconnect.org/"

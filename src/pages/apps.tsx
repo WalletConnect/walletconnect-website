@@ -51,7 +51,7 @@ const IndexPage = (props: any) => (
               target="blank"
               rel="noreferrer noopener"
             >
-              Github
+              GitHub
             </a>{" "}
             to add your app here.
           </p>
