@@ -1,25 +1,41 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import { WALLET_CONNECT_DOCS_URL, WALLET_CONNECT_GITHUB_URL } from '../common/Constants';
+import { HeaderLink } from './HeaderLink';
 
 
-const Header = () => (
+const ShadowHeader = () => (
   <>
     <Head>
       <title>WalletConnect</title>
     </Head>
-
     <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white ">
       <div className="absolute inset-0 shadow-lg opacity-50"></div>
-      <div className="flex">
-        a
+      <div className="z-20 flex space-x-2">
+        <HeaderLink href={WALLET_CONNECT_GITHUB_URL} external>
+          Github
+        </HeaderLink>
+        <HeaderLink href={WALLET_CONNECT_DOCS_URL} external>
+          Docs
+        </HeaderLink>
       </div>
-      <div className="flex">
-        <img className="w-56" src='walletconnect-logo.png' />
+      <div className="z-20 flex">
+        <div className="w-16 mx-6 sm:w-20 md:w-28">
+          <Link href="/">
+            <img className="cursor-pointer object-fit" src='walletconnect-logo.svg' alt='walletconnect logo' />
+          </Link>
+        </div>
       </div>
-      <div className="flex">
-        b
+      <div className="z-20 flex space-x-2">
+        <HeaderLink href='/wallets'>
+          Wallets
+        </HeaderLink>
+        <HeaderLink href='/apps'>
+          Apps
+        </HeaderLink>
       </div>
     </header>
   </>
 )
 
-export default Header;
+export default ShadowHeader;

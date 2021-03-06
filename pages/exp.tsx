@@ -31,7 +31,7 @@ const Display = () => {
 
   if (isLoading) return <span>Loading...</span>
 
-  if (isError) return <span>{CONNECTION_ERROR_MESSAGE} {console.error(error.message)}</span>
+  if (isError) return <span>{CONNECTION_ERROR_MESSAGE} {console.error(error)}</span>
 
   console.log('data:', data);
 

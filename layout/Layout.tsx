@@ -1,12 +1,11 @@
 // import { ReactQueryDevtools } from 'react-query/devtools';
-import Header from './Header';
+import ShadowHeader from './ShadowHeader';
 import Footer from './Footer';
 
 
 const Layout = ({ children }) => (
   <div className="font-poppins" id="content">
-
-    <Header />
+    <ShadowHeader />
     {children}
     <Footer />
 

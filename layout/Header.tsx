@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { WALLET_CONNECT_DOCS_URL, WALLET_CONNECT_GITHUB_URL } from '../common/Constants';
+import { HeaderLink } from './HeaderLink';
+
 
 
 const Header = () => (
@@ -19,7 +21,7 @@ const Header = () => (
         </HeaderLink>
       </div>
       <div className="flex">
-        <div className="w-28">
+        <div className="w-16 mx-6 sm:w-20 md:w-28">
           <Link href="/">
             <img className="cursor-pointer object-fit" src='walletconnect-logo.svg' alt='walletconnect logo' />
           </Link>
@@ -36,27 +38,6 @@ const Header = () => (
     </header>
   </>
 )
-
 export default Header;
 
 
-
-
-const HeaderLink = ({ children, href, external = false }) => {
-  const LINK_STYLE_CLASSES = 'text-lg font-semibold text-blue-800'
-
-
-  if (!external) return (
-    <Link href={href}>
-      <a className={LINK_STYLE_CLASSES}>
-        {children}
-      </a>
-    </Link>
-  )
-
-  return (
-    <a className={LINK_STYLE_CLASSES} target="_blank" href={href} rel="noopener noreferrer">
-      {children}
-    </a>
-  )
-}
