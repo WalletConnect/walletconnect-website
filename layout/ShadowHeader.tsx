@@ -11,7 +11,7 @@ const ShadowHeader = () => (
     </Head>
     <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white ">
       <div className="absolute inset-0 shadow-lg opacity-50"></div>
-      <div className="z-20 flex space-x-2">
+      <div className="z-20 flex justify-around w-full sm:pr-10 md:pr-20">
         <HeaderLink href={WALLET_CONNECT_GITHUB_URL} external>
           Github
         </HeaderLink>
@@ -26,7 +26,7 @@ const ShadowHeader = () => (
           </Link>
         </div>
       </div>
-      <div className="z-20 flex space-x-2">
+      <div className="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
         <HeaderLink href='/wallets'>
           Wallets
         </HeaderLink>

@@ -9,7 +9,7 @@ export type HeaderLinkProps = {
 
 
 export const HeaderLink = ({ children, href, external = false }: HeaderLinkProps) => {
-  const LINK_STYLE_CLASSES = 'font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl sm:px-5 md:px-8'
+  const LINK_STYLE_CLASSES = 'font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl'
 
   if (!external) return (
     <Link href={href}>
