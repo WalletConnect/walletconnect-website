@@ -352,6 +352,12 @@ const WALLETS: IProject[] = [
     url: "https://aktionariat.com/",
     style: { cropCircle: true },
   },
+  {
+    name: "Jade Wallet",
+    icon: require("../assets/wallets/jadewallet.png"),
+    url: "https://jadewallet.io/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default WALLETS;
