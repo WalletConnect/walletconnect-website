@@ -9,7 +9,7 @@ const ShadowHeader = () => (
     <Head>
       <title>WalletConnect</title>
     </Head>
-    <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white ">
+    <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white md:py-6 ">
       <div className="absolute inset-0 shadow-lg opacity-50"></div>
       <div className="z-20 flex justify-around w-full sm:pr-10 md:pr-20">
         <HeaderLink href={WALLET_CONNECT_GITHUB_URL} external>

@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ['walletconnect.org'],
+    domains: ['walletconnect.org', 'github.com'],
   },
 }
