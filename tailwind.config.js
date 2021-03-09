@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Quicksand', 'Poppins', 'system-ui'],
+        poppins: ['Roboto', 'system-ui'],
       }
     },
   },

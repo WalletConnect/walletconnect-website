@@ -9,7 +9,6 @@ export default async (req, res) => {
 
   //check data, error response if not there
 
-
   res.statusCode = 200;
   res.json(data);
 }

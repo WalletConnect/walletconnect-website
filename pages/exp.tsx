@@ -17,18 +17,16 @@ export default Exp;
 
 
 const Display = () => {
-  const LOCAL_WALLETS_CALL = 'https://walletconnect-website-next-elrypto1.vercel.app/api/registry/wallets';
+  const API_WALLETS_CALL = 'https://walletconnect-website-next-elrypto1.vercel.app/api/registry/wallets';
   const { isLoading, isError, data, error } =
     useQuery(
       WALLET_REGISTRY_KEY,
       async () => {
-        const resp = await fetch(LOCAL_WALLETS_CALL);
+        const resp = await fetch(API_WALLETS_CALL);
         return resp.json();
       });
 
-
   if (isLoading) return <span>Loading...</span>
-
   if (isError) return <span>{CONNECTION_ERROR_MESSAGE} {console.error(error)}</span>
 
   console.log('data:', data);
