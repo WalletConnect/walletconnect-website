@@ -5,12 +5,9 @@ const Exp = () => {
 
   const queryClient = new QueryClient();
 
-
   return (
     <QueryClientProvider client={queryClient}>
-
       <Display />
-
     </QueryClientProvider>
   )
 }
@@ -20,11 +17,12 @@ export default Exp;
 
 
 const Display = () => {
+  const LOCAL_WALLETS_CALL = 'https://walletconnect-website-next-elrypto1.vercel.app/api/registry/wallets';
   const { isLoading, isError, data, error } =
     useQuery(
       WALLET_REGISTRY_KEY,
       async () => {
-        const resp = await fetch(WALLET_REGISTRY_URI);
+        const resp = await fetch(LOCAL_WALLETS_CALL);
         return resp.json();
       });
 
