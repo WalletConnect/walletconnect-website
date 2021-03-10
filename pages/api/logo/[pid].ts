@@ -1,18 +1,32 @@
 import { LOGO_BASE_URI } from "../../../common/Constants";
 
 export default async (req, res) => {
-  const { pid } = req.query;
+  const { pid, size } = req.query;
   let imgData;
   let isPng = true;
+  let small = false;
 
-  imgData = await fetch(`${LOGO_BASE_URI}${pid}.png`);
+  // defensive on the req.parms, req.query(especially)
 
-  // console.log('[imgData:]', imgData.status);
+  if (size) small = true;
+
+
+  if (small) {
+    imgData = await fetch(`${LOGO_BASE_URI}small/${pid}.png`);
+  } else {
+    imgData = await fetch(`${LOGO_BASE_URI}${pid}.png`);
+  }
+
 
   // not a png, try jpg
   if (imgData.status === 404) {
-    // console.log('no png, trying jpg');
-    imgData = await fetch(`${LOGO_BASE_URI}${pid}.jpg`);
+
+    if (small) {
+      imgData = await fetch(`${LOGO_BASE_URI}small/${pid}.jpg`);
+    } else {
+      imgData = await fetch(`${LOGO_BASE_URI}${pid}.jpg`);
+    }
+
     isPng = false;
   }
 
