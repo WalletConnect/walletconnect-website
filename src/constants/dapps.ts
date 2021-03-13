@@ -667,6 +667,12 @@ const DAPPS: IProject[] = [
     url: "https://fleek.co/",
     style: {},
   },
+  {
+    name: "Unique One",
+    icon: require("../assets/dapps/uniqueone.png"),
+    url: "https://unique.one/",
+    style: { cropCircle: true },
+  },  
 ];
 
 export default DAPPS;
