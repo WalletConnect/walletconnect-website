@@ -1,5 +1,6 @@
 import TitledContent from "../layout/TitledContext";
 import FUNDERS from '../common/funders';
+import CONTRIBUTORS from '../common/contributors';
 
 
 const Home = () => (
@@ -7,9 +8,12 @@ const Home = () => (
     <Banner />
     <WhatItIs />
     <TopProjectFunders />
+    <TopCodeContributors />
+
   </main>
 );
 export default Home;
+
 
 
 
@@ -30,14 +34,20 @@ const Banner = () => (
 );
 
 
+
 const TopCodeContributors = () => (
   <TitledContent title='Top Code Contributors'>
-    <div className="grid grid-cols-2 gap-12 mt-12 sm:gap-16 md:gap-20 sm:grid-cols-3">
-      <IconImage
-        name="rainbow"
-        icon='/funders/ethereum-foundation.png'
-        linkTo='https://ethereum.foundation/'
-      />
+    <div className="grid grid-cols-3 gap-12 mt-12 sm:gap-16 md:gap-20 sm:grid-cols-4 lg:grid-cols-5">
+      {
+        CONTRIBUTORS.map(contibutor => (
+          <IconImage
+            key={contibutor.name}
+            name={contibutor.name}
+            icon={contibutor.icon}
+            linkTo={contibutor.url}
+          />
+        ))
+      }
     </div>
   </TitledContent>
 )
@@ -49,6 +59,7 @@ const TopProjectFunders = () => (
       {
         FUNDERS.map(funder => (
           <IconImage
+            key={funder.name}
             name={funder.name}
             icon={funder.icon}
             linkTo={funder.url}
@@ -58,6 +69,7 @@ const TopProjectFunders = () => (
     </div>
   </TitledContent>
 )
+
 
 
 const IconImage = ({ name, icon, linkTo }) => (
@@ -100,17 +112,3 @@ const WhatItIs = () => (
     </div>
   </div>
 )
-
-
-
-
-const ExperimentalBanner = () => (
-  <div className="flex flex-col p-4">
-    <h2 className="text-2xl font-thin">
-      Open protocol for connecting Wallets to Dapps
-    </h2>
-    <div>
-      <img src='banner-main.png' alt='wallet connect banner diagram' />
-    </div>
-  </div >
-);
