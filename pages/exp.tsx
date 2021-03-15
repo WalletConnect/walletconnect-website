@@ -17,7 +17,7 @@ export default Exp;
 
 
 const Display = () => {
-  const API_WALLETS_CALL = 'https://walletconnect-website-next-elrypto1.vercel.app/api/registry/wallets';
+  const API_WALLETS_CALL = 'https://registry.walletconnect.org/api/registry/wallets';
   const { isLoading, isError, data, error } =
     useQuery(
       WALLET_REGISTRY_KEY,
@@ -34,7 +34,7 @@ const Display = () => {
 
   return (
     <div>
-      display
+      test display
     </div>
   )
 }

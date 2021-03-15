@@ -9,6 +9,7 @@ const Header = () => (
   <>
     <Head>
       <title>WalletConnect</title>
+      <link rel="shortcut icon" href="/favicon.ico" />
     </Head>
 
     <header className="flex items-center justify-between px-5 mx-10 my-8 bg-white">
