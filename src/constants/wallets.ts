@@ -352,6 +352,12 @@ const WALLETS: IProject[] = [
     url: "https://aktionariat.com/",
     style: { cropCircle: true },
   },
+  {
+    name: "O3 Wallet",
+    icon: require("../assets/wallets/O3Wallet.png"),
+    url: "https://o3.network/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default WALLETS;
