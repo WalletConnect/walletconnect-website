@@ -38,7 +38,7 @@ const Banner = () => (
 
 
 const FAQ = () => (
-  <TitledContent title='Frequently asked questions'>
+  <TitledContent title='Frequently asked questions' maxwidth='sm:max-w-3xl'>
     <FAQContent title="How do I install WalletConnect?">
       WalletConnect is not an app, but a protocol supported by many different
       decentralised applications and wallets. Install any of
