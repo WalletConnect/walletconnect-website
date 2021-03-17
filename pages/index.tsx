@@ -2,6 +2,8 @@ import TitledContent from "../components/TitledContext";
 import IconImage from "../components/IconImage";
 import FUNDERS from '../common/funders';
 import CONTRIBUTORS from '../common/contributors';
+import { PageLink } from "../components/StyledLinks";
+import { DOCS_URL, WALLETS_URL, WEB3MODAL_URL, WEB3_QUICKSTART_URL } from "../common/constants";
 
 
 
@@ -39,8 +41,9 @@ const FAQ = () => (
   <TitledContent title='Frequently asked questions'>
     <FAQContent title="How do I install WalletConnect?">
       WalletConnect is not an app, but a protocol supported by many different
-      decentralised applications and wallets. Install any of <span className="font-medium text-blue-500">mobile
-      wallets</span> supporting WalletConnect protocol. WalletConnect wallets
+      decentralised applications and wallets. Install any of
+      <PageLink href={WALLETS_URL}>mobile wallets</PageLink>
+      supporting WalletConnect protocol. WalletConnect wallets
       are available for Android and iPhone.
     </FAQContent>
     <FAQContent title="Is there a token?">
@@ -53,28 +56,23 @@ const FAQ = () => (
     </FAQContent>
     <FAQContent title="How can I build a wallet supporting WalletConnect?">
       There are libraries for React-Native(Javascript), Android (Kotlin) and Swift (iOS) available.
-      Read more about it in our <span className="font-medium text-blue-500">documentation.</span>
+      Read more about it in our <PageLink href={DOCS_URL}>documentation.</PageLink>
     </FAQContent>
     <FAQContent title="How can I add WalletConnect support to Dapp I developed?">
-      You can support various wallets either using <span className="font-medium text-blue-500">Web3Modal library </span>
-       or add a support for <span className="font-medium text-blue-500">WalletConnect provider directly</span>.
+      You can support various wallets either using  <PageLink href={WEB3MODAL_URL} external>Web3Modal library </PageLink>
+      or add a support for <PageLink href={WEB3_QUICKSTART_URL} external>WalletConnect provider directly</PageLink>.
     </FAQContent>
     <FAQContent title="How web frontend and mobile wallets communicate?">
       Communication happens over a bridge server that relays messages without
       access to their content. The contents are encrypted using the session data
       shared by the QR code or deep link between the dapp and the wallet. Read
-      more about it in our <span className="font-medium text-blue-500">documentation</span>.
+      more about it in our <PageLink href={DOCS_URL}>documentation.</PageLink>
       WalletConnect Association runs a public bridge server, but you can also roll your own.
     </FAQContent>
   </TitledContent>
 )
 
 
-const PageLink = ({ href, children }) => (
-  <span className="font-semibold text-blue-500">
-    {children}
-  </span>
-)
 
 const FAQContent = ({ title, children }) => (
   <div className="mt-8">
@@ -148,7 +146,8 @@ const WhatItIs = () => (
           How does it work?
       </h2>
         <p className="mt-6 text-lg leading-6 text-gray-700">
-          WalletConnect connects web applications to supported <span className="font-semibold text-blue-500">mobile wallets. </span>
+          WalletConnect connects web applications to supported
+          <PageLink href={WALLETS_URL}>mobile wallets</PageLink>
         WalletConnect session is started by a scanning a QR code (desktop) or
         by clicking an application deep link (mobile).
       </p>
