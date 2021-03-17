@@ -667,6 +667,12 @@ const DAPPS: IProject[] = [
     url: "https://fleek.co/",
     style: {},
   },
+  {
+    name: "Proof Of Humanity",
+    icon: require("../assets/dapps/PoH.png"),
+    url: "https://www.proofofhumanity.id/",
+    style: {},
+  },
 ];
 
 export default DAPPS;
