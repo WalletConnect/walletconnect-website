@@ -5,21 +5,16 @@ import MessageToUser from "../components/walletsdapps/MessageToUser";
 
 
 
-const Apps = ({ data }) => {
-  const ids = Object.keys(data);
-  const item = data[ids[0]];
-
-
-  return (
-    <main className="flex flex-col mx-8 mt-12 space-y-10 text-center align-middle">
-      <Banner title="dApps">
-        Following decentralised finance and blockchain applications support WalletConnect wallets.
+const Apps = ({ data, ids }) => (
+  <main className="flex flex-col mx-8 mt-12 space-y-10 text-center align-middle">
+    <Banner title="dApps">
+      Following decentralised finance and blockchain applications support WalletConnect wallets.
       </Banner>
-      <LogoDisplay data={data} ids={ids} />
-      <MessageToUser />
-    </main>
-  )
-}
+    <LogoDisplay data={data} ids={ids} />
+    <div className="mt-10" />
+    <MessageToUser />
+  </main>
+)
 export default Apps;
 
 
@@ -28,7 +23,8 @@ export default Apps;
 export const getStaticProps = async () => {
   const resp = await fetch(APPS_API_URL);
   const data = await resp.json();
+  const ids = Object.keys(data);
 
-  return { props: { data }, revalidate: TIME_TO_REVALIDATION }
+  return { props: { data, ids }, revalidate: TIME_TO_REVALIDATION }
 }
 

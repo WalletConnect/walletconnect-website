@@ -5,23 +5,21 @@ import MessageToUser from "../components/walletsdapps/MessageToUser";
 
 
 
-const Wallets = ({ data }) => {
-  const ids = Object.keys(data);
-  const item = data[ids[0]];
+const Wallets = ({ data, ids }) => (
 
-  return (
-    <main className="flex flex-col mx-8 mt-12 space-y-10 text-center align-middle">
-      <Banner title="Wallets">
-        Multiple iOS and Android wallets support the WalletConnect protocol.
-        Simply scan a QR code from your desktop computer screen to start securely
-        using a dApp with your mobile wallet. Interaction between mobile apps and
-        mobile browsers are supported via mobile deep linking.
+  <main className="flex flex-col mx-8 mt-12 space-y-10 text-center align-middle">
+    <Banner title="Wallets">
+      Multiple iOS and Android wallets support the WalletConnect protocol.
+      Simply scan a QR code from your desktop computer screen to start securely
+      using a dApp with your mobile wallet. Interaction between mobile apps and
+      mobile browsers are supported via mobile deep linking.
       </Banner>
-      <LogoDisplay data={data} ids={ids} />
-      <MessageToUser />
-    </main>
-  )
-}
+    <LogoDisplay data={data} ids={ids} />
+    <div className="mt-10" />
+    <MessageToUser />
+  </main>
+
+)
 export default Wallets;
 
 
@@ -30,7 +28,8 @@ export default Wallets;
 export const getStaticProps = async () => {
   const resp = await fetch(WALLETS_API_URL);
   const data = await resp.json();
+  const ids = Object.keys(data);
 
-  return { props: { data }, revalidate: TIME_TO_REVALIDATION }
+  return { props: { data, ids }, revalidate: TIME_TO_REVALIDATION }
 }
 

@@ -56,7 +56,7 @@ export const PageLink = ({ children, href, external = false }: LinkProps) => {
 export type IntExtLinkProps = {
   children: any;
   href: string;
-  tailwindStyles: string;
+  tailwindStyles?: string;
   external?: boolean;
 }
 
