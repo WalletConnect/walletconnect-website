@@ -37,6 +37,7 @@ const Banner = () => (
 );
 
 
+
 const FAQ = () => (
   <TitledContent title='Frequently asked questions' maxwidth='sm:max-w-3xl'>
     <FAQContent title="How do I install WalletConnect?">
@@ -104,6 +105,7 @@ const TopCodeContributors = () => (
     </div>
   </TitledContent>
 )
+
 
 
 const TopProjectFunders = () => (
