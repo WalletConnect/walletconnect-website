@@ -13,6 +13,7 @@ const Footer = () => (
 export default Footer;
 
 
+
 const FooterIcon = ({ name, iconPath, href }) => (
   <FooterLink
     href={href}

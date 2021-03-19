@@ -1,9 +1,9 @@
 import TitledContent from "../components/TitledContext";
-import IconImage from "../components/IconImage";
 import FUNDERS from '../common/funders';
 import CONTRIBUTORS from '../common/contributors';
 import { PageLink } from "../components/StyledLinks";
 import { DOCS_URL, WALLETS_URL, WEB3MODAL_URL, WEB3_QUICKSTART_URL } from "../common/constants";
+import IconImage from "../components/IconImage";
 
 
 

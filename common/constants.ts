@@ -12,4 +12,4 @@ export const TWITTER_URL = 'https://twitter.walletconnect.org/';
 export const WALLETS_API_URL = 'https://registry.walletconnect.org/data/wallets.json';
 export const APPS_API_URL = 'https://registry.walletconnect.org/data/dapps.json';
 export const IMG_API_URL = 'https://registry.walletconnect.org/logo/lg/'
-export const TIME_TO_REVALIDATION = 15;  // 15 seconds, 10*60  // 10 minutes 
+export const TIME_TO_REVALIDATION = 5 * 60; // 5 minutes 

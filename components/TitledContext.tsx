@@ -1,5 +1,4 @@
 
-
 const TitledContent = ({ title, children, maxwidth = 'md:max-w-5xl' }) => (
   <div className="mx-8 mt-16 font-thin md:flex md:justify-center">
     <div className={maxwidth}>
