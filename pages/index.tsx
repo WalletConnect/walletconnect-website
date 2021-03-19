@@ -90,16 +90,20 @@ const FAQContent = ({ title, children }) => (
 
 const TopCodeContributors = () => (
   <TitledContent title='Top Code Contributors'>
-    <div className="grid grid-cols-3 gap-12 mt-12 sm:gap-16 md:gap-20 sm:grid-cols-4 lg:grid-cols-5">
+    <div className="grid grid-cols-3 gap-12 mt-12 sm:gap-10 md:gap-20 md:grid-cols-4 lg:grid-cols-5">
       {
         CONTRIBUTORS.map(contibutor => (
-          <IconImage
-            styleClasses="sm:p-4"
+          <div
             key={contibutor.name}
-            name={contibutor.name}
-            icon={contibutor.icon}
-            linkTo={contibutor.url}
-          />
+            className="flex justify-center"
+          >
+            <IconImage
+              styleClasses="w-16 sm:w-24 lg:w-28"
+              name={contibutor.name}
+              icon={contibutor.icon}
+              linkTo={contibutor.url}
+            />
+          </div>
         ))
       }
     </div>
@@ -110,16 +114,20 @@ const TopCodeContributors = () => (
 
 const TopProjectFunders = () => (
   <TitledContent title='Top  Project Funders'>
-    <div className="grid grid-cols-2 gap-12 mt-12 sm:gap-16 md:gap-20 sm:grid-cols-3">
+    <div className="grid grid-cols-2 gap-12 mt-12 sm:gap-16 md:gap-28 sm:grid-cols-3">
       {
         FUNDERS.map(funder => (
-          <IconImage
-            styleClasses="sm:p-4"
+          <div
             key={funder.name}
-            name={funder.name}
-            icon={funder.icon}
-            linkTo={funder.url}
-          />
+            className="flex justify-center"
+          >
+            <IconImage
+              styleClasses="w-36 sm:w-40 md:w-52"
+              name={funder.name}
+              icon={funder.icon}
+              linkTo={funder.url}
+            />
+          </div>
         ))
       }
     </div>
