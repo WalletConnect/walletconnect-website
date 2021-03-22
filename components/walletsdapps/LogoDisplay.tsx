@@ -14,11 +14,11 @@ const LogoDisplay = ({ data, ids }: IDisplayElementProps) => (
             href={data[id].homepage}
             external
           >
-            <div className="flex flex-col">
-              <div className='flex justify-center'>
-                <img className="inline-block w-20 rounded-full md:w-32 sm:w-24 hover:shadow-lg hover:p-10" src={`${IMG_API_URL}${id}.jpeg`} alt={data[id].name} />
+            <div className="flex flex-col group">
+              <div className='flex justify-center '>
+                <img className="inline-block w-20 rounded-full md:w-32 sm:w-24 group-hover:shadow-lg group-hover:p-10" src={`${IMG_API_URL}${id}.jpeg`} alt={data[id].name} />
               </div>
-              <div className="flex justify-center mt-4 font-semibold text-blue-500 hover:text-blue-600">
+              <div className="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">
                 {data[id].name}
               </div>
             </div>
