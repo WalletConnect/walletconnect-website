@@ -16,9 +16,9 @@ const LogoDisplay = ({ data, ids }: IDisplayElementProps) => (
           >
             <div className="flex flex-col">
               <div className='flex justify-center'>
-                <img className="inline-block w-20 rounded-full md:w-32 sm:w-24 " src={`${IMG_API_URL}${id}.jpeg`} alt={data[id].name} />
+                <img className="inline-block w-20 rounded-full md:w-32 sm:w-24 hover:shadow-lg hover:p-10" src={`${IMG_API_URL}${id}.jpeg`} alt={data[id].name} />
               </div>
-              <div className="flex justify-center mt-4 font-semibold text-cool-gray-600 hover:text-cool-gray-500">
+              <div className="flex justify-center mt-4 font-semibold text-blue-500 hover:text-blue-600">
                 {data[id].name}
               </div>
             </div>
