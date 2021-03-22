@@ -15,7 +15,7 @@ const LogoDisplay = ({ data, ids }: IDisplayElementProps) => (
             external
           >
             <div className="flex flex-col group">
-              <div className='flex justify-center p-4 transition duration-500 ease-in-out rounded-full group-hover:shadow-lg'>
+              <div className='flex justify-center p-2 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg'>
                 <img
                   className="inline-block w-20 rounded-full md:w-32 sm:w-24"
                   src={`${IMG_API_URL}${id}.jpeg`}
