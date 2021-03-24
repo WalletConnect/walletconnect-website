@@ -32,6 +32,12 @@ const WALLETS: IProject[] = [
     style: {},
   },
   {
+    name: "Guarda Wallet",
+    icon: require("../assets/wallets/guarda-logo.png"),
+    url: "https://guarda.com/",
+    style: {},
+  },
+  {
     name: "Crypto.com | DeFi Wallet",
     icon: require("../assets/wallets/crypto.png"),
     url: "https://crypto.com/en/defi/wallet/",
