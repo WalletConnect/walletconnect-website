@@ -1,3 +1,9 @@
+export type TitleContentProps = {
+  title: string;
+  children: React.ReactNode;
+  maxwidth?: string;
+}
+
 
 const TitledContent = ({ title, children, maxwidth = 'md:max-w-5xl' }) => (
   <div className="mx-8 mt-16 font-thin md:flex md:justify-center">

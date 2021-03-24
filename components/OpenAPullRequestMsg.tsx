@@ -11,5 +11,4 @@ const OpenAPullRequestMsg = () => (
       to add your wallet here.</p>
   </div>
 )
-
 export default OpenAPullRequestMsg;
