@@ -358,6 +358,12 @@ const WALLETS: IProject[] = [
     url: "https://o3.network/",
     style: { cropCircle: true },
   },
+  {
+    name: "AToken",
+    icon: require("../assets/wallets/atoken-wallet.png"),
+    url: "https://www.atoken.com/",
+    style: { cropCircle: true },
+  },
 ];
 
 export default WALLETS;
