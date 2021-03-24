@@ -1,8 +1,8 @@
 import { TIME_TO_REVALIDATION, IMG_API_URL, WALLETS_API_URL } from "../common/constants";
 import { IDisplayElementProps } from "../common/types";
-import Banner from "../components/walletsdapps/Banner";
-import LogoDisplay from "../components/walletsdapps/LogoDisplay";
-import MessageToUser from "../components/walletsdapps/MessageToUser";
+import Banner from "../components/Banner";
+import LogoDisplay from "../components/LogoDisplay";
+import OpenAPullRequestMsg from "../components/OpenAPullRequestMsg";
 
 
 
@@ -17,7 +17,7 @@ const Wallets = ({ data, ids }: IDisplayElementProps) => (
       </Banner>
     <LogoDisplay data={data} ids={ids} />
     <div className="mt-10" />
-    <MessageToUser />
+    <OpenAPullRequestMsg />
   </main>
 
 )

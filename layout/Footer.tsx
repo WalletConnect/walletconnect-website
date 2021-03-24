@@ -1,5 +1,5 @@
 import { DISCORD_URL, GITHUB_URL, TWITTER_URL } from "../common/constants";
-import { FooterLink } from "../components/StyledLinks";
+import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Footer = () => (
   <footer className="flex justify-center mt-24 mb-16 sm:mt-32">
@@ -15,15 +15,19 @@ export default Footer;
 
 
 const FooterIcon = ({ name, iconPath, href }) => (
-  <FooterLink
-    href={href}
-  >
-    <div className="flex">
-      <img className="w-6 sm:w-8" src={iconPath} alt={name} />
-      <p className="ml-2">
-        {name}
-      </p>
-    </div>
-  </FooterLink>
-
+  <>
+    <StyledLink
+      href={href}
+      type={Styled.FooterLink}
+      external
+    >
+      <div className="flex">
+        <img className="w-6 sm:w-8" src={iconPath} alt={name} />
+        <p className="ml-2">
+          {name}
+        </p>
+      </div>
+    </StyledLink >
+  </>
 )
+

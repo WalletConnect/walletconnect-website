@@ -1,9 +1,9 @@
 import TitledContent from "../components/TitledContext";
 import FUNDERS from '../common/funders';
 import CONTRIBUTORS from '../common/contributors';
-import { PageLink } from "../components/StyledLinks";
+import { Styled, StyledIcon, StyledLink } from "../components/StyledLinks";
 import { DOCS_URL, WALLETS_URL, WEB3MODAL_URL, WEB3_QUICKSTART_URL } from "../common/constants";
-import IconImage from "../components/IconImage";
+
 
 
 
@@ -21,19 +21,19 @@ export default Home;
 
 
 const Banner = () => (
-  <>
-    <h1 className="flex justify-center mt-20 text-4xl font-semibold text-cool-gray-500">
+  <div className="text-cool-gray-500">
+    <h1 className="flex justify-center mt-20 text-4xl font-semibold ">
       WalletConnect
     </h1>
     <div className="mx-8 mt-8">
-      <h2 className="flex justify-center text-3xl font-thin text-center text-cool-gray-500">
+      <h2 className="flex justify-center text-3xl font-thin text-center">
         Open protocol for connecting Wallets to Dapps
       </h2>
       <div className="mt-14 lg:flex lg:justify-center">
         <img className="lg:max-w-4xl" src='banner-main.png' alt='wallet connect banner diagram' />
       </div>
     </div>
-  </>
+  </div>
 );
 
 
@@ -43,7 +43,7 @@ const FAQ = () => (
     <FAQContent title="How do I install WalletConnect?">
       WalletConnect is not an app, but a protocol supported by many different
       decentralised applications and wallets. Install any of
-      <PageLink href={WALLETS_URL}>mobile wallets</PageLink>
+      <StyledLink type={Styled.PageLink} href={WALLETS_URL}>mobile wallets</StyledLink>
       supporting WalletConnect protocol. WalletConnect wallets
       are available for Android and iPhone.
     </FAQContent>
@@ -57,17 +57,17 @@ const FAQ = () => (
     </FAQContent>
     <FAQContent title="How can I build a wallet supporting WalletConnect?">
       There are libraries for React-Native(Javascript), Android (Kotlin) and Swift (iOS) available.
-      Read more about it in our <PageLink href={DOCS_URL}>documentation.</PageLink>
+      Read more about it in our <StyledLink type={Styled.PageLink} href={DOCS_URL}>documentation.</StyledLink>
     </FAQContent>
     <FAQContent title="How can I add WalletConnect support to Dapp I developed?">
-      You can support various wallets either using  <PageLink href={WEB3MODAL_URL} external>Web3Modal library </PageLink>
-      or add a support for <PageLink href={WEB3_QUICKSTART_URL} external>WalletConnect provider directly</PageLink>.
+      You can support various wallets either using  <StyledLink type={Styled.PageLink} href={WEB3MODAL_URL} external>Web3Modal library </StyledLink>
+      or add a support for <StyledLink type={Styled.PageLink} href={WEB3_QUICKSTART_URL} external>WalletConnect provider directly</StyledLink>.
     </FAQContent>
     <FAQContent title="How web frontend and mobile wallets communicate?">
       Communication happens over a bridge server that relays messages without
       access to their content. The contents are encrypted using the session data
       shared by the QR code or deep link between the dapp and the wallet. Read
-      more about it in our <PageLink href={DOCS_URL}>documentation.</PageLink>
+      more about it in our <StyledLink type={Styled.PageLink} href={DOCS_URL}>documentation.</StyledLink>
       WalletConnect Association runs a public bridge server, but you can also roll your own.
     </FAQContent>
   </TitledContent>
@@ -97,11 +97,11 @@ const TopCodeContributors = () => (
             key={contibutor.name}
             className="flex justify-center"
           >
-            <IconImage
-              styleClasses="w-16 sm:w-24 lg:w-28"
-              name={contibutor.name}
-              icon={contibutor.icon}
-              linkTo={contibutor.url}
+            <StyledIcon
+              styles="w-16 sm:w-24 lg:w-28"
+              altText={contibutor.name}
+              iconPath={contibutor.icon}
+              href={contibutor.url}
             />
           </div>
         ))
@@ -121,11 +121,11 @@ const TopProjectFunders = () => (
             key={funder.name}
             className="flex justify-center"
           >
-            <IconImage
-              styleClasses="w-36 sm:w-40 md:w-52"
-              name={funder.name}
-              icon={funder.icon}
-              linkTo={funder.url}
+            <StyledIcon
+              styles="w-36 sm:w-40 md:w-52"
+              altText={funder.name}
+              iconPath={funder.icon}
+              href={funder.url}
             />
           </div>
         ))
@@ -138,12 +138,12 @@ const TopProjectFunders = () => (
 
 const WhatItIs = () => (
   <div className="flex sm:flex-row sm:justify-center">
-    <div className="flex flex-col mx-6 mt-16 font-thin sm:flex-row sm:mx-8 sm:space-x-16 sm:max-w-5xl">
+    <div className="flex flex-col mx-6 mt-16 font-thin text-gray-700 sm:flex-row sm:mx-8 sm:space-x-16 sm:max-w-5xl">
       <div className="sm:w-1/2">
         <h2 className="text-3xl">
           What is Is WalletConnect?
       </h2>
-        <p className="mt-6 text-lg leading-6 text-gray-700">
+        <p className="mt-6 text-lg leading-6">
           WalletConnect is an open source protocol for connecting decentralised
           applications to mobile wallets with QR code scanning or deep linking.
           A user can interact securely with any Dapp from their mobile phone,
@@ -155,9 +155,9 @@ const WhatItIs = () => (
         <h2 className="text-3xl">
           How does it work?
       </h2>
-        <p className="mt-6 text-lg leading-6 text-gray-700">
+        <p className="mt-6 text-lg leading-6">
           WalletConnect connects web applications to supported
-          <PageLink href={WALLETS_URL}>mobile wallets</PageLink>
+          <StyledLink type={Styled.PageLink} href={WALLETS_URL}>mobile wallets</StyledLink>
         WalletConnect session is started by a scanning a QR code (desktop) or
         by clicking an application deep link (mobile).
       </p>
@@ -165,3 +165,4 @@ const WhatItIs = () => (
     </div>
   </div>
 )
+

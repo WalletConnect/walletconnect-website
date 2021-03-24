@@ -1,6 +1,6 @@
-import { IMG_API_URL } from "../../common/constants";
-import { IDisplayElementProps } from "../../common/types";
-import { InternalExternalLink } from "../StyledLinks";
+import { IMG_API_URL } from "../common/constants";
+import { IDisplayElementProps } from "../common/types";
+import { InternalExternalLink } from "./StyledLinks";
 
 
 

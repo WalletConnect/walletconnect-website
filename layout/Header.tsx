@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { DOCS_URL, GITHUB_URL } from '../common/constants';
-import { HeaderLink } from '../components/StyledLinks';
+import { Styled, StyledLink } from '../components/StyledLinks';
 
 
 const Header = () => {
@@ -38,12 +38,12 @@ const Header = () => {
       <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white md:py-6 ">
         <div className="absolute inset-0 shadow-lg opacity-50"></div>
         <div className="z-20 flex justify-around w-full sm:pr-10 md:pr-20">
-          <HeaderLink href={GITHUB_URL} external>
+          <StyledLink href={GITHUB_URL} type={Styled.HeaderLink} external>
             Github
-        </HeaderLink>
-          <HeaderLink href={DOCS_URL} external>
+        </StyledLink>
+          <StyledLink href={DOCS_URL} type={Styled.HeaderLink} external>
             Docs
-        </HeaderLink>
+        </StyledLink>
         </div>
         <div className="z-20 flex">
           <div className="w-16 mx-6 sm:w-20 md:w-28">
@@ -53,12 +53,12 @@ const Header = () => {
           </div>
         </div>
         <div className="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
-          <HeaderLink href='/wallets'>
+          <StyledLink href='/wallets' type={Styled.HeaderLink}>
             Wallets
-        </HeaderLink>
-          <HeaderLink href='/apps'>
+        </StyledLink>
+          <StyledLink href='/apps' type={Styled.HeaderLink}>
             Apps
-        </HeaderLink>
+        </StyledLink>
         </div>
       </header>
     </>

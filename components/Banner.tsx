@@ -1,3 +1,8 @@
+export type BannerProps = {
+  title: string;
+  children: React.ReactNode;
+}
+
 const Banner = ({ title, children }) => (
   <div className="flex justify-center">
     <div className="max-w-3xl">

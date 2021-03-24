@@ -1,56 +1,54 @@
 import Link from "next/link";
 
 
-export type LinkProps = {
-  children: React.ReactNode;
+export type StyledLinkProps = {
+  type: Styled;
   href: string;
+  children: React.ReactNode;
   external?: boolean;
 }
 
 
-export const HeaderLink = ({ children, href, external = false }: LinkProps) => {
-  const LINK_STYLE_CLASSES = 'font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl';
-
-  return (
-    <InternalExternalLink
-      href={href}
-      external={external}
-      tailwindStyles={LINK_STYLE_CLASSES}
-    >
-      {children}
-    </InternalExternalLink>
-  )
+export enum Styled {
+  HeaderLink = 'font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl',
+  FooterLink = 'text-sm font-medium sm:text-lg text-cool-gray-600 group-hover:text-cool-gray-500',
+  PageLink = 'font-semibold text-blue-500 hover:text-cool-blue-600'
 }
 
 
-export const FooterLink = ({ children, href }: LinkProps) => {
-  const LINK_STYLE_CLASSES = 'text-sm font-medium sm:text-lg text-cool-gray-600 hover:text-cool-gray-500';
+export const StyledLink = ({ type, href, children, external = false }: StyledLinkProps) => (
+  <InternalExternalLink
+    href={href}
+    external={external}
+    tailwindStyles={type}
+  >
+    {' '}{children}{' '}
+  </InternalExternalLink>
+)
 
-  return (
-    <InternalExternalLink
-      href={href}
-      external={true}
-      tailwindStyles={LINK_STYLE_CLASSES}
-    >
-      {children}
-    </InternalExternalLink>
-  )
+
+
+export type StyledIconProps = {
+  altText: string;
+  iconPath: string;
+  href: string;
+  styles?: string;
 }
 
 
-export const PageLink = ({ children, href, external = false }: LinkProps) => {
-  const LINK_STYLE_CLASSES = 'font-semibold text-blue-500 hover:text-cool-blue-600';
+export const StyledIcon = ({ iconPath, href, styles, altText }: StyledIconProps) => (
+  <InternalExternalLink
+    href={href}
+    external
+  >
+    <img
+      className={`filter-grayscale hover:filter-none ${styles}`}
+      alt={altText}
+      src={iconPath}
+    />
+  </InternalExternalLink>
+)
 
-  return (
-    <InternalExternalLink
-      href={href}
-      external={external}
-      tailwindStyles={LINK_STYLE_CLASSES}
-    >
-      {` ${children} `}
-    </InternalExternalLink>
-  )
-}
 
 
 export type IntExtLinkProps = {
