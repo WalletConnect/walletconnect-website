@@ -15,7 +15,6 @@
     "react-query": "^3.12.2"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/ui": "^0.7.2",
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
