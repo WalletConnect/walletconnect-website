@@ -56,7 +56,7 @@ const FAQ = () => (
       you want to help the project.
     </FAQContent>
     <FAQContent title="How can I build a wallet supporting WalletConnect?">
-      There are libraries for React-Native(Javascript), Android (Kotlin) and Swift (iOS) available.
+      There are libraries for React-Native (Javascript), Android (Kotlin) and Swift (iOS) available.
       Read more about it in our <StyledLink type={Styled.PageLink} href={DOCS_URL}>documentation.</StyledLink>
     </FAQContent>
     <FAQContent title="How can I add WalletConnect support to Dapp I developed?">

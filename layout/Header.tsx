@@ -1,8 +1,7 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import { DOCS_URL, GITHUB_URL } from '../common/constants';
-import { Styled, StyledLink } from '../components/StyledLinks';
-
+import Head from "next/head";
+import Link from "next/link";
+import { DOCS_URL, GITHUB_URL } from "../common/constants";
+import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Header = () => {
   const name = `WalletConnect`;
@@ -39,30 +38,34 @@ const Header = () => {
         <div className="absolute inset-0 shadow-lg opacity-50"></div>
         <div className="z-20 flex justify-around w-full sm:pr-10 md:pr-20">
           <StyledLink href={GITHUB_URL} type={Styled.HeaderLink} external>
-            Github
-        </StyledLink>
+            GitHub
+          </StyledLink>
           <StyledLink href={DOCS_URL} type={Styled.HeaderLink} external>
             Docs
-        </StyledLink>
+          </StyledLink>
         </div>
         <div className="z-20 flex">
           <div className="w-16 mx-6 sm:w-20 md:w-28">
             <Link href="/">
-              <img className="cursor-pointer object-fit" src='walletconnect-logo.svg' alt='walletconnect logo' />
+              <img
+                className="cursor-pointer object-fit"
+                src="walletconnect-logo.svg"
+                alt="walletconnect logo"
+              />
             </Link>
           </div>
         </div>
         <div className="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
-          <StyledLink href='/wallets' type={Styled.HeaderLink}>
+          <StyledLink href="/wallets" type={Styled.HeaderLink}>
             Wallets
-        </StyledLink>
-          <StyledLink href='/apps' type={Styled.HeaderLink}>
+          </StyledLink>
+          <StyledLink href="/apps" type={Styled.HeaderLink}>
             Apps
-        </StyledLink>
+          </StyledLink>
         </div>
       </header>
     </>
-  )
+  );
 };
 
 export default Header;

@@ -1,33 +1,33 @@
-import { IProject } from './types';
+import { IProject } from "./types";
 
 const CONTRIBUTORS: IProject[] = [
   {
     name: "Rainbow",
-    icon: "/assets/wallets/rainbow.png",
+    icon: "/assets/contributors/rainbow.png",
     url: "https://rainbow.me/",
     // style: { monochrome: true },
   },
   {
     name: "Trust",
-    icon: "/assets/wallets/trust-wallet.png",
+    icon: "/assets/contributors/trust-wallet.png",
     url: "https://trustwallet.com/",
     // style: { monochrome: true },
   },
   {
     name: "Argent",
-    icon: "/assets/wallets/argent.jpg",
+    icon: "/assets/contributors/argent.jpg",
     url: "https://www.argent.xyz/",
     // style: { monochrome: true },
   },
   {
     name: "Walleth",
-    icon: "../assets/wallets/walleth.png",
+    icon: "../assets/contributors/walleth.png",
     url: "https://walleth.org/",
     // style: { monochrome: true },
   },
   {
     name: "Gnosis",
-    icon: "/assets/wallets/gnosis-safe.jpg",
+    icon: "/assets/contributors/gnosis-safe.jpg",
     url: "https://gnosis-safe.io/",
     // style: { monochrome: true },
   },
