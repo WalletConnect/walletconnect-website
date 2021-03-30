@@ -1,23 +1,30 @@
 {
   "name": "walletconnect-website",
   "description": "WalletConnect website",
-  "version": "1.0.0",
-  "author": "Pedro Gomes <pedro@walletconnect.org>",
-  "dependencies": {
-    "babel-plugin-styled-components": "^1.11.1",
-    "gatsby": "^2.24.73",
-    "gatsby-link": "^2.4.15",
-    "gatsby-plugin-google-analytics": "^2.3.17",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-styled-components": "^3.3.14",
-    "gatsby-plugin-typescript": "^2.4.21",
-    "gatsby-transformer-remark": "^2.8.38",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.0",
-    "styled-components": "^4.1.3",
-    "typescript": "^3.2.4"
+  "version": "1.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write 'src/**/*.js'"
   },
+  "dependencies": {
+    "next": "^10.0.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "^3.12.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/ui": "^0.7.2",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.3"
+  },
+  "license": "MIT",
   "keywords": [
     "ethereum",
     "cryptocurrency",
@@ -32,28 +39,5 @@
     "crypto",
     "tokens",
     "dapp"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.6",
-    "@types/react": "^16.9.51",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-helmet": "^5.0.8",
-    "@types/styled-components": "^4.1.6",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^5.10.0",
-    "eslint-config-react-app": "^3.0.5",
-    "eslint-plugin-flowtype": "^3.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.21.3",
-    "prettier": "^1.14.2",
-    "tslint": "^5.18.0"
-  }
+  ]
 }
