@@ -1,4 +1,4 @@
-# WalletConnect.org website
+# WalletConnect website
 
 [See live walletconnect.org](https://walletconnect.org)
 
@@ -37,6 +37,7 @@ yarn dev
 Then you have the site running locally at http://localhost:3000/
 
 # Publishing
+
 Merging to the production will automatically publish a new site.
 
 # Icons
