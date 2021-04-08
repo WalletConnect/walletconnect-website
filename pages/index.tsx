@@ -3,7 +3,7 @@ import FUNDERS from '../common/funders';
 import CONTRIBUTORS from '../common/contributors';
 import { Styled, StyledIcon, StyledLink } from "../components/StyledLinks";
 import { DOCS_URL, WALLETS_URL, WEB3MODAL_URL, WEB3_QUICKSTART_URL } from "../common/constants";
-
+import { PrivateKeyWarning } from "../components/PrivateKeyWarning";
 
 
 
@@ -14,6 +14,7 @@ const Home = () => (
     <TopProjectFunders />
     <TopCodeContributors />
     <FAQ />
+    <PrivateKeyWarning />
   </main>
 );
 export default Home;
