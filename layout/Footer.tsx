@@ -7,6 +7,8 @@ const Footer = () => (
       <FooterIcon name="Discord" iconPath="/discord.svg" href={DISCORD_URL} />
       <FooterIcon name="Twitter" iconPath="/twitter.svg" href={TWITTER_URL} />
       <FooterIcon name="GitHub" iconPath="/github.svg" href={GITHUB_URL} />
+      <FooterIcon name="Support" iconPath="/mail.svg" href="/support" />
+
     </div>
   </footer>
 );

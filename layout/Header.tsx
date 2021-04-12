@@ -62,9 +62,6 @@ const Header = () => {
           <StyledLink href="/apps" type={Styled.HeaderLink}>
             Apps
           </StyledLink>
-          <StyledLink href="/support" type={Styled.HeaderLink}>
-            Support
-          </StyledLink>
         </div>
       </header>
     </>
