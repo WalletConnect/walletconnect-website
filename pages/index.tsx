@@ -92,13 +92,6 @@ const FAQ = () => (
       WalletConnect Labs runs a public bridge server, but you can also deploy
       your own.
     </FAQContent>
-    <FAQContent title="My question didn't get answered by any of the above...">
-      Check out our{" "}
-      <StyledLink href="/support" type={Styled.PageLink}>
-        Support
-      </StyledLink>{" "}
-      page for more questions.
-    </FAQContent>
   </TitledContent>
 );
 
