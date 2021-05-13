@@ -1,10 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
-import { DOCS_URL, GITHUB_URL } from "../common/constants";
+import {
+  APPS_URL,
+  DOCS_URL,
+  GITHUB_URL,
+  WALLETS_URL,
+} from "../common/constants";
 import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Header = () => {
-  const name = `WalletConnect`;
   const title = `WalletConnect`;
   const url = `https://walletconnect.org`;
   const description = `Open protocol for connecting Wallets to Dapps`;
@@ -31,7 +35,7 @@ const Header = () => {
         <meta name="og:url" content={url} />
         <meta name="og:image" content={`${url}/social-card.png`} />
         <meta name="og:description" content={description} />
-        <meta name="og:site_name" content={name} />
+        <meta name="og:site_name" content={title} />
         <meta name="fb:admins" content={facebookId} />
       </Head>
       <header className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white md:py-6 ">
@@ -56,10 +60,10 @@ const Header = () => {
           </div>
         </div>
         <div className="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
-          <StyledLink href="/wallets" type={Styled.HeaderLink}>
+          <StyledLink href={WALLETS_URL} type={Styled.HeaderLink}>
             Wallets
           </StyledLink>
-          <StyledLink href="/apps" type={Styled.HeaderLink}>
+          <StyledLink href={APPS_URL} type={Styled.HeaderLink}>
             Apps
           </StyledLink>
         </div>
