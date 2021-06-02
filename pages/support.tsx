@@ -44,7 +44,7 @@ const SupportContent = () => (
     <FAQContent title="Someone from WalletConnect support is contacting me">
       WalletConnect does not have a support. It is a scam.
     </FAQContent>
-    <FAQContent title="I gave amy private key to a scammer and lost all my cryptocurrency holdings">
+    <FAQContent title="I gave my private key to a scammer and lost my cryptocurrency holdings">
       Contact{" "}
       <StyledLink
         type={Styled.PageLink}
