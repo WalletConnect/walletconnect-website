@@ -9,6 +9,4 @@ export const WEB3_QUICKSTART_URL =
 export const DISCORD_URL = "https://discord.gg/jhxMvxP";
 export const TWITTER_URL = "https://twitter.com/walletconnect";
 export const STACKEXCHANGE_URL = "https://ethereum.stackexchange.com/";
-export const SUBMIT_APP_URL =
-  "https://github.com/WalletConnect/walletconnect-registry/issues/new/choose";
 export const TIME_TO_REVALIDATION = 5 * 60; // 5 minutes
