@@ -8,7 +8,6 @@ import {
   WEB3MODAL_URL,
   WEB3_QUICKSTART_URL,
 } from "../common/constants";
-import PrivateKeyWarning from "../components/PrivateKeyWarning";
 import FAQContent from "../components/FAQContent";
 
 const Home = () => (
@@ -17,7 +16,6 @@ const Home = () => (
     <WhatItIs />
     <TopProjectFunders />
     <TopCodeContributors />
-    <PrivateKeyWarning />
     <FAQ />
   </main>
 );
