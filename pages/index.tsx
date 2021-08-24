@@ -30,7 +30,7 @@ const Banner = () => (
       <h2 className="flex justify-center text-3xl font-thin text-center">
         Open protocol for connecting Wallets to Dapps
       </h2>
-      <div className="mt-14 lg:flex lg:justify-center">
+      <div className="mt-14 lg:flex lg:justify-center mt-14 lg:flex-col lg:items-center">
         <img
           className="lg:max-w-4xl"
           src="banner-main.png"
