@@ -45,11 +45,11 @@ const FAQ = () => (
   <TitledContent title="Frequently asked questions" maxwidth="sm:max-w-3xl">
     <FAQContent title="How do I install WalletConnect?">
       WalletConnect is not an app, but a protocol supported by many different
-      decentralised applications and wallets. Install any of
+      decentralised applications and wallets. To use WalletConnect, install any 
       <StyledLink type={Styled.PageLink} href={WALLETS_URL}>
-        mobile wallets
+        mobile wallet
       </StyledLink>
-      supporting WalletConnect protocol. WalletConnect wallets are available for
+      supporting the WalletConnect protocol. WalletConnect wallets are available for
       Android and iPhone.
     </FAQContent>
     <FAQContent title="Is there a token?">
@@ -58,7 +58,7 @@ const FAQ = () => (
     </FAQContent>
     <FAQContent title="How can I help WalletConnect project?">
       WalletConnect project is developed by open source developers of various
-      Wallet and Dapp projects. Please contact us on Discord or Telegram if you
+      Wallet and Dapp projects. Please contact us on Discord if you
       want to help the project.
     </FAQContent>
     <FAQContent title="How can I build a wallet supporting WalletConnect?">
@@ -73,7 +73,7 @@ const FAQ = () => (
       <StyledLink type={Styled.PageLink} href={WEB3MODAL_URL} external>
         Web3Modal library{" "}
       </StyledLink>
-      or add a support for{" "}
+      or add support for{" "}
       <StyledLink type={Styled.PageLink} href={WEB3_QUICKSTART_URL} external>
         WalletConnect provider directly
       </StyledLink>
@@ -82,7 +82,7 @@ const FAQ = () => (
     <FAQContent title="How web frontend and mobile wallets communicate?">
       Communication happens over a bridge server that relays messages without
       access to their content. The contents are encrypted using the session data
-      shared by the QR code or deep link between the dapp and the wallet. Read
+      shared by the QR code or deep link between the dapp and wallet. Read
       more about it in our{" "}
       <StyledLink type={Styled.PageLink} href={DOCS_URL}>
         documentation.
@@ -131,7 +131,7 @@ const WhatItIs = () => (
   <div className="flex sm:flex-row sm:justify-center">
     <div className="flex flex-col mx-6 mt-16 font-thin text-gray-700 sm:flex-row sm:mx-8 sm:space-x-16 sm:max-w-5xl">
       <div className="sm:w-1/2">
-        <h2 className="text-3xl">What is Is WalletConnect?</h2>
+        <h2 className="text-3xl">What is WalletConnect?</h2>
         <p className="mt-6 text-lg leading-6">
           WalletConnect is an open source protocol for connecting decentralised
           applications to mobile wallets with QR code scanning or deep linking.
@@ -145,9 +145,9 @@ const WhatItIs = () => (
         <p className="mt-6 text-lg leading-6">
           WalletConnect connects web applications to supported
           <StyledLink type={Styled.PageLink} href={WALLETS_URL}>
-            mobile wallets
+            mobile wallets.
           </StyledLink>
-          WalletConnect session is started by a scanning a QR code (desktop) or
+          The WalletConnect session is started by scanning a QR code (desktop) or
           by clicking an application deep link (mobile).
         </p>
       </div>
