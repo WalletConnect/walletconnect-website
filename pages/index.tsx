@@ -68,7 +68,7 @@ const FAQ = () => (
         documentation.
       </StyledLink>
     </FAQContent>
-    <FAQContent title="How can I add WalletConnect support to Dapp I developed?">
+    <FAQContent title="How can I add WalletConnect support to a Dapp I developed?">
       You can support various wallets either using{" "}
       <StyledLink type={Styled.PageLink} href={WEB3MODAL_URL} external>
         Web3Modal library{" "}
@@ -79,7 +79,7 @@ const FAQ = () => (
       </StyledLink>
       .
     </FAQContent>
-    <FAQContent title="How web frontend and mobile wallets communicate?">
+    <FAQContent title="How do web frontend and mobile wallets communicate?">
       Communication happens over a bridge server that relays messages without
       access to their content. The contents are encrypted using the session data
       shared by the QR code or deep link between the dapp and wallet. Read
