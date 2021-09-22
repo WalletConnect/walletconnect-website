@@ -16,9 +16,9 @@ export default Support;
 const SupportContent = () => (
   <TitledContent title="WalletConnect support" maxwidth="sm:max-w-3xl">
     <FAQContent title="How do I get WalletConnect?">
-      Download any of{" "}
+      Download any{" "}
       <StyledLink type={Styled.PageLink} href="/wallets">
-        supported mobile wallets
+        supported mobile wallet
       </StyledLink>
       . There is no WalletConnect app.
     </FAQContent>
@@ -28,7 +28,7 @@ const SupportContent = () => (
       <strong>contact your DApp support team</strong>. If they cannot help you
       then contact your wallet app support team. WalletConnect developers cannot
       help you with matters like how to use WalletConnect, as we do not build or
-      have access to individual apps using the WalletConnect.
+      have access to individual apps using WalletConnect.
     </FAQContent>
     <FAQContent title="I found a fake WalletConnect website">
       Report it to a{" "}
@@ -42,7 +42,7 @@ const SupportContent = () => (
       and web browsers will blacklist the domain.
     </FAQContent>
     <FAQContent title="Someone from WalletConnect support is contacting me">
-      WalletConnect does not have a support. It is a scam.
+      WalletConnect does not offer support. It is a scam.
     </FAQContent>
     <FAQContent title="I gave my private key to a scammer and lost my cryptocurrency holdings">
       Contact{" "}

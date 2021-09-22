@@ -8,8 +8,8 @@ const PrivateKeyWarning = () => (
         <div className="border border-t-0 border-red-400 rounded-b bg-red-100 px-4 py-3 text-red-700">
           <p>
             Never give your private key or wallet seed words to anyone.
-            WalletConnect apps do not ask them. WalletConnect support team does
-            not ask them. If you share your private key or seed words you will
+            WalletConnect apps do not ask for them. The WalletConnect team does
+            not ask for them. If you share your private key or seed words you will
             lose everything in your wallet.
           </p>
         </div>
