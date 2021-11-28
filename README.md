@@ -1,6 +1,6 @@
 # WalletConnect website
 
-[See live walletconnect.com](https://walletconnect.com)
+[See live walletconnect.org](https://walletconnect.org)
 
 # Local development
 
