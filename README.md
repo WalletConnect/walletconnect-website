@@ -27,7 +27,7 @@ see the next website for more information on getting started [next.js getting st
 Then start the development server:
 
 ```sh
-npm dev
+npm run dev
 
 #or
 
